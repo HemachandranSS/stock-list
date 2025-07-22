@@ -183,7 +183,9 @@
         padding: 30px;
         margin: 30px 20px;
         box-shadow: var(--shadow-heavy);
-        overflow: hidden;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
         position: relative;
         animation: jsonFadeIn 1s ease-out;
       }
@@ -371,6 +373,7 @@
       }
 
       ul {
+        min-width: max-content;
         padding-left: 0;
         list-style-type: none;
       }
