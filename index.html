@@ -519,6 +519,10 @@
       id="searchInput2"
       placeholder="Search Listed Company Name..."
     />
+    <div style="text-align: center; margin-bottom: 10px">
+      <button id="expandAllBtn">Expand All</button>
+      <button id="collapseAllBtn">Collapse All</button>
+    </div>
     <div id="jsonViewer" class="json-viewer"></div>
 
     <script>
@@ -45222,6 +45226,30 @@
         }
         return value; // return the value as is if it's not a URL
       }
+
+      function expandAllInTree(container) {
+        const nestedLists = container.querySelectorAll(".nested");
+        nestedLists.forEach((nested) => {
+          nested.classList.add("open");
+        });
+      }
+
+      function collapseAllInTree(container) {
+        const nestedLists = container.querySelectorAll(".nested");
+        nestedLists.forEach((nested) => {
+          nested.classList.remove("open");
+        });
+      }
+
+      document.getElementById("expandAllBtn").addEventListener("click", () => {
+        expandAllInTree(document.getElementById("jsonViewer"));
+      });
+
+      document
+        .getElementById("collapseAllBtn")
+        .addEventListener("click", () => {
+          collapseAllInTree(document.getElementById("jsonViewer"));
+        });
 
       // Recursively open all nested children
       function expandAllNested(nestedElement) {
