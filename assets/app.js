@@ -298,16 +298,16 @@
         .map(
           (stock) => `
            <tr>
-               <td><a href="${stock.url}" target="_blank">${stock.title}</a></td>
-               <td>₹${stock.LTP?.toFixed(2) || "N/A"}</td>
-               <td class="${stock.CHANGE ? (stock.CHANGE >= 0 ? "positive" : "negative") : ""
+               <td data-label="Company"><a href="${stock.url}" target="_blank">${stock.title}</a></td>
+               <td data-label="LTP">₹${stock.LTP?.toFixed(2) || "N/A"}</td>
+               <td data-label="Change" class="${stock.CHANGE ? (stock.CHANGE >= 0 ? "positive" : "negative") : ""
             }">
                    ${stock.CHANGE
               ? (stock.CHANGE >= 0 ? "+" : "") + stock.CHANGE.toFixed(2)
               : "N/A"
             }
                </td>
-               <td class="${stock.change_PERC
+               <td data-label="Change %" class="${stock.change_PERC
               ? stock.change_PERC >= 0
                 ? "positive"
                 : "negative"
@@ -320,8 +320,8 @@
               : "N/A"
             }
                </td>
-               <td>${stock.VOLUME?.toLocaleString() || "N/A"}</td>
-               <td class="time">${stock.Upd_Time
+               <td data-label="Volume">${stock.VOLUME?.toLocaleString() || "N/A"}</td>
+               <td data-label="Last Updated" class="time">${stock.Upd_Time
               ? new Date(stock.Upd_Time).toLocaleTimeString()
               : "N/A"
             }</td>
