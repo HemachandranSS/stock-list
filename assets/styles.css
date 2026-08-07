@@ -621,7 +621,53 @@
 
       .json-viewer {
         margin: 20px 10px;
-        padding: 20px;
+        padding: 16px;
+      }
+
+      .json-viewer ul {
+        width: 100%;
+        min-width: 0;
+      }
+
+      .json-viewer li {
+        margin: 0 0 10px 0;
+      }
+
+      .json-viewer .toggle-container {
+        padding: 12px 14px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.16);
+      }
+
+      .json-viewer .nested {
+        margin-left: 8px;
+        padding-left: 10px;
+        border-left-width: 2px;
+      }
+
+      .json-viewer .key-value {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 12px;
+        margin: 8px 0;
+        padding: 12px 14px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.12);
+      }
+
+      .json-viewer .key {
+        flex: 0 0 42%;
+        line-height: 1.25;
+        color: #f3f6ff;
+      }
+
+      .json-viewer .leaf-value {
+        margin-left: 0;
+        max-width: 58%;
+        text-align: right;
+        word-break: break-word;
+        background: rgba(255, 255, 255, 0.18);
       }
     }
 
@@ -1049,6 +1095,29 @@
     @media (max-width: 480px) {
       body {
         background-attachment: scroll;
+      }
+
+      .json-viewer {
+        padding: 12px;
+      }
+
+      .json-viewer .toggle-container {
+        padding: 10px 12px;
+      }
+
+      .json-viewer .key-value {
+        padding: 10px 12px;
+        gap: 10px;
+      }
+
+      .json-viewer .key {
+        flex-basis: 46%;
+        font-size: 13px;
+      }
+
+      .json-viewer .leaf-value {
+        max-width: 54%;
+        font-size: 13px;
       }
 
       .header {
