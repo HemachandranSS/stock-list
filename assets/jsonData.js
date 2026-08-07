@@ -38531,16 +38531,30 @@
     // Function to create anchor tags for URLs
     function createLink(value) {
       if (typeof value === "string" && value.startsWith("http")) {
-        return `<a href="${value}" target="_blank">${value}</a>`;
+        return `<a href="${value}" target="_blank" rel="noopener noreferrer" aria-label="Open link" title="${value}">Open</a>`;
       }
       return value; // return the value as is if it's not a URL
     }
 
     function expandAllInTree(container) {
-      const nestedLists = container.querySelectorAll(".nested");
-      nestedLists.forEach((nested) => {
-        nested.classList.add("open");
-      });
+      const nestedLists = Array.from(container.querySelectorAll(".nested"));
+      if (nestedLists.length === 0) return;
+
+      let index = 0;
+      const batchSize = 60;
+
+      function step() {
+        const end = Math.min(index + batchSize, nestedLists.length);
+        for (; index < end; index++) {
+          nestedLists[index].classList.add("open");
+        }
+
+        if (index < nestedLists.length) {
+          requestAnimationFrame(step);
+        }
+      }
+
+      requestAnimationFrame(step);
     }
 
     function collapseAllInTree(container) {
@@ -38560,14 +38574,26 @@
         collapseAllInTree(document.getElementById("jsonViewer"));
       });
 
-    // Recursively open all nested children
+    // Recursively open all nested children in batches so the UI stays responsive
     function expandAllNested(nestedElement) {
-      const toggleContainers =
-        nestedElement.querySelectorAll(".toggle-container");
-      toggleContainers.forEach((toggle) => {
-        const nestedChild = toggle.nextElementSibling;
-        if (nestedChild && nestedChild.classList.contains("nested")) {
-          nestedChild.classList.add("open");
+      const nestedChildren = Array.from(
+        nestedElement.querySelectorAll(".nested")
+      );
+      if (nestedChildren.length === 0) return;
+
+      let index = 0;
+      const batchSize = 40;
+
+      function step() {
+        const end = Math.min(index + batchSize, nestedChildren.length);
+        for (; index < end; index++) {
+          nestedChildren[index].classList.add("open");
         }
-      });
+
+        if (index < nestedChildren.length) {
+          requestAnimationFrame(step);
+        }
+      }
+
+      requestAnimationFrame(step);
     }
