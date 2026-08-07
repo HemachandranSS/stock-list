@@ -38542,13 +38542,28 @@
       const nestedLists = Array.from(container.querySelectorAll(".nested"));
       if (nestedLists.length === 0) return;
 
+      container.scrollIntoView({ behavior: "smooth", block: "start" });
+      const anchorTop = container.getBoundingClientRect().top + window.scrollY;
       let index = 0;
-      const batchSize = 60;
+      const batchSize = 36;
 
       function step() {
+        const beforeTop = container.getBoundingClientRect().top;
         const end = Math.min(index + batchSize, nestedLists.length);
         for (; index < end; index++) {
           nestedLists[index].classList.add("open");
+        }
+
+        const afterTop = container.getBoundingClientRect().top;
+        const delta = afterTop - beforeTop;
+        if (delta !== 0) {
+          window.scrollBy({ top: delta, behavior: "auto" });
+        } else {
+          const currentTop = container.getBoundingClientRect().top + window.scrollY;
+          const drift = currentTop - anchorTop;
+          if (drift !== 0) {
+            window.scrollBy({ top: drift, behavior: "auto" });
+          }
         }
 
         if (index < nestedLists.length) {

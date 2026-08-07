@@ -89403,9 +89403,11 @@
     const isObject = typeof value === "object" && value !== null && !Array.isArray(value);
     const isArray = Array.isArray(value);
     const rowClass = /company name|sector/i.test(displayKey) ? " key-value--emphasis" : "";
+    const itemCount = isArray ? value.length : isObject ? Object.keys(value).length : 0;
+    const countBadge = itemCount ? `<span class="tree-count">${itemCount} item${itemCount === 1 ? "" : "s"}</span>` : "";
 
     if (isObject || isArray) {
-      li.innerHTML = `<div class="toggle-container"><span class="toggle">${displayKey}</span></div>`;
+      li.innerHTML = `<div class="toggle-container"><span class="toggle">${displayKey}</span>${countBadge}</div>`;
       const nestedTree = createTree(value);
       const nestedContainer = document.createElement("ul");
       nestedContainer.classList.add("nested");
@@ -89435,13 +89437,28 @@
            const nestedLists = Array.from(container.querySelectorAll(".nested"));
            if (nestedLists.length === 0) return;
 
+           container.scrollIntoView({ behavior: "smooth", block: "start" });
+           const anchorTop = container.getBoundingClientRect().top + window.scrollY;
            let index = 0;
-           const batchSize = 60;
+           const batchSize = 36;
 
            function step() {
+             const beforeTop = container.getBoundingClientRect().top;
              const end = Math.min(index + batchSize, nestedLists.length);
              for (; index < end; index++) {
                nestedLists[index].classList.add("open");
+             }
+
+             const afterTop = container.getBoundingClientRect().top;
+             const delta = afterTop - beforeTop;
+             if (delta !== 0) {
+               window.scrollBy({ top: delta, behavior: "auto" });
+             } else {
+               const currentTop = container.getBoundingClientRect().top + window.scrollY;
+               const drift = currentTop - anchorTop;
+               if (drift !== 0) {
+                 window.scrollBy({ top: drift, behavior: "auto" });
+               }
              }
 
              if (index < nestedLists.length) {
