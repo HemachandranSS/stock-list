@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What My Family Should Know</title>
+  <link rel="stylesheet" href="assets/family-form.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Family Continuity</p>
+        <h1>What My Family Should Know</h1>
+        <p class="hero-text">A clean English-only form for family contacts, documents, and policy records.</p>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <section class="panel">
+          <h2>Sections</h2>
+          <nav id="toc" class="toc"></nav>
+        </section>
+
+        <section class="panel">
+          <h2>Actions</h2>
+          <div class="actions">
+            <button type="button" id="exportBtn">Export JSON</button>
+            <button type="button" class="ghost" id="csvBtn">Export CSV</button>
+            <button type="button" class="ghost" id="pdfBtn">Export PDF</button>
+            <button type="button" class="ghost" id="resetBtn">Reset Draft</button>
+          </div>
+        </section>
+      </aside>
+
+      <section class="form-wrap">
+        <form id="familyForm" class="checklist-form"></form>
+      </section>
+    </main>
+  </div>
+
+  <template id="sectionTemplate">
+    <section class="section-block">
+      <div class="section-head">
+        <div>
+          <h2></h2>
+          <p></p>
+        </div>
+      </div>
+      <div class="section-body"></div>
+    </section>
+  </template>
+
+  <template id="fieldTemplate">
+    <label class="field">
+      <span></span>
+      <textarea rows="2"></textarea>
+    </label>
+  </template>
+
+  <template id="tableTemplate">
+    <section class="subsection">
+      <div class="subsection-head">
+        <h3></h3>
+        <span></span>
+      </div>
+      <div class="table-wrap">
+        <table class="grid-table">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </template>
+
+  <script src="assets/family-form.js"></script>
+</body>
+</html>
