@@ -5891,6 +5891,7 @@
     const li = document.createElement("li");
     const isObject = typeof value === "object" && value !== null && !Array.isArray(value);
     const isArray = Array.isArray(value);
+    const rowClass = /company name|sector/i.test(displayKey) ? " key-value--emphasis" : "";
 
     if (isObject || isArray) {
       li.innerHTML = `<div class="toggle-container"><span class="toggle">${displayKey}</span></div>`;
@@ -5900,6 +5901,7 @@
       nestedContainer.appendChild(nestedTree);
       li.appendChild(nestedContainer);
     } else {
+      li.className = `key-value${rowClass}`;
       li.innerHTML = `<span class="key">${displayKey}:</span> <span class="leaf-value">${createLink(value)}</span>`;
     }
 
@@ -5913,7 +5915,7 @@
          // Function to create anchor tags for URLs
          function createLink(value) {
            if (typeof value === "string" && value.startsWith("http")) {
-             return `<a href="${value}" target="_blank" rel="noopener noreferrer" aria-label="Open link" title="${value}">Open</a>`;
+             return `<a href="${value}" target="_blank" rel="noopener noreferrer" aria-label="Open link" title="${value}">Open ↗</a>`;
            }
            return value; // return the value as is if it's not a URL
          }

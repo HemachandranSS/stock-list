@@ -656,15 +656,21 @@
         background: rgba(255, 255, 255, 0.12);
       }
 
+      .json-viewer .key-value--emphasis {
+        background: linear-gradient(135deg, rgba(102, 126, 234, 0.18), rgba(240, 147, 251, 0.14));
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+      }
+
       .json-viewer .key {
-        flex: 0 0 42%;
+        flex: 0 0 38%;
         line-height: 1.25;
         color: #f3f6ff;
       }
 
       .json-viewer .leaf-value {
         margin-left: 0;
-        max-width: 58%;
+        max-width: 62%;
         text-align: right;
         word-break: break-word;
         background: rgba(255, 255, 255, 0.18);
@@ -1110,14 +1116,23 @@
         gap: 10px;
       }
 
+      .json-viewer .key-value--emphasis {
+        padding: 12px;
+      }
+
       .json-viewer .key {
-        flex-basis: 46%;
+        flex-basis: 34%;
         font-size: 13px;
+        font-weight: 800;
+        color: #ffffff;
       }
 
       .json-viewer .leaf-value {
-        max-width: 54%;
+        max-width: 66%;
         font-size: 13px;
+        padding: 7px 12px;
+        border-radius: 12px;
+        line-height: 1.3;
       }
 
       .header {
