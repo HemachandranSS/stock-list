@@ -6,6 +6,84 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Equity Market Companies</title>
   <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    .top-nav-wrap {
+      margin: 18px 0 22px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .top-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      padding: 12px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, rgba(13, 17, 40, 0.92), rgba(38, 53, 99, 0.82));
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+      backdrop-filter: blur(14px);
+      max-width: 100%;
+    }
+
+    .top-nav a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 10px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.01em;
+      color: #eef4ff;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, border-color 0.18s ease;
+      white-space: nowrap;
+    }
+
+    .top-nav a:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(135deg, rgba(109, 94, 252, 0.95), rgba(77, 124, 255, 0.95));
+      border-color: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 12px 26px rgba(77, 124, 255, 0.28);
+    }
+
+    .top-nav a:focus-visible {
+      outline: 3px solid rgba(247, 221, 47, 0.55);
+      outline-offset: 2px;
+    }
+
+    @media (max-width: 640px) {
+      .top-nav-wrap {
+        margin: 14px 0 18px;
+      }
+
+      .top-nav {
+        width: 100%;
+        padding: 10px;
+        border-radius: 18px;
+        gap: 8px;
+      }
+
+      .top-nav a {
+        flex: 1 1 calc(50% - 8px);
+        min-width: 0;
+        font-size: 0.88rem;
+        padding: 10px 12px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .top-nav a {
+        flex-basis: 100%;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -18,12 +96,14 @@
   </div>
 
   <div class="container">
-    <nav style="margin-bottom: 20px; text-align: center;">
-      <a href="checklist_form.html" target="_blank" style="margin: 0 15px; font-weight: 500;">Checklist Form</a>
-      <a href="mutual_funds.html" target="_blank" style="margin: 0 15px; font-weight: 500;">Mutual Funds</a>
-      <a href="etfs.html" target="_blank" style="margin: 0 15px; font-weight: 500;">ETFs</a>
-      <a href="one_page_viewer.html" target="_blank" style="margin: 0 15px; font-weight: 500;">PDF Viewer</a>
-      <a href="dual_pdf_viewer.html" target="_blank" style="margin: 0 15px; font-weight: 500;">Dual PDF Viewer</a>
+    <nav class="top-nav-wrap" aria-label="Primary">
+      <div class="top-nav">
+        <a href="checklist_form.html" target="_blank" rel="noopener noreferrer">Checklist Form</a>
+        <a href="mutual_funds.html" target="_blank" rel="noopener noreferrer">Mutual Funds</a>
+        <a href="etfs.html" target="_blank" rel="noopener noreferrer">ETFs</a>
+        <a href="one_page_viewer.html" target="_blank" rel="noopener noreferrer">PDF Viewer</a>
+        <a href="dual_pdf_viewer.html" target="_blank" rel="noopener noreferrer">Dual PDF Viewer</a>
+      </div>
     </nav>
     <div class="search-box">
       <input type="text" id="searchInput1" placeholder="Search for stocks..." />

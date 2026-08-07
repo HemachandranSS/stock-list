@@ -543,6 +543,11 @@ function safeText(value) {
     .replace(/'/g, "&#39;");
 }
 
+function csvEscape(value) {
+  const text = String(value ?? "");
+  return `"${text.replace(/"/g, '""')}"`;
+}
+
 function buildPrintHtml() {
   const questionsData = getAllQuestions();
   const exportBaseName = buildExportBaseName();
@@ -704,17 +709,6 @@ function buildPrintHtml() {
           .print-row{grid-template-columns:1fr 1fr}
         }
       </style>
-      <script>
-        window.addEventListener('load', function () {
-          document.title = ${JSON.stringify(exportBaseName)};
-          setTimeout(function () {
-            window.print();
-          }, 350);
-        });
-        window.addEventListener('afterprint', function () {
-          window.close();
-        });
-      </script>
     </head>
     <body>
       <div class="sheet">
@@ -759,13 +753,119 @@ function downloadJson() {
   URL.revokeObjectURL(url);
 }
 
+function downloadCsv() {
+  const questions = getAllQuestions();
+  const header = [
+    "checklist_title",
+    "company_name",
+    "company_sector",
+    "nse_symbol",
+    "bse_symbol",
+    "generated_at",
+    "section",
+    "item",
+    "prompt",
+    "answer",
+    "sentiment",
+    "weightage",
+    "sources",
+    "remarks",
+    "status"
+  ];
+
+  const meta = {
+    checklist_title: buildChecklistTitle(),
+    company_name: getFieldValue("companyName", ""),
+    company_sector: getFieldValue("companySector", ""),
+    nse_symbol: getFieldValue("nseSymbol", ""),
+    bse_symbol: getFieldValue("bseSymbol", ""),
+    generated_at: formatGeneratedAt()
+  };
+
+  const metaRow = [
+    meta.checklist_title,
+    meta.company_name,
+    meta.company_sector,
+    meta.nse_symbol,
+    meta.bse_symbol,
+    meta.generated_at,
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ].map(csvEscape).join(",");
+
+  const rows = questions.map((q) => [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    q.section,
+    q.item,
+    q.prompt,
+    q.answer,
+    q.sentiment,
+    q.weightage,
+    q.sources,
+    q.remarks,
+    q.status
+  ].map(csvEscape).join(","));
+
+  const csv = [header.map(csvEscape).join(","), metaRow, ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${buildExportBaseName()}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
 function exportPdf() {
-  const pdfHtml = buildPrintHtml();
-  const blob = new Blob([pdfHtml], { type: "text/html" });
-  const pdfUrl = URL.createObjectURL(blob);
-  const win = window.open(pdfUrl, "_blank", "noopener,noreferrer");
-  if (!win) return;
-  setTimeout(() => URL.revokeObjectURL(pdfUrl), 2000);
+  const originalTitle = document.title;
+  const exportTitle = `${buildExportBaseName()}.pdf`;
+  document.title = exportTitle;
+  const iframe = document.createElement("iframe");
+  iframe.style.position = "fixed";
+  iframe.style.right = "0";
+  iframe.style.bottom = "0";
+  iframe.style.width = "0";
+  iframe.style.height = "0";
+  iframe.style.border = "0";
+  iframe.style.visibility = "hidden";
+  iframe.srcdoc = buildPrintHtml();
+  iframe.onload = () => {
+    const target = iframe.contentWindow;
+    if (!target) {
+      iframe.remove();
+      return;
+    }
+    try {
+      target.document.title = buildExportBaseName();
+    } catch (err) {
+      console.error("Failed to set PDF title", err);
+    }
+    target.focus();
+    setTimeout(() => {
+      try {
+        target.print();
+      } catch (err) {
+        console.error("PDF print failed", err);
+      }
+      setTimeout(() => {
+        iframe.remove();
+        document.title = originalTitle;
+      }, 1500);
+    }, 300);
+  };
+  document.body.appendChild(iframe);
 }
 
 function restoreDraft() {
@@ -836,6 +936,7 @@ async function init() {
 
   form.addEventListener("input", persistDraft);
   document.getElementById("exportBtn").addEventListener("click", downloadJson);
+  document.getElementById("csvBtn").addEventListener("click", downloadCsv);
   document.getElementById("pdfBtn").addEventListener("click", exportPdf);
   document.getElementById("resetBtn").addEventListener("click", () => {
     localStorage.removeItem("checklistDraft");
