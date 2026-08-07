@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stock Investing Checklist Form</title>
+  <link rel="stylesheet" href="assets/checklist-form.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <h1>Equity Research Checklist Form</h1>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <div class="panel">
+          <h2>Checklist Info</h2>
+          <div class="stack">
+            <label>Find Company
+              <input type="text" id="companySearch" placeholder="Search company, sector, NSE, or BSE" autocomplete="off" />
+            </label>
+            <div id="companySuggestions" class="search-suggestions" aria-label="Company suggestions"></div>
+            <label>Title<input type="text" id="checklistTitle" name="checklist_title" value="The Equity Research Checklist for Retail Investors" /></label>
+            <label>Stock / Company<input type="text" id="companyName" name="company_name" placeholder="e.g. Vedanta Ltd." /></label>
+            <label>Sector<input type="text" id="companySector" name="company_sector" placeholder="e.g. Metals & Mining" /></label>
+            <label>NSE Symbol<input type="text" id="nseSymbol" name="nse_symbol" placeholder="e.g. VEDL" /></label>
+            <label>BSE Symbol<input type="text" id="bseSymbol" name="bse_symbol" placeholder="e.g. 500295" /></label>
+            <div class="link-panel">
+              <div class="link-row">
+                <span>BusinessLine Link</span>
+                <a class="link-chip" id="businessLineLink" href="#" target="_blank" rel="noopener noreferrer">Auto-filled after company selection</a>
+              </div>
+              <div class="link-row">
+                <span>Screener Link</span>
+                <a class="link-chip" id="screenerLink" href="#" target="_blank" rel="noopener noreferrer">Auto-filled after company selection</a>
+              </div>
+              <div class="link-row">
+                <span>Google Link</span>
+                <a class="link-chip" id="googleLink" href="#" target="_blank" rel="noopener noreferrer">Auto-filled after company selection</a>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button type="button" id="exportBtn">Export JSON</button>
+            <button type="button" class="ghost" id="pdfBtn">Export PDF</button>
+            <button type="button" class="ghost" id="resetBtn">Reset Draft</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>Sections</h2>
+          <nav id="toc" class="toc"></nav>
+        </div>
+      </aside>
+
+      <section class="form-wrap">
+        <form id="checklistForm" class="checklist-form"></form>
+      </section>
+    </main>
+  </div>
+
+  <template id="questionTemplate">
+    <article class="question-card">
+      <div class="question-head">
+        <div>
+          <p class="section-tag"></p>
+          <h3></h3>
+        </div>
+        <span class="pill">Required</span>
+      </div>
+      <label class="prompt-label">Prompt</label>
+      <p class="prompt-text"></p>
+      <div class="grid">
+        <label>Answer<textarea rows="4" class="answer"></textarea></label>
+        <label>Sentiment
+          <select class="sentiment">
+            <option value="">Select</option>
+            <option value="Positive">Positive</option>
+            <option value="Neutral">Neutral</option>
+            <option value="Negative">Negative</option>
+          </select>
+        </label>
+        <label>Weightage<input type="number" class="weightage" min="0" max="100" step="1" placeholder="0-100" /></label>
+        <label>Sources<textarea rows="2" class="sources" placeholder="Annual report, screener, news..."></textarea></label>
+        <label>Remarks<textarea rows="2" class="remarks"></textarea></label>
+        <label>Status
+          <select class="status">
+            <option value="">Select</option>
+            <option value="Not Started">Not Started</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Done">Done</option>
+          </select>
+        </label>
+      </div>
+    </article>
+  </template>
+
+  <script src="assets/company-index.js"></script>
+  <script src="assets/checklist-form.js"></script>
+</body>
+</html>

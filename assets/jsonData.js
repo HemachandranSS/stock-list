@@ -24,7 +24,7 @@
       "BSE Symbol": 505412,
       "NSE Symbol": "WENDT",
       "Screener Link": "https://www.screener.in/company/505412",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/wendt-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/wendt-india-ltd",
       "Google Link": "https://www.google.com/search?q=Wendt%20(India)%20Ltd.",
       "Sector": "Abrasives"
     }
@@ -100,7 +100,7 @@
       "BSE Symbol": 543428,
       "NSE Symbol": "DATAPATTNS",
       "Screener Link": "https://www.screener.in/company/543428",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/data-patterns-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/data-patterns-india-ltd",
       "Google Link": "https://www.google.com/search?q=Data%20Patterns%20(India)%20Ltd.",
       "Sector": "Aerospace & Defense"
     },
@@ -199,7 +199,7 @@
       "BSE Symbol": 544294,
       "NSE Symbol": "ROSSTECH",
       "Screener Link": "https://www.screener.in/company/544294",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rossell-techsysâ ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rossell-techsys-ltd",
       "Google Link": "https://www.google.com/search?q=Rossell%20TechsysÂ Ltd.",
       "Sector": "Aerospace & Defense"
     },
@@ -264,7 +264,7 @@
       "BSE Symbol": 523261,
       "NSE Symbol": "VENKEYS",
       "Screener Link": "https://www.screener.in/company/523261",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/venky's-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/venky-s-india-ltd",
       "Google Link": "https://www.google.com/search?q=Venky'S%20(India)%20Ltd.",
       "Sector": "Agriculture"
     },
@@ -318,7 +318,7 @@
       "BSE Symbol": 537291,
       "NSE Symbol": "NATHBIOGEN",
       "Screener Link": "https://www.screener.in/company/537291",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/nath-bio-genes-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/nath-bio-genes-india-ltd",
       "Google Link": "https://www.google.com/search?q=Nath%20Bio-Genes%20(India)%20Ltd.",
       "Sector": "Agriculture"
     },
@@ -408,7 +408,7 @@
       "BSE Symbol": 537292,
       "NSE Symbol": "AGRITECH",
       "Screener Link": "https://www.screener.in/company/537292",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/agri-tech-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/agri-tech-india-ltd",
       "Google Link": "https://www.google.com/search?q=Agri-Tech%20(India)%20Ltd.",
       "Sector": "Agriculture"
     },
@@ -417,7 +417,7 @@
       "BSE Symbol": 539470,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/539470",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shree-ganesh-bio-tech-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shree-ganesh-bio-tech-india-ltd",
       "Google Link": "https://www.google.com/search?q=Shree%20Ganesh%20Bio-Tech%20(India)%20Ltd.",
       "Sector": "Agriculture"
     },
@@ -462,7 +462,7 @@
       "BSE Symbol": 519479,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/519479",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/omega-ag-seeds-(punjab)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/omega-ag-seeds-punjab-ltd",
       "Google Link": "https://www.google.com/search?q=Omega%20Ag-Seeds%20(Punjab)%20Ltd.",
       "Sector": "Agriculture"
     },
@@ -583,7 +583,7 @@
       "BSE Symbol": 522229,
       "NSE Symbol": "TANEJAERO",
       "Screener Link": "https://www.screener.in/company/522229",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/taneja-aerospace-&-aviation-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/taneja-aerospace-and-aviation-ltd",
       "Google Link": "https://www.google.com/search?q=Taneja%20Aerospace%20&%20Aviation%20Ltd.",
       "Sector": "Airlines"
     },
@@ -740,7 +740,7 @@
       "BSE Symbol": 504697,
       "NSE Symbol": "GALPOWTEL",
       "Screener Link": "https://www.screener.in/company/504697",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/galada-power-&-telecommunication-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/galada-power-and-telecommunication-ltd",
       "Google Link": "https://www.google.com/search?q=Galada%20Power%20&%20Telecommunication%20Ltd.",
       "Sector": "Aluminium & Aluminium Products"
     }
@@ -778,7 +778,7 @@
       "BSE Symbol": 526721,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526721",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/nicco-parks-&-resorts-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/nicco-parks-and-resorts-ltd",
       "Google Link": "https://www.google.com/search?q=Nicco%20Parks%20&%20Resorts%20Ltd.",
       "Sector": "Amusement Parks/Recreation/Club"
     }
@@ -1117,7 +1117,7 @@
       "BSE Symbol": 500039,
       "NSE Symbol": "BANCOINDIA",
       "Screener Link": "https://www.screener.in/company/500039",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/banco-products-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/banco-products-india-ltd",
       "Google Link": "https://www.google.com/search?q=Banco%20Products%20(India)%20Ltd.",
       "Sector": "Auto Ancillary"
     },
@@ -1180,7 +1180,7 @@
       "BSE Symbol": 500250,
       "NSE Symbol": "LGBBROSLTD",
       "Screener Link": "https://www.screener.in/company/500250",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/lg-balakrishnan-&-bros-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/lg-balakrishnan-and-bros-ltd",
       "Google Link": "https://www.google.com/search?q=LG%20Balakrishnan%20&%20Bros%20Ltd.",
       "Sector": "Auto Ancillary"
     },
@@ -1252,7 +1252,7 @@
       "BSE Symbol": 532661,
       "NSE Symbol": "RML",
       "Screener Link": "https://www.screener.in/company/532661",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rane-(madras)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rane-madras-ltd",
       "Google Link": "https://www.google.com/search?q=Rane%20(Madras)%20Ltd.",
       "Sector": "Auto Ancillary"
     },
@@ -1297,7 +1297,7 @@
       "BSE Symbol": 505744,
       "NSE Symbol": "FMGOETZE",
       "Screener Link": "https://www.screener.in/company/505744",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/federal-mogul-goetze-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/federal-mogul-goetze-india-ltd",
       "Google Link": "https://www.google.com/search?q=Federal-Mogul%20Goetze%20(India)%20Ltd.",
       "Sector": "Auto Ancillary"
     },
@@ -1486,7 +1486,7 @@
       "BSE Symbol": 533477,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/533477",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/enkei-wheels-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/enkei-wheels-india-ltd",
       "Google Link": "https://www.google.com/search?q=Enkei%20Wheels%20(India)%20Ltd.",
       "Sector": "Auto Ancillary"
     },
@@ -1504,7 +1504,7 @@
       "BSE Symbol": 505163,
       "NSE Symbol": "ZFSTEERING",
       "Screener Link": "https://www.screener.in/company/505163",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/zf-steering-gear-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/zf-steering-gear-india-ltd",
       "Google Link": "https://www.google.com/search?q=ZF%20Steering%20Gear%20(India)%20Ltd.",
       "Sector": "Auto Ancillary"
     },
@@ -1729,7 +1729,7 @@
       "BSE Symbol": 520075,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/520075",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/samkrg-pistons-&-rings-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/samkrg-pistons-and-rings-ltd",
       "Google Link": "https://www.google.com/search?q=Samkrg%20Pistons%20&%20Rings%20Ltd.",
       "Sector": "Auto Ancillary"
     },
@@ -1738,7 +1738,7 @@
       "BSE Symbol": 531994,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531994",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/auto-pins-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/auto-pins-india-ltd",
       "Google Link": "https://www.google.com/search?q=Auto%20Pins%20(India)%20Ltd.",
       "Sector": "Auto Ancillary"
     },
@@ -1893,7 +1893,7 @@
       "BSE Symbol": 538970,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/538970",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/wardwizard-innovations-&-mobility-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/wardwizard-innovations-and-mobility-ltd",
       "Google Link": "https://www.google.com/search?q=Wardwizard%20Innovations%20&%20Mobility%20Ltd.",
       "Sector": "Automobile Two & Three Wheelers"
     }
@@ -1922,7 +1922,7 @@
       "BSE Symbol": 544144,
       "NSE Symbol": "PVSL",
       "Screener Link": "https://www.screener.in/company/544144",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/popular-vehicles-&-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/popular-vehicles-and-services-ltd",
       "Google Link": "https://www.google.com/search?q=Popular%20Vehicles%20&%20Services%20Ltd.",
       "Sector": "Automobiles - Dealers & Distributors"
     },
@@ -1951,7 +1951,7 @@
       "BSE Symbol": 500520,
       "NSE Symbol": "M&M",
       "Screener Link": "https://www.screener.in/company/500520",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mahindra-&-mahindra-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mahindra-and-mahindra-ltd",
       "Google Link": "https://www.google.com/search?q=Mahindra%20&%20Mahindra%20Ltd.",
       "Sector": "Automobiles - Passenger Cars"
     },
@@ -2007,7 +2007,7 @@
       "BSE Symbol": 531266,
       "NSE Symbol": "VSTTILLERS",
       "Screener Link": "https://www.screener.in/company/531266",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vst-tillers-tractors-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/v-s-t-tillers-tractors-ltd",
       "Google Link": "https://www.google.com/search?q=V.S.T.%20Tillers%20Tractors%20Ltd.",
       "Sector": "Automobiles-Tractors"
     },
@@ -2074,7 +2074,7 @@
       "BSE Symbol": 532777,
       "NSE Symbol": "NAUKRI",
       "Screener Link": "https://www.screener.in/company/532777",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/info-edge-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/info-edge-india-ltd",
       "Google Link": "https://www.google.com/search?q=Info%20Edge%20(India)%20Ltd.",
       "Sector": "BPO/ITeS"
     },
@@ -2146,7 +2146,7 @@
       "BSE Symbol": 540704,
       "NSE Symbol": "MATRIMONY",
       "Screener Link": "https://www.screener.in/company/540704",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/matrimonycom-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/matrimony-com-ltd",
       "Google Link": "https://www.google.com/search?q=Matrimony.Com%20Ltd.",
       "Sector": "BPO/ITeS"
     },
@@ -2209,7 +2209,7 @@
       "BSE Symbol": 532761,
       "NSE Symbol": "HGM",
       "Screener Link": "https://www.screener.in/company/532761",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/handson-global-management-(hgm)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/handson-global-management-hgm-ltd",
       "Google Link": "https://www.google.com/search?q=HandsOn%20Global%20Management%20(HGM)%20Ltd.",
       "Sector": "BPO/ITeS"
     },
@@ -2409,7 +2409,7 @@
       "BSE Symbol": 532209,
       "NSE Symbol": "J&KBANK",
       "Screener Link": "https://www.screener.in/company/532209",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/the-jammu-&-kashmir-bank-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/the-jammu-and-kashmir-bank-ltd",
       "Google Link": "https://www.google.com/search?q=The%20Jammu%20&%20Kashmir%20Bank%20Ltd.",
       "Sector": "Bank - Private"
     },
@@ -2645,7 +2645,7 @@
       "BSE Symbol": 533295,
       "NSE Symbol": "PSB",
       "Screener Link": "https://www.screener.in/company/533295",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/punjab-&-sind-bank",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/punjab-and-sind-bank",
       "Google Link": "https://www.google.com/search?q=Punjab%20&%20Sind%20Bank",
       "Sector": "Bank - Public"
     }
@@ -2674,7 +2674,7 @@
       "BSE Symbol": 500008,
       "NSE Symbol": "ARE&M",
       "Screener Link": "https://www.screener.in/company/500008",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/amara-raja-energy-&-mobility-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/amara-raja-energy-and-mobility-ltd",
       "Google Link": "https://www.google.com/search?q=Amara%20Raja%20Energy%20&%20Mobility%20Ltd.",
       "Sector": "Batteries"
     },
@@ -2692,7 +2692,7 @@
       "BSE Symbol": 504176,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/504176",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/high-energy-batteries-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/high-energy-batteries-india-ltd",
       "Google Link": "https://www.google.com/search?q=High%20Energy%20Batteries%20(India)%20Ltd.",
       "Sector": "Batteries"
     },
@@ -2739,7 +2739,7 @@
       "BSE Symbol": 544572,
       "NSE Symbol": "SKFINDUS",
       "Screener Link": "https://www.screener.in/company/544572",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/skf-india-(industrial)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/skf-india-industrial-ltd",
       "Google Link": "https://www.google.com/search?q=SKF%20India%20(Industrial)%20Ltd.",
       "Sector": "Bearings"
     },
@@ -2948,7 +2948,7 @@
       "BSE Symbol": 507526,
       "NSE Symbol": "ASALCBR",
       "Screener Link": "https://www.screener.in/company/507526",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/associated-alcohols-&-breweries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/associated-alcohols-and-breweries-ltd",
       "Google Link": "https://www.google.com/search?q=Associated%20Alcohols%20&%20Breweries%20Ltd.",
       "Sector": "Breweries & Distilleries"
     },
@@ -3011,7 +3011,7 @@
       "BSE Symbol": 523309,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/523309",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shri-gang-industries-&-allied-products-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shri-gang-industries-and-allied-products-ltd",
       "Google Link": "https://www.google.com/search?q=Shri%20Gang%20Industries%20&%20Allied%20Products%20Ltd.",
       "Sector": "Breweries & Distilleries"
     },
@@ -3047,7 +3047,7 @@
       "BSE Symbol": 531635,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531635",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/silver-oak-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/silver-oak-india-ltd",
       "Google Link": "https://www.google.com/search?q=Silver%20Oak%20(India)%20Ltd.",
       "Sector": "Breweries & Distilleries"
     }
@@ -3166,7 +3166,7 @@
       "BSE Symbol": 512008,
       "NSE Symbol": "EFCIL",
       "Screener Link": "https://www.screener.in/company/512008",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/efc-(i)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/efc-i-ltd",
       "Google Link": "https://www.google.com/search?q=EFC%20(I)%20Ltd.",
       "Sector": "Business Support"
     },
@@ -3220,7 +3220,7 @@
       "BSE Symbol": 544239,
       "NSE Symbol": "ECOSMOBLTY",
       "Screener Link": "https://www.screener.in/company/544239",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ecos-(india)-mobility-&-hospitality-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ecos-india-mobility-and-hospitality-ltd",
       "Google Link": "https://www.google.com/search?q=Ecos%20(India)%20Mobility%20&%20Hospitality%20Ltd.",
       "Sector": "Business Support"
     },
@@ -3364,7 +3364,7 @@
       "BSE Symbol": 512257,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/512257",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/swasti-vinayaka-art-&-heritage-corporation-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/swasti-vinayaka-art-and-heritage-corporation-ltd",
       "Google Link": "https://www.google.com/search?q=Swasti%20Vinayaka%20Art%20&%20Heritage%20Corporation%20Ltd.",
       "Sector": "Business Support"
     },
@@ -3436,7 +3436,7 @@
       "BSE Symbol": 539406,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/539406",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/swagtam-trading-&-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/swagtam-trading-and-services-ltd",
       "Google Link": "https://www.google.com/search?q=Swagtam%20Trading%20&%20Services%20Ltd.",
       "Sector": "Business Support"
     },
@@ -3636,7 +3636,7 @@
       "BSE Symbol": 538706,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/538706",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ultracab-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ultracab-india-ltd",
       "Google Link": "https://www.google.com/search?q=Ultracab%20(India)%20Ltd.",
       "Sector": "Cable"
     },
@@ -3766,7 +3766,7 @@
       "BSE Symbol": 504786,
       "NSE Symbol": "INVPRECQ",
       "Screener Link": "https://www.screener.in/company/504786",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/investment-&-precision-castings-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/investment-and-precision-castings-ltd",
       "Google Link": "https://www.google.com/search?q=Investment%20&%20Precision%20Castings%20Ltd.",
       "Sector": "Castings/Forgings"
     },
@@ -4191,7 +4191,7 @@
       "BSE Symbol": 530977,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530977",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shri-keshav-cements-&-infra-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shri-keshav-cements-and-infra-ltd",
       "Google Link": "https://www.google.com/search?q=Shri%20Keshav%20Cements%20&%20Infra%20Ltd.",
       "Sector": "Cement & Construction Materials"
     },
@@ -4200,7 +4200,7 @@
       "BSE Symbol": 539620,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/539620",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kanoria-energy-&-infrastructure-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kanoria-energy-and-infrastructure-ltd",
       "Google Link": "https://www.google.com/search?q=Kanoria%20Energy%20&%20Infrastructure%20Ltd.",
       "Sector": "Cement & Construction Materials"
     },
@@ -4209,7 +4209,7 @@
       "BSE Symbol": 500234,
       "NSE Symbol": "KAKATCEM",
       "Screener Link": "https://www.screener.in/company/500234",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kakatiya-cement-sugar-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kakatiya-cement-sugar-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Kakatiya%20Cement%20Sugar%20&%20Industries%20Ltd.",
       "Sector": "Cement & Construction Materials"
     },
@@ -4218,7 +4218,7 @@
       "BSE Symbol": 500322,
       "NSE Symbol": "PANYAMCEM",
       "Screener Link": "https://www.screener.in/company/500322",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/panyam-cements-&-mineral-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/panyam-cements-and-mineral-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Panyam%20Cements%20&%20Mineral%20Industries%20Ltd.",
       "Sector": "Cement & Construction Materials"
     },
@@ -4454,7 +4454,7 @@
       "BSE Symbol": 526705,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526705",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/elegant-marbles-&-grani-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/elegant-marbles-and-grani-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Elegant%20Marbles%20&%20Grani%20Industries%20Ltd.",
       "Sector": "Ceramics/Marble/Granite/Sanitaryware"
     },
@@ -4508,7 +4508,7 @@
       "BSE Symbol": 531129,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531129",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/inani-marbles-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/inani-marbles-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Inani%20Marbles%20&%20Industries%20Ltd.",
       "Sector": "Ceramics/Marble/Granite/Sanitaryware"
     },
@@ -4726,7 +4726,7 @@
       "BSE Symbol": 500670,
       "NSE Symbol": "GNFC",
       "Screener Link": "https://www.screener.in/company/500670",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gujarat-narmada-valley-fertilizers-&-chemicals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gujarat-narmada-valley-fertilizers-and-chemicals-ltd",
       "Google Link": "https://www.google.com/search?q=Gujarat%20Narmada%20Valley%20Fertilizers%20&%20Chemicals%20Ltd",
       "Sector": "Chemicals"
     },
@@ -4879,7 +4879,7 @@
       "BSE Symbol": 505710,
       "NSE Symbol": "GRAUWEIL",
       "Screener Link": "https://www.screener.in/company/505710",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/grauer-&-weil-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/grauer-and-weil-india-ltd",
       "Google Link": "https://www.google.com/search?q=Grauer%20&%20Weil%20(India)%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5050,7 +5050,7 @@
       "BSE Symbol": 524342,
       "NSE Symbol": "INDOBORAX",
       "Screener Link": "https://www.screener.in/company/524342",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/indo-borax-&-chemicals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/indo-borax-and-chemicals-ltd",
       "Google Link": "https://www.google.com/search?q=Indo%20Borax%20&%20Chemicals%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5095,7 +5095,7 @@
       "BSE Symbol": 514448,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/514448",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jyoti-resins-&-adhesives-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jyoti-resins-and-adhesives-ltd",
       "Google Link": "https://www.google.com/search?q=Jyoti%20Resins%20&%20Adhesives%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5104,7 +5104,7 @@
       "BSE Symbol": 506248,
       "NSE Symbol": "AMNPLST",
       "Screener Link": "https://www.screener.in/company/506248",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/amines-&-plasticizers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/amines-and-plasticizers-ltd",
       "Google Link": "https://www.google.com/search?q=Amines%20&%20Plasticizers%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5203,7 +5203,7 @@
       "BSE Symbol": 530477,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530477",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vikram-thermo-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vikram-thermo-india-ltd",
       "Google Link": "https://www.google.com/search?q=Vikram%20Thermo%20(India)%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5239,7 +5239,7 @@
       "BSE Symbol": 506525,
       "NSE Symbol": "KANORICHEM",
       "Screener Link": "https://www.screener.in/company/506525",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kanoria-chemicals-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kanoria-chemicals-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Kanoria%20Chemicals%20&%20Industries%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5419,7 +5419,7 @@
       "BSE Symbol": 531253,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531253",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/india-gelatine-&-chemicals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/india-gelatine-and-chemicals-ltd",
       "Google Link": "https://www.google.com/search?q=India%20Gelatine%20&%20Chemicals%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5428,7 +5428,7 @@
       "BSE Symbol": 523586,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/523586",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/indian-toners-&-developers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/indian-toners-and-developers-ltd",
       "Google Link": "https://www.google.com/search?q=Indian%20Toners%20&%20Developers%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5446,7 +5446,7 @@
       "BSE Symbol": 500120,
       "NSE Symbol": "DIAMINESQ",
       "Screener Link": "https://www.screener.in/company/500120",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/diamines-&-chemicals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/diamines-and-chemicals-ltd",
       "Google Link": "https://www.google.com/search?q=Diamines%20&%20Chemicals%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5491,7 +5491,7 @@
       "BSE Symbol": 513353,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/513353",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/cochin-minerals-&-rutile-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/cochin-minerals-and-rutile-ltd",
       "Google Link": "https://www.google.com/search?q=Cochin%20Minerals%20&%20Rutile%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5500,7 +5500,7 @@
       "BSE Symbol": 506640,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/506640",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/zr2-bioenergyâ ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/zr2-bioenergy-ltd",
       "Google Link": "https://www.google.com/search?q=ZR2%20BioenergyÂ Ltd.",
       "Sector": "Chemicals"
     },
@@ -5653,7 +5653,7 @@
       "BSE Symbol": 509597,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/509597",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hardcastle-&-waud-manufacturing-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hardcastle-and-waud-manufacturing-company-ltd",
       "Google Link": "https://www.google.com/search?q=Hardcastle%20&%20Waud%20Manufacturing%20Company%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5662,7 +5662,7 @@
       "BSE Symbol": 531454,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531454",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/polylink-polymers-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/polylink-polymers-india-ltd",
       "Google Link": "https://www.google.com/search?q=Polylink%20Polymers%20(India)%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5743,7 +5743,7 @@
       "BSE Symbol": 539230,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/539230",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/chemiesynth-(vapi)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/chemiesynth-vapi-ltd",
       "Google Link": "https://www.google.com/search?q=Chemiesynth%20(Vapi)%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5761,7 +5761,7 @@
       "BSE Symbol": 524434,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/524434",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/asian-petroproducts-&-exports-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/asian-petroproducts-and-exports-ltd",
       "Google Link": "https://www.google.com/search?q=Asian%20Petroproducts%20&%20Exports%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5797,7 +5797,7 @@
       "BSE Symbol": 506680,
       "NSE Symbol": "TECILCHEM",
       "Screener Link": "https://www.screener.in/company/506680",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tecil-chemicals-&-hydro-power-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tecil-chemicals-and-hydro-power-ltd",
       "Google Link": "https://www.google.com/search?q=Tecil%20Chemicals%20&%20Hydro%20Power%20Ltd.",
       "Sector": "Chemicals"
     },
@@ -5999,7 +5999,7 @@
       "BSE Symbol": 500210,
       "NSE Symbol": "INGERRAND",
       "Screener Link": "https://www.screener.in/company/500210",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ingersoll-rand-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ingersoll-rand-india-ltd",
       "Google Link": "https://www.google.com/search?q=Ingersoll-Rand%20(India)%20Ltd.",
       "Sector": "Compressors / Pumps"
     },
@@ -6026,7 +6026,7 @@
       "BSE Symbol": 531431,
       "NSE Symbol": "SHAKTIPUMP",
       "Screener Link": "https://www.screener.in/company/531431",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shakti-pumps-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shakti-pumps-india-ltd",
       "Google Link": "https://www.google.com/search?q=Shakti%20Pumps%20(India)%20Ltd.",
       "Sector": "Compressors / Pumps"
     },
@@ -6181,7 +6181,7 @@
       "BSE Symbol": 543990,
       "NSE Symbol": "SIGNATURE",
       "Screener Link": "https://www.screener.in/company/543990",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/signatureglobal-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/signatureglobal-india-ltd",
       "Google Link": "https://www.google.com/search?q=Signatureglobal%20(India)%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6253,7 +6253,7 @@
       "BSE Symbol": 532811,
       "NSE Symbol": "AHLUCONT",
       "Screener Link": "https://www.screener.in/company/532811",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ahluwalia-contracts-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ahluwalia-contracts-india-ltd",
       "Google Link": "https://www.google.com/search?q=Ahluwalia%20Contracts%20(India)%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6406,7 +6406,7 @@
       "BSE Symbol": 513349,
       "NSE Symbol": "AJMERA",
       "Screener Link": "https://www.screener.in/company/513349",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ajmera-realty-&-infra-india-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ajmera-realty-and-infra-india-ltd",
       "Google Link": "https://www.google.com/search?q=Ajmera%20Realty%20&%20Infra%20India%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6442,7 +6442,7 @@
       "BSE Symbol": 540710,
       "NSE Symbol": "CAPACITE",
       "Screener Link": "https://www.screener.in/company/540710",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/capacit'e-infraprojects-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/capacit-e-infraprojects-ltd",
       "Google Link": "https://www.google.com/search?q=Capacit'e%20Infraprojects%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6451,7 +6451,7 @@
       "BSE Symbol": 544271,
       "NSE Symbol": "GARUDA",
       "Screener Link": "https://www.screener.in/company/544271",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/garuda-construction-&-engineering-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/garuda-construction-and-engineering-ltd",
       "Google Link": "https://www.google.com/search?q=Garuda%20Construction%20&%20Engineering%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6478,7 +6478,7 @@
       "BSE Symbol": 505400,
       "NSE Symbol": "TEXINFRA",
       "Screener Link": "https://www.screener.in/company/505400",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/texmaco-infrastructure-&-holdings-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/texmaco-infrastructure-and-holdings-ltd",
       "Google Link": "https://www.google.com/search?q=Texmaco%20Infrastructure%20&%20Holdings%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6496,7 +6496,7 @@
       "BSE Symbol": 532719,
       "NSE Symbol": "BLKASHYAP",
       "Screener Link": "https://www.screener.in/company/532719",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bl-kashyap-and-sons-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/b-l-kashyap-and-sons-ltd",
       "Google Link": "https://www.google.com/search?q=B.L.%20Kashyap%20and%20Sons%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6505,7 +6505,7 @@
       "BSE Symbol": 531381,
       "NSE Symbol": "ARIHANT",
       "Screener Link": "https://www.screener.in/company/531381",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/arihant-foundations-&-housing-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/arihant-foundations-and-housing-ltd",
       "Google Link": "https://www.google.com/search?q=Arihant%20Foundations%20&%20Housing%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6541,7 +6541,7 @@
       "BSE Symbol": 543539,
       "NSE Symbol": "MODIS",
       "Screener Link": "https://www.screener.in/company/543539",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/modi's-navnirman-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/modi-s-navnirman-ltd",
       "Google Link": "https://www.google.com/search?q=Modi's%20Navnirman%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6550,7 +6550,7 @@
       "BSE Symbol": 523329,
       "NSE Symbol": "ELDEHSG",
       "Screener Link": "https://www.screener.in/company/523329",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/eldeco-housing-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/eldeco-housing-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Eldeco%20Housing%20&%20Industries%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6631,7 +6631,7 @@
       "BSE Symbol": 504882,
       "NSE Symbol": "NATIONSTD",
       "Screener Link": "https://www.screener.in/company/504882",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/national-standard-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/national-standard-india-ltd",
       "Google Link": "https://www.google.com/search?q=National%20Standard%20(India)%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6712,7 +6712,7 @@
       "BSE Symbol": 544276,
       "NSE Symbol": "DBEIL",
       "Screener Link": "https://www.screener.in/company/544276",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/deepak-builders-&-engineers-india-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/deepak-builders-and-engineers-india-ltd",
       "Google Link": "https://www.google.com/search?q=Deepak%20Builders%20&%20Engineers%20India%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6874,7 +6874,7 @@
       "BSE Symbol": 530677,
       "NSE Symbol": "SUPREME",
       "Screener Link": "https://www.screener.in/company/530677",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/supreme-holdings-&-hospitality-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/supreme-holdings-and-hospitality-india-ltd",
       "Google Link": "https://www.google.com/search?q=Supreme%20Holdings%20&%20Hospitality%20(India)%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6973,7 +6973,7 @@
       "BSE Symbol": 531273,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531273",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/radhe-developers-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/radhe-developers-india-ltd",
       "Google Link": "https://www.google.com/search?q=Radhe%20Developers%20(India)%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -6991,7 +6991,7 @@
       "BSE Symbol": 539767,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/539767",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mega-nirman-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mega-nirman-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Mega%20Nirman%20&%20Industries%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -7072,7 +7072,7 @@
       "BSE Symbol": 500013,
       "NSE Symbol": "ANSALAPI",
       "Screener Link": "https://www.screener.in/company/500013",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ansal-properties-&-infrastructure-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ansal-properties-and-infrastructure-ltd",
       "Google Link": "https://www.google.com/search?q=Ansal%20Properties%20&%20Infrastructure%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -7108,7 +7108,7 @@
       "BSE Symbol": 531624,
       "NSE Symbol": "COUNCODOS",
       "Screener Link": "https://www.screener.in/company/531624",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/country-condo's-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/country-condo-s-ltd",
       "Google Link": "https://www.google.com/search?q=Country%20Condo's%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -7171,7 +7171,7 @@
       "BSE Symbol": 502445,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/502445",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/citadel-realty-&-developers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/citadel-realty-and-developers-ltd",
       "Google Link": "https://www.google.com/search?q=Citadel%20Realty%20&%20Developers%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -7198,7 +7198,7 @@
       "BSE Symbol": 533100,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/533100",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/premier-energy-&-infrastructure-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/premier-energy-and-infrastructure-ltd",
       "Google Link": "https://www.google.com/search?q=Premier%20Energy%20&%20Infrastructure%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -7315,7 +7315,7 @@
       "BSE Symbol": 530141,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530141",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gyan-developers-&-builders-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gyan-developers-and-builders-ltd",
       "Google Link": "https://www.google.com/search?q=Gyan%20Developers%20&%20Builders%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -7378,7 +7378,7 @@
       "BSE Symbol": 514197,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/514197",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/s&t-corporation-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/s-and-t-corporation-ltd",
       "Google Link": "https://www.google.com/search?q=S&T%20Corporation%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -7423,7 +7423,7 @@
       "BSE Symbol": 540134,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/540134",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ishaan-infrastructures-&-shelters-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ishaan-infrastructures-and-shelters-ltd",
       "Google Link": "https://www.google.com/search?q=Ishaan%20Infrastructures%20&%20Shelters%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -7450,7 +7450,7 @@
       "BSE Symbol": 542864,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/542864",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mount-housing-&-infrastructure-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mount-housing-and-infrastructure-ltd",
       "Google Link": "https://www.google.com/search?q=Mount%20Housing%20&%20Infrastructure%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -7468,7 +7468,7 @@
       "BSE Symbol": 531578,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531578",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kmf-builders-&-developers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kmf-builders-and-developers-ltd",
       "Google Link": "https://www.google.com/search?q=KMF%20Builders%20&%20Developers%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -7522,7 +7522,7 @@
       "BSE Symbol": 539405,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/539405",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/decorous-investment-&-trading-co-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/decorous-investment-and-trading-co-ltd",
       "Google Link": "https://www.google.com/search?q=Decorous%20Investment%20&%20Trading%20Co%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -7531,7 +7531,7 @@
       "BSE Symbol": 526865,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526865",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jainco-projects-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jainco-projects-india-ltd",
       "Google Link": "https://www.google.com/search?q=Jainco%20Projects%20(India)%20Ltd.",
       "Sector": "Construction - Real Estate"
     },
@@ -7567,7 +7567,7 @@
       "BSE Symbol": 502216,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/502216",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bombay-potteries-&-tiles-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bombay-potteries-and-tiles-ltd",
       "Google Link": "https://www.google.com/search?q=Bombay%20Potteries%20&%20Tiles%20Ltd.",
       "Sector": "Construction - Real Estate"
     }
@@ -7614,7 +7614,7 @@
       "BSE Symbol": 505690,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/505690",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/brady-&-morris-engineering-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/brady-and-morris-engineering-company-ltd",
       "Google Link": "https://www.google.com/search?q=Brady%20&%20Morris%20Engineering%20Company%20Ltd.",
       "Sector": "Construction Vehicles"
     }
@@ -7762,7 +7762,7 @@
       "BSE Symbol": 540699,
       "NSE Symbol": "DIXON",
       "Screener Link": "https://www.screener.in/company/540699",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dixon-technologies-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dixon-technologies-india-ltd",
       "Google Link": "https://www.google.com/search?q=Dixon%20Technologies%20(India)%20Ltd.",
       "Sector": "Consumer Durables - Electronics"
     },
@@ -7834,7 +7834,7 @@
       "BSE Symbol": 590068,
       "NSE Symbol": "KHAITANLTD",
       "Screener Link": "https://www.screener.in/company/590068",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/khaitan-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/khaitan-india-ltd",
       "Google Link": "https://www.google.com/search?q=Khaitan%20(India)%20Ltd.",
       "Sector": "Consumer Durables - Electronics"
     },
@@ -7843,7 +7843,7 @@
       "BSE Symbol": 509015,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/509015",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/thakral-services-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/thakral-services-india-ltd",
       "Google Link": "https://www.google.com/search?q=Thakral%20Services%20(India)%20Ltd.",
       "Sector": "Consumer Durables - Electronics"
     },
@@ -7971,7 +7971,7 @@
       "BSE Symbol": 544622,
       "NSE Symbol": "KWIL",
       "Screener Link": "https://www.screener.in/company/544622",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kwality-wall's-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kwality-wall-s-india-ltd",
       "Google Link": "https://www.google.com/search?q=Kwality%20Wall's%20(India)%20Ltd.",
       "Sector": "Consumer Food"
     },
@@ -8079,7 +8079,7 @@
       "BSE Symbol": 544743,
       "NSE Symbol": "AEROPLANE",
       "Screener Link": "https://www.screener.in/company/544743",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/amir-chand-jagdish-kumar-(exports)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/amir-chand-jagdish-kumar-exports-ltd",
       "Google Link": "https://www.google.com/search?q=Amir%20Chand%20Jagdish%20Kumar%20(Exports)%20Ltd.",
       "Sector": "Consumer Food"
     },
@@ -8097,7 +8097,7 @@
       "BSE Symbol": 532143,
       "NSE Symbol": "SKMEGGPROD",
       "Screener Link": "https://www.screener.in/company/532143",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/skm-egg-products-export-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/skm-egg-products-export-india-ltd",
       "Google Link": "https://www.google.com/search?q=SKM%20Egg%20Products%20Export%20(India)%20Ltd.",
       "Sector": "Consumer Food"
     },
@@ -8187,7 +8187,7 @@
       "BSE Symbol": 524542,
       "NSE Symbol": "SUKHJITS",
       "Screener Link": "https://www.screener.in/company/524542",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sukhjit-starch-&-chemicals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sukhjit-starch-and-chemicals-ltd",
       "Google Link": "https://www.google.com/search?q=Sukhjit%20Starch%20&%20Chemicals%20Ltd.",
       "Sector": "Consumer Food"
     },
@@ -8205,7 +8205,7 @@
       "BSE Symbol": 507552,
       "NSE Symbol": "FOODSIN",
       "Screener Link": "https://www.screener.in/company/507552",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/foods-&-inns-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/foods-and-inns-ltd",
       "Google Link": "https://www.google.com/search?q=Foods%20&%20Inns%20Ltd.",
       "Sector": "Consumer Food"
     },
@@ -8295,7 +8295,7 @@
       "BSE Symbol": 524582,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/524582",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tirupati-starch-&-chemicals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tirupati-starch-and-chemicals-ltd",
       "Google Link": "https://www.google.com/search?q=Tirupati%20Starch%20&%20Chemicals%20Ltd.",
       "Sector": "Consumer Food"
     },
@@ -8385,7 +8385,7 @@
       "BSE Symbol": 507474,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/507474",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kothari-fermentation-&-biochem-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kothari-fermentation-and-biochem-ltd",
       "Google Link": "https://www.google.com/search?q=Kothari%20Fermentation%20&%20Biochem%20Ltd.",
       "Sector": "Consumer Food"
     },
@@ -8538,7 +8538,7 @@
       "BSE Symbol": 519604,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/519604",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/suryo-foods-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/suryo-foods-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Suryo%20Foods%20&%20Industries%20Ltd.",
       "Sector": "Consumer Food"
     },
@@ -8565,7 +8565,7 @@
       "BSE Symbol": 530735,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530735",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/super-bakers-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/super-bakers-india-ltd",
       "Google Link": "https://www.google.com/search?q=Super%20Bakers%20(India)%20Ltd.",
       "Sector": "Consumer Food"
     },
@@ -8621,7 +8621,7 @@
       "BSE Symbol": 543958,
       "NSE Symbol": "VLEGOV",
       "Screener Link": "https://www.screener.in/company/543958",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vl-e-governance-&-it-solutions-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vl-e-governance-and-it-solutions-ltd",
       "Google Link": "https://www.google.com/search?q=VL%20E-Governance%20&%20IT%20Solutions%20Ltd.",
       "Sector": "Courier  Services"
     }
@@ -8632,7 +8632,7 @@
       "BSE Symbol": 505029,
       "NSE Symbol": "ATLASCYCLE",
       "Screener Link": "https://www.screener.in/company/505029",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/atlas-cycles-(haryana)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/atlas-cycles-haryana-ltd",
       "Google Link": "https://www.google.com/search?q=Atlas%20Cycles%20(Haryana)%20Ltd.",
       "Sector": "Cycles"
     }
@@ -8773,7 +8773,7 @@
       "BSE Symbol": 544161,
       "NSE Symbol": "DPABHUSHAN",
       "Screener Link": "https://www.screener.in/company/544161",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dp-abhushan-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/d-p-abhushan-ltd",
       "Google Link": "https://www.google.com/search?q=D.P.%20Abhushan%20Ltd.",
       "Sector": "Diamond  &  Jewellery"
     },
@@ -8890,7 +8890,7 @@
       "BSE Symbol": 523676,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/523676",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/golkunda-diamonds-&-jewellery-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/golkunda-diamonds-and-jewellery-ltd",
       "Google Link": "https://www.google.com/search?q=Golkunda%20Diamonds%20&%20Jewellery%20Ltd.",
       "Sector": "Diamond  &  Jewellery"
     },
@@ -8908,7 +8908,7 @@
       "BSE Symbol": 523373,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/523373",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mini-diamonds-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mini-diamonds-india-ltd",
       "Google Link": "https://www.google.com/search?q=Mini%20Diamonds%20(India)%20Ltd.",
       "Sector": "Diamond  &  Jewellery"
     },
@@ -9110,7 +9110,7 @@
       "BSE Symbol": 523319,
       "NSE Symbol": "BALMLAWRIE",
       "Screener Link": "https://www.screener.in/company/523319",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/balmer-lawrie-&-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/balmer-lawrie-and-company-ltd",
       "Google Link": "https://www.google.com/search?q=Balmer%20Lawrie%20&%20Company%20Ltd.",
       "Sector": "Diversified"
     },
@@ -9146,7 +9146,7 @@
       "BSE Symbol": 532716,
       "NSE Symbol": "GILLANDERS",
       "Screener Link": "https://www.screener.in/company/532716",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gillanders-arbuthnot-&-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gillanders-arbuthnot-and-company-ltd",
       "Google Link": "https://www.google.com/search?q=Gillanders%20Arbuthnot%20&%20Company%20Ltd.",
       "Sector": "Diversified"
     },
@@ -9238,7 +9238,7 @@
       "BSE Symbol": 539334,
       "NSE Symbol": "SHREEPUSHK",
       "Screener Link": "https://www.screener.in/company/539334",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shree-pushkar-chemicals-&-fertilisers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shree-pushkar-chemicals-and-fertilisers-ltd",
       "Google Link": "https://www.google.com/search?q=Shree%20Pushkar%20Chemicals%20&%20Fertilisers%20Ltd.",
       "Sector": "Dyes & Pigments"
     },
@@ -9247,7 +9247,7 @@
       "BSE Symbol": 506685,
       "NSE Symbol": "ULTRAMAR",
       "Screener Link": "https://www.screener.in/company/506685",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ultramarine-&-pigments-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ultramarine-and-pigments-ltd",
       "Google Link": "https://www.google.com/search?q=Ultramarine%20&%20Pigments%20Ltd.",
       "Sector": "Dyes & Pigments"
     },
@@ -9310,7 +9310,7 @@
       "BSE Symbol": 524598,
       "NSE Symbol": "AKSHARCHEM",
       "Screener Link": "https://www.screener.in/company/524598",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/aksharchem-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/aksharchem-india-ltd",
       "Google Link": "https://www.google.com/search?q=Aksharchem%20(India)%20Ltd.",
       "Sector": "Dyes & Pigments"
     },
@@ -9420,7 +9420,7 @@
       "BSE Symbol": 519477,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/519477",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/cian-agro-industries-&-infrastructure-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/cian-agro-industries-and-infrastructure-ltd",
       "Google Link": "https://www.google.com/search?q=CIAN%20Agro%20Industries%20&%20Infrastructure%20Ltd.",
       "Sector": "Edible Oil"
     },
@@ -9537,7 +9537,7 @@
       "BSE Symbol": 519359,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/519359",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/poona-dal-&-oil-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/poona-dal-and-oil-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Poona%20Dal%20&%20Oil%20Industries%20Ltd.",
       "Sector": "Edible Oil"
     },
@@ -9647,7 +9647,7 @@
       "BSE Symbol": 540062,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/540062",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/golden-crest-education-&-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/golden-crest-education-and-services-ltd",
       "Google Link": "https://www.google.com/search?q=Golden%20Crest%20Education%20&%20Services%20Ltd.",
       "Sector": "Educational Institutions"
     },
@@ -9674,7 +9674,7 @@
       "BSE Symbol": 533540,
       "NSE Symbol": "TREEHOUSE",
       "Screener Link": "https://www.screener.in/company/533540",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tree-house-education-&-accessories-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tree-house-education-and-accessories-ltd",
       "Google Link": "https://www.google.com/search?q=Tree%20House%20Education%20&%20Accessories%20Ltd.",
       "Sector": "Educational Institutions"
     },
@@ -9757,7 +9757,7 @@
       "BSE Symbol": 522275,
       "NSE Symbol": "GVT&D",
       "Screener Link": "https://www.screener.in/company/522275",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ge-vernova-t&d-india-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ge-vernova-t-and-d-india-ltd",
       "Google Link": "https://www.google.com/search?q=GE%20Vernova%20T&D%20India%20Ltd.",
       "Sector": "Electric Equipment"
     },
@@ -9874,7 +9874,7 @@
       "BSE Symbol": 532928,
       "NSE Symbol": "TARIL",
       "Screener Link": "https://www.screener.in/company/532928",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/transformers-&-rectifiers-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/transformers-and-rectifiers-india-ltd",
       "Google Link": "https://www.google.com/search?q=Transformers%20&%20Rectifiers%20(India)%20Ltd.",
       "Sector": "Electric Equipment"
     },
@@ -9991,7 +9991,7 @@
       "BSE Symbol": 540136,
       "NSE Symbol": "HPL",
       "Screener Link": "https://www.screener.in/company/540136",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hpl-electric-&-power-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hpl-electric-and-power-ltd",
       "Google Link": "https://www.google.com/search?q=HPL%20Electric%20&%20Power%20Ltd.",
       "Sector": "Electric Equipment"
     },
@@ -10144,7 +10144,7 @@
       "BSE Symbol": 517273,
       "NSE Symbol": "S&SPOWER",
       "Screener Link": "https://www.screener.in/company/517273",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/s&s-power-switchgear-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/s-and-s-power-switchgear-ltd",
       "Google Link": "https://www.google.com/search?q=S&S%20Power%20Switchgear%20Ltd.",
       "Sector": "Electric Equipment"
     },
@@ -10243,7 +10243,7 @@
       "BSE Symbol": 531888,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531888",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rexnord-electronics-&-controls-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rexnord-electronics-and-controls-ltd",
       "Google Link": "https://www.google.com/search?q=Rexnord%20Electronics%20&%20Controls%20Ltd.",
       "Sector": "Electric Equipment"
     },
@@ -10425,7 +10425,7 @@
       "BSE Symbol": 517514,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/517514",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/d&h-india-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/d-and-h-india-ltd",
       "Google Link": "https://www.google.com/search?q=D&H%20India%20Ltd.",
       "Sector": "Electrodes & Welding Equipment"
     },
@@ -10535,7 +10535,7 @@
       "BSE Symbol": 532686,
       "NSE Symbol": "KERNEX",
       "Screener Link": "https://www.screener.in/company/532686",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kernex-microsystems-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kernex-microsystems-india-ltd",
       "Google Link": "https://www.google.com/search?q=Kernex%20Microsystems%20(India)%20Ltd.",
       "Sector": "Electronics - Components"
     },
@@ -10589,7 +10589,7 @@
       "BSE Symbol": 539984,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/539984",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hindusthan-insulators-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hindusthan-insulators-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Hindusthan%20Insulators%20&%20Industries%20Ltd.",
       "Sector": "Electronics - Components"
     },
@@ -10706,7 +10706,7 @@
       "BSE Symbol": 517397,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/517397",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/pan-electronics-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/pan-electronics-india-ltd",
       "Google Link": "https://www.google.com/search?q=Pan%20Electronics%20(India)%20Ltd.",
       "Sector": "Electronics - Components"
     },
@@ -10753,7 +10753,7 @@
       "BSE Symbol": 541402,
       "NSE Symbol": "AFFORDABLE",
       "Screener Link": "https://www.screener.in/company/541402",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/affordable-robotic-&-automation-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/affordable-robotic-and-automation-ltd",
       "Google Link": "https://www.google.com/search?q=Affordable%20Robotic%20&%20Automation%20Ltd.",
       "Sector": "Engineering"
     },
@@ -10780,7 +10780,7 @@
       "BSE Symbol": 526397,
       "NSE Symbol": "ALPHAGEO",
       "Screener Link": "https://www.screener.in/company/526397",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/alphageo-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/alphageo-india-ltd",
       "Google Link": "https://www.google.com/search?q=Alphageo%20(India)%20Ltd.",
       "Sector": "Engineering"
     },
@@ -10798,7 +10798,7 @@
       "BSE Symbol": 517360,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/517360",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sbec-systems-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sbec-systems-india-ltd",
       "Google Link": "https://www.google.com/search?q=SBEC%20Systems%20(India)%20Ltd.",
       "Sector": "Engineering"
     },
@@ -10807,7 +10807,7 @@
       "BSE Symbol": 522171,
       "NSE Symbol": "TMTINDIA",
       "Screener Link": "https://www.screener.in/company/522171",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tmt-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tmt-india-ltd",
       "Google Link": "https://www.google.com/search?q=TMT%20(India)%20Ltd.",
       "Sector": "Engineering"
     }
@@ -10818,7 +10818,7 @@
       "BSE Symbol": 500510,
       "NSE Symbol": "LT",
       "Screener Link": "https://www.screener.in/company/500510",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/larsen-&-toubro-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/larsen-and-toubro-ltd",
       "Google Link": "https://www.google.com/search?q=Larsen%20&%20Toubro%20Ltd.",
       "Sector": "Engineering - Construction"
     },
@@ -10890,7 +10890,7 @@
       "BSE Symbol": 542141,
       "NSE Symbol": "TECHNOE",
       "Screener Link": "https://www.screener.in/company/542141",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/techno-electric-&-engineering-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/techno-electric-and-engineering-company-ltd",
       "Google Link": "https://www.google.com/search?q=Techno%20Electric%20&%20Engineering%20Company%20Ltd.",
       "Sector": "Engineering - Construction"
     },
@@ -11061,7 +11061,7 @@
       "BSE Symbol": 541019,
       "NSE Symbol": "HGINFRA",
       "Screener Link": "https://www.screener.in/company/541019",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hg-infra-engineering-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/h-g-infra-engineering-ltd",
       "Google Link": "https://www.google.com/search?q=H.G.%20Infra%20Engineering%20Ltd.",
       "Sector": "Engineering - Construction"
     },
@@ -11331,7 +11331,7 @@
       "BSE Symbol": 504220,
       "NSE Symbol": "WSI",
       "Screener Link": "https://www.screener.in/company/504220",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ws-industries-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/w-s-industries-india-ltd",
       "Google Link": "https://www.google.com/search?q=W.S.%20Industries%20(India)%20Ltd.",
       "Sector": "Engineering - Construction"
     },
@@ -11340,7 +11340,7 @@
       "BSE Symbol": 532907,
       "NSE Symbol": "IL&FSENGG",
       "Screener Link": "https://www.screener.in/company/532907",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/il&fs-engineering-and-construction-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/il-and-fs-engineering-and-construction-company-ltd",
       "Google Link": "https://www.google.com/search?q=IL&FS%20Engineering%20and%20Construction%20Company%20Ltd.",
       "Sector": "Engineering - Construction"
     },
@@ -11403,7 +11403,7 @@
       "BSE Symbol": 533284,
       "NSE Symbol": "RPPINFRA",
       "Screener Link": "https://www.screener.in/company/533284",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rpp-infra-projects-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/r-p-p-infra-projects-ltd",
       "Google Link": "https://www.google.com/search?q=R.P.P.%20Infra%20Projects%20Ltd.",
       "Sector": "Engineering - Construction"
     },
@@ -11430,7 +11430,7 @@
       "BSE Symbol": 543912,
       "NSE Symbol": "PIGL",
       "Screener Link": "https://www.screener.in/company/543912",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/power-&-instrumentation-(gujarat)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/power-and-instrumentation-gujarat-ltd",
       "Google Link": "https://www.google.com/search?q=Power%20&%20Instrumentation%20(Gujarat)%20Ltd.",
       "Sector": "Engineering - Construction"
     },
@@ -11538,7 +11538,7 @@
       "BSE Symbol": 531260,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531260",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/refex-renewables-&-infrastructure-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/refex-renewables-and-infrastructure-ltd",
       "Google Link": "https://www.google.com/search?q=Refex%20Renewables%20&%20Infrastructure%20Ltd.",
       "Sector": "Engineering - Construction"
     },
@@ -11547,7 +11547,7 @@
       "BSE Symbol": 532738,
       "NSE Symbol": "TICL",
       "Screener Link": "https://www.screener.in/company/532738",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/twamevâ construction-and-infrastructure-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/twamev-construction-and-infrastructure-ltd",
       "Google Link": "https://www.google.com/search?q=TwamevÂ Construction%20And%20Infrastructure%20Ltd.",
       "Sector": "Engineering - Construction"
     },
@@ -11637,7 +11637,7 @@
       "BSE Symbol": 514360,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/514360",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/k&r-rail-engineering-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/k-and-r-rail-engineering-ltd",
       "Google Link": "https://www.google.com/search?q=K&R%20Rail%20Engineering%20Ltd.",
       "Sector": "Engineering - Construction"
     },
@@ -11826,7 +11826,7 @@
       "BSE Symbol": 509845,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/509845",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rj-shah-&-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rj-shah-and-company-ltd",
       "Google Link": "https://www.google.com/search?q=RJ%20Shah%20&%20Company%20Ltd.",
       "Sector": "Engineering - Construction"
     },
@@ -12206,7 +12206,7 @@
       "BSE Symbol": 544470,
       "NSE Symbol": "MBEL",
       "Screener Link": "https://www.screener.in/company/544470",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/m&b-engineering-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/m-and-b-engineering-ltd",
       "Google Link": "https://www.google.com/search?q=M&B%20Engineering%20Ltd.",
       "Sector": "Engineering - Industrial Equipments"
     },
@@ -12260,7 +12260,7 @@
       "BSE Symbol": 523708,
       "NSE Symbol": "EIMCOELECO",
       "Screener Link": "https://www.screener.in/company/523708",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/eimco-elecon-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/eimco-elecon-india-ltd",
       "Google Link": "https://www.google.com/search?q=Eimco%20Elecon%20(India)%20Ltd.",
       "Sector": "Engineering - Industrial Equipments"
     },
@@ -12476,7 +12476,7 @@
       "BSE Symbol": 502865,
       "NSE Symbol": "FORBESGOK",
       "Screener Link": "https://www.screener.in/company/502865",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/forbes-&-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/forbes-and-company-ltd",
       "Google Link": "https://www.google.com/search?q=Forbes%20&%20Company%20Ltd.",
       "Sector": "Engineering - Industrial Equipments"
     },
@@ -12548,7 +12548,7 @@
       "BSE Symbol": 517417,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/517417",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/patels-airtemp-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/patels-airtemp-india-ltd",
       "Google Link": "https://www.google.com/search?q=Patels%20Airtemp%20(India)%20Ltd.",
       "Sector": "Engineering - Industrial Equipments"
     },
@@ -12593,7 +12593,7 @@
       "BSE Symbol": 505737,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/505737",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/international-combustion-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/international-combustion-india-ltd",
       "Google Link": "https://www.google.com/search?q=International%20Combustion%20(India)%20Ltd.",
       "Sector": "Engineering - Industrial Equipments"
     },
@@ -12701,7 +12701,7 @@
       "BSE Symbol": 522294,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/522294",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/t&i-global-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/t-and-i-global-ltd",
       "Google Link": "https://www.google.com/search?q=T&I%20Global%20Ltd.",
       "Sector": "Engineering - Industrial Equipments"
     },
@@ -12773,7 +12773,7 @@
       "BSE Symbol": 505250,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/505250",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gg-dandekar-properties-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/g-g-dandekar-properties-ltd",
       "Google Link": "https://www.google.com/search?q=G.G.%20Dandekar%20Properties%20Ltd.",
       "Sector": "Engineering - Industrial Equipments"
     },
@@ -12973,7 +12973,7 @@
       "BSE Symbol": 534309,
       "NSE Symbol": "NBCC",
       "Screener Link": "https://www.screener.in/company/534309",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/nbcc-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/nbcc-india-ltd",
       "Google Link": "https://www.google.com/search?q=NBCC%20(India)%20Ltd.",
       "Sector": "Engineering Consultancy"
     },
@@ -12982,7 +12982,7 @@
       "BSE Symbol": 544739,
       "NSE Symbol": "CMPDI",
       "Screener Link": "https://www.screener.in/company/544739",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/central-mine-planning-&-design-institute-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/central-mine-planning-and-design-institute-ltd",
       "Google Link": "https://www.google.com/search?q=Central%20Mine%20Planning%20&%20Design%20Institute%20Ltd.",
       "Sector": "Engineering Consultancy"
     },
@@ -13056,7 +13056,7 @@
       "BSE Symbol": 500214,
       "NSE Symbol": "IONEXCHANG",
       "Screener Link": "https://www.screener.in/company/500214",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ion-exchange-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ion-exchange-india-ltd",
       "Google Link": "https://www.google.com/search?q=Ion%20Exchange%20(India)%20Ltd.",
       "Sector": "Environmental Services"
     },
@@ -13141,7 +13141,7 @@
       "BSE Symbol": 533047,
       "NSE Symbol": "IMFA",
       "Screener Link": "https://www.screener.in/company/533047",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/indian-metals-&-ferro-alloys-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/indian-metals-and-ferro-alloys-ltd",
       "Google Link": "https://www.google.com/search?q=Indian%20Metals%20&%20Ferro%20Alloys%20Ltd.",
       "Sector": "Ferro & Silica Manganese"
     },
@@ -13159,7 +13159,7 @@
       "BSE Symbol": 532362,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/532362",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/nagpur-power-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/nagpur-power-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Nagpur%20Power%20&%20Industries%20Ltd.",
       "Sector": "Ferro & Silica Manganese"
     },
@@ -13260,7 +13260,7 @@
       "BSE Symbol": 500690,
       "NSE Symbol": "GSFC",
       "Screener Link": "https://www.screener.in/company/500690",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gujarat-state-fertilizers-&-chemicals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gujarat-state-fertilizers-and-chemicals-ltd",
       "Google Link": "https://www.google.com/search?q=Gujarat%20State%20Fertilizers%20&%20Chemicals%20Ltd.",
       "Sector": "Fertilizers"
     },
@@ -13305,7 +13305,7 @@
       "BSE Symbol": 507794,
       "NSE Symbol": "KHAICHEM",
       "Screener Link": "https://www.screener.in/company/507794",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/khaitan-chemicals-&-fertilizers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/khaitan-chemicals-and-fertilizers-ltd",
       "Google Link": "https://www.google.com/search?q=Khaitan%20Chemicals%20&%20Fertilizers%20Ltd.",
       "Sector": "Fertilizers"
     },
@@ -13341,7 +13341,7 @@
       "BSE Symbol": 531862,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531862",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bharat-agri-fert-&-realty-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bharat-agri-fert-and-realty-ltd",
       "Google Link": "https://www.google.com/search?q=Bharat%20Agri%20Fert%20&%20Realty%20Ltd.",
       "Sector": "Fertilizers"
     },
@@ -13350,7 +13350,7 @@
       "BSE Symbol": 524687,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/524687",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/basant-agro-tech-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/basant-agro-tech-india-ltd",
       "Google Link": "https://www.google.com/search?q=Basant%20Agro%20Tech%20(India)%20Ltd.",
       "Sector": "Fertilizers"
     },
@@ -13550,7 +13550,7 @@
       "BSE Symbol": 532507,
       "NSE Symbol": "BAGFILMS",
       "Screener Link": "https://www.screener.in/company/532507",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bag-films-and-media-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/b-a-g-films-and-media-ltd",
       "Google Link": "https://www.google.com/search?q=B.A.G.%20Films%20and%20Media%20Ltd.",
       "Sector": "Film Production, Distribution & Entertainment"
     },
@@ -13667,7 +13667,7 @@
       "BSE Symbol": 542654,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/542654",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vr-films-&-studios-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vr-films-and-studios-ltd",
       "Google Link": "https://www.google.com/search?q=VR%20Films%20&%20Studios%20Ltd.",
       "Sector": "Film Production, Distribution & Entertainment"
     },
@@ -13685,7 +13685,7 @@
       "BSE Symbol": 530281,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530281",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/quantum-digital-vision-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/quantum-digital-vision-india-ltd",
       "Google Link": "https://www.google.com/search?q=Quantum%20Digital%20Vision%20(India)%20Ltd.",
       "Sector": "Film Production, Distribution & Entertainment"
     },
@@ -13703,7 +13703,7 @@
       "BSE Symbol": 511664,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511664",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bgil-films-&-technologies-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bgil-films-and-technologies-ltd",
       "Google Link": "https://www.google.com/search?q=BGIL%20Films%20&%20Technologies%20Ltd.",
       "Sector": "Film Production, Distribution & Entertainment"
     },
@@ -13748,7 +13748,7 @@
       "BSE Symbol": 531420,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531420",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bmb-music-&-magnetics-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bmb-music-and-magnetics-ltd",
       "Google Link": "https://www.google.com/search?q=BMB%20Music%20&%20Magnetics%20Ltd.",
       "Sector": "Film Production, Distribution & Entertainment"
     },
@@ -13876,7 +13876,7 @@
       "BSE Symbol": 511208,
       "NSE Symbol": "IVC",
       "Screener Link": "https://www.screener.in/company/511208",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/il&fs-investment-managers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/il-and-fs-investment-managers-ltd",
       "Google Link": "https://www.google.com/search?q=IL&FS%20Investment%20Managers%20Ltd.",
       "Sector": "Finance - Asset Management"
     },
@@ -13914,7 +13914,7 @@
       "BSE Symbol": 540530,
       "NSE Symbol": "HUDCO",
       "Screener Link": "https://www.screener.in/company/540530",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/housing-&-urban-development-corporation-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/housing-and-urban-development-corporation-ltd",
       "Google Link": "https://www.google.com/search?q=Housing%20&%20Urban%20Development%20Corporation%20Ltd.",
       "Sector": "Finance - Housing"
     },
@@ -14105,7 +14105,7 @@
       "BSE Symbol": 539177,
       "NSE Symbol": "AIIL",
       "Screener Link": "https://www.screener.in/company/539177",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/authum-investment-&-infrastructure-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/authum-investment-and-infrastructure-ltd",
       "Google Link": "https://www.google.com/search?q=Authum%20Investment%20&%20Infrastructure%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -14474,7 +14474,7 @@
       "BSE Symbol": 530197,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530197",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/fundviser-capital-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/fundviser-capital-india-ltd",
       "Google Link": "https://www.google.com/search?q=Fundviser%20Capital%20(India)%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -14519,7 +14519,7 @@
       "BSE Symbol": 512399,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/512399",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sera-investments-&-finance-india-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sera-investments-and-finance-india-ltd",
       "Google Link": "https://www.google.com/search?q=Sera%20Investments%20&%20Finance%20India%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -14699,7 +14699,7 @@
       "BSE Symbol": 509051,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/509051",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/indian-infotech-&-software-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/indian-infotech-and-software-ltd",
       "Google Link": "https://www.google.com/search?q=Indian%20Infotech%20&%20Software%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -14717,7 +14717,7 @@
       "BSE Symbol": 530881,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530881",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/arunjyoti-bio-venturesâ ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/arunjyoti-bio-ventures-ltd",
       "Google Link": "https://www.google.com/search?q=Arunjyoti%20Bio%20VenturesÂ Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -14753,7 +14753,7 @@
       "BSE Symbol": 511018,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511018",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/milgrey-finance-&-investments-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/milgrey-finance-and-investments-ltd",
       "Google Link": "https://www.google.com/search?q=Milgrey%20Finance%20&%20Investments%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -14798,7 +14798,7 @@
       "BSE Symbol": 511696,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511696",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/chartered-capital-&-investment-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/chartered-capital-and-investment-ltd",
       "Google Link": "https://www.google.com/search?q=Chartered%20Capital%20&%20Investment%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15032,7 +15032,7 @@
       "BSE Symbol": 511169,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511169",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rkd-agri-&-retail-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rkd-agri-and-retail-ltd",
       "Google Link": "https://www.google.com/search?q=RKD%20Agri%20&%20Retail%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15068,7 +15068,7 @@
       "BSE Symbol": 506105,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/506105",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/stanrose-mafatlal-investments-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/stanrose-mafatlal-investments-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Stanrose%20Mafatlal%20Investments%20&%20Finance%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15086,7 +15086,7 @@
       "BSE Symbol": 531340,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531340",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bervin-investment-&-leasing-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bervin-investment-and-leasing-ltd",
       "Google Link": "https://www.google.com/search?q=Bervin%20Investment%20&%20Leasing%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15185,7 +15185,7 @@
       "BSE Symbol": 530907,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530907",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/si-capital-&-financial-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/si-capital-and-financial-services-ltd",
       "Google Link": "https://www.google.com/search?q=SI%20Capital%20&%20Financial%20Services%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15194,7 +15194,7 @@
       "BSE Symbol": 511601,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511601",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/yash-management-&-satellite-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/yash-management-and-satellite-ltd",
       "Google Link": "https://www.google.com/search?q=Yash%20Management%20&%20Satellite%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15203,7 +15203,7 @@
       "BSE Symbol": 511501,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511501",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bharat-bhushan-finance-&-commodity-brokers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bharat-bhushan-finance-and-commodity-brokers-ltd",
       "Google Link": "https://www.google.com/search?q=Bharat%20Bhushan%20Finance%20&%20Commodity%20Brokers%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15311,7 +15311,7 @@
       "BSE Symbol": 503624,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/503624",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/svaraj-trading-&-agencies-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/svaraj-trading-and-agencies-ltd",
       "Google Link": "https://www.google.com/search?q=Svaraj%20Trading%20&%20Agencies%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15392,7 +15392,7 @@
       "BSE Symbol": 539090,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/539090",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rajputana-investment-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rajputana-investment-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Rajputana%20Investment%20&%20Finance%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15410,7 +15410,7 @@
       "BSE Symbol": 539117,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/539117",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sujala-trading-&-holdings-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sujala-trading-and-holdings-ltd",
       "Google Link": "https://www.google.com/search?q=Sujala%20Trading%20&%20Holdings%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15455,7 +15455,7 @@
       "BSE Symbol": 531463,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531463",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/global-infratech-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/global-infratech-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Global%20Infratech%20&%20Finance%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15500,7 +15500,7 @@
       "BSE Symbol": 505502,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/505502",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ps-it-infrastructure-&-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ps-it-infrastructure-and-services-ltd",
       "Google Link": "https://www.google.com/search?q=PS%20IT%20Infrastructure%20&%20Services%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15545,7 +15545,7 @@
       "BSE Symbol": 511660,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511660",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/premium-capital-market-&-investment-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/premium-capital-market-and-investment-ltd",
       "Google Link": "https://www.google.com/search?q=Premium%20Capital%20Market%20&%20Investment%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15554,7 +15554,7 @@
       "BSE Symbol": 512344,
       "NSE Symbol": "ARAVALISEC",
       "Screener Link": "https://www.screener.in/company/512344",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/aravali-securities-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/aravali-securities-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Aravali%20Securities%20&%20Finance%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15572,7 +15572,7 @@
       "BSE Symbol": 532113,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/532113",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/brijlaxmi-leasing-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/brijlaxmi-leasing-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Brijlaxmi%20Leasing%20&%20Finance%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15662,7 +15662,7 @@
       "BSE Symbol": 511632,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511632",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/olympic-management-&-financial-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/olympic-management-and-financial-services-ltd",
       "Google Link": "https://www.google.com/search?q=Olympic%20Management%20&%20Financial%20Services%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15671,7 +15671,7 @@
       "BSE Symbol": 505520,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/505520",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hem-holdings-&-trading-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hem-holdings-and-trading-ltd",
       "Google Link": "https://www.google.com/search?q=HEM%20Holdings%20&%20Trading%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15689,7 +15689,7 @@
       "BSE Symbol": 512377,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/512377",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/magnanimous-trade-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/magnanimous-trade-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Magnanimous%20Trade%20&%20Finance%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15698,7 +15698,7 @@
       "BSE Symbol": 507987,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/507987",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jupiter-industries-&-leasing-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jupiter-industries-and-leasing-ltd",
       "Google Link": "https://www.google.com/search?q=Jupiter%20Industries%20&%20Leasing%20Ltd.",
       "Sector": "Finance - Investment"
     },
@@ -15862,7 +15862,7 @@
       "BSE Symbol": 500490,
       "NSE Symbol": "BAJAJHLDNG",
       "Screener Link": "https://www.screener.in/company/500490",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bajaj-holdings-&-investment-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bajaj-holdings-and-investment-ltd",
       "Google Link": "https://www.google.com/search?q=Bajaj%20Holdings%20&%20Investment%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -15880,7 +15880,7 @@
       "BSE Symbol": 533519,
       "NSE Symbol": "LTF",
       "Screener Link": "https://www.screener.in/company/533519",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/l&t-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/l-and-t-finance-ltd",
       "Google Link": "https://www.google.com/search?q=L&T%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -15907,7 +15907,7 @@
       "BSE Symbol": 532720,
       "NSE Symbol": "M&MFIN",
       "Screener Link": "https://www.screener.in/company/532720",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mahindra-&-mahindra-financial-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mahindra-and-mahindra-financial-services-ltd",
       "Google Link": "https://www.google.com/search?q=Mahindra%20&%20Mahindra%20Financial%20Services%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16006,7 +16006,7 @@
       "BSE Symbol": 533095,
       "NSE Symbol": "BENGALASM",
       "Screener Link": "https://www.screener.in/company/533095",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bengal-&-assam-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bengal-and-assam-company-ltd",
       "Google Link": "https://www.google.com/search?q=Bengal%20&%20Assam%20Company%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16204,7 +16204,7 @@
       "BSE Symbol": 512020,
       "NSE Symbol": "ZSARACOM",
       "Screener Link": "https://www.screener.in/company/512020",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/saraswati-commercial-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/saraswati-commercial-india-ltd",
       "Google Link": "https://www.google.com/search?q=Saraswati%20Commercial%20(India)%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16213,7 +16213,7 @@
       "BSE Symbol": 533315,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/533315",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/innovassynth-technologies-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/innovassynth-technologies-india-ltd",
       "Google Link": "https://www.google.com/search?q=Innovassynth%20Technologies%20(India)%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16231,7 +16231,7 @@
       "BSE Symbol": 501298,
       "NSE Symbol": "INDPRUD",
       "Screener Link": "https://www.screener.in/company/501298",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/industrial-&-prudential-investment-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/industrial-and-prudential-investment-company-ltd",
       "Google Link": "https://www.google.com/search?q=Industrial%20&%20Prudential%20Investment%20Company%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16276,7 +16276,7 @@
       "BSE Symbol": 500226,
       "NSE Symbol": "CONSOFINVT",
       "Screener Link": "https://www.screener.in/company/500226",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/consolidated-finvest-&-holdings-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/consolidated-finvest-and-holdings-ltd",
       "Google Link": "https://www.google.com/search?q=Consolidated%20Finvest%20&%20Holdings%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16429,7 +16429,7 @@
       "BSE Symbol": 544200,
       "NSE Symbol": "AFIL",
       "Screener Link": "https://www.screener.in/company/544200",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/akme-fintrade-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/akme-fintrade-india-ltd",
       "Google Link": "https://www.google.com/search?q=Akme%20Fintrade%20(India)%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16438,7 +16438,7 @@
       "BSE Symbol": 526071,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526071",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/stellant-securities-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/stellant-securities-india-ltd",
       "Google Link": "https://www.google.com/search?q=Stellant%20Securities%20(India)%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16510,7 +16510,7 @@
       "BSE Symbol": 511589,
       "NSE Symbol": "AVONMORE",
       "Screener Link": "https://www.screener.in/company/511589",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/avonmore-capital-&-management-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/avonmore-capital-and-management-services-ltd",
       "Google Link": "https://www.google.com/search?q=Avonmore%20Capital%20&%20Management%20Services%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16528,7 +16528,7 @@
       "BSE Symbol": 505216,
       "NSE Symbol": "ALFREDHERB",
       "Screener Link": "https://www.screener.in/company/505216",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/alfred-herbert-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/alfred-herbert-india-ltd",
       "Google Link": "https://www.google.com/search?q=Alfred%20Herbert%20(India)%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16654,7 +16654,7 @@
       "BSE Symbol": 531390,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531390",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/upsurge-investment-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/upsurge-investment-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Upsurge%20Investment%20&%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16663,7 +16663,7 @@
       "BSE Symbol": 538451,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/538451",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/worth-investment-&-trading-co-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/worth-investment-and-trading-co-ltd",
       "Google Link": "https://www.google.com/search?q=Worth%20Investment%20&%20Trading%20Co%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16699,7 +16699,7 @@
       "BSE Symbol": 531556,
       "NSE Symbol": "CORALFINAC",
       "Screener Link": "https://www.screener.in/company/531556",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/coral-india-finance-&-housing-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/coral-india-finance-and-housing-ltd",
       "Google Link": "https://www.google.com/search?q=Coral%20India%20Finance%20&%20Housing%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16708,7 +16708,7 @@
       "BSE Symbol": 512437,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/512437",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/apollo-finvest-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/apollo-finvest-india-ltd",
       "Google Link": "https://www.google.com/search?q=Apollo%20Finvest%20(India)%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16780,7 +16780,7 @@
       "BSE Symbol": 501343,
       "NSE Symbol": "MOTOGENFIN",
       "Screener Link": "https://www.screener.in/company/501343",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/the-motor-&-general-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/the-motor-and-general-finance-ltd",
       "Google Link": "https://www.google.com/search?q=The%20Motor%20&%20General%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16843,7 +16843,7 @@
       "BSE Symbol": 530557,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530557",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ncl-research-&-financial-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ncl-research-and-financial-services-ltd",
       "Google Link": "https://www.google.com/search?q=NCL%20Research%20&%20Financial%20Services%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16915,7 +16915,7 @@
       "BSE Symbol": 530709,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530709",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gowra-leasing-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gowra-leasing-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Gowra%20Leasing%20&%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -16951,7 +16951,7 @@
       "BSE Symbol": 540481,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/540481",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/classic-leasing-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/classic-leasing-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Classic%20Leasing%20&%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17176,7 +17176,7 @@
       "BSE Symbol": 530265,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530265",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sainik-finance-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sainik-finance-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Sainik%20Finance%20&%20Industries%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17230,7 +17230,7 @@
       "BSE Symbol": 530855,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530855",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gdl-leasing-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gdl-leasing-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=GDL%20Leasing%20&%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17320,7 +17320,7 @@
       "BSE Symbol": 532895,
       "NSE Symbol": "NAGREEKCAP",
       "Screener Link": "https://www.screener.in/company/532895",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/nagreeka-capital-&-infrastructure-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/nagreeka-capital-and-infrastructure-ltd",
       "Google Link": "https://www.google.com/search?q=Nagreeka%20Capital%20&%20Infrastructure%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17338,7 +17338,7 @@
       "BSE Symbol": 519224,
       "NSE Symbol": "WILLAMAGOR",
       "Screener Link": "https://www.screener.in/company/519224",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/williamson-magor-&-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/williamson-magor-and-company-ltd",
       "Google Link": "https://www.google.com/search?q=Williamson%20Magor%20&%20Company%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17383,7 +17383,7 @@
       "BSE Symbol": 508969,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/508969",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sulabh-engineers-&-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sulabh-engineers-and-services-ltd",
       "Google Link": "https://www.google.com/search?q=Sulabh%20Engineers%20&%20Services%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17491,7 +17491,7 @@
       "BSE Symbol": 532007,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/532007",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shreevatsa-finance-&-leasing-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shreevatsa-finance-and-leasing-ltd",
       "Google Link": "https://www.google.com/search?q=Shreevatsa%20Finance%20&%20Leasing%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17527,7 +17527,7 @@
       "BSE Symbol": 531502,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531502",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/esaar-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/esaar-india-ltd",
       "Google Link": "https://www.google.com/search?q=Esaar%20(India)%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17581,7 +17581,7 @@
       "BSE Symbol": 511758,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511758",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mansi-finance-(chennai)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mansi-finance-chennai-ltd",
       "Google Link": "https://www.google.com/search?q=Mansi%20Finance%20(Chennai)%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17599,7 +17599,7 @@
       "BSE Symbol": 512441,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/512441",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/enbee-trade-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/enbee-trade-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Enbee%20Trade%20&%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17608,7 +17608,7 @@
       "BSE Symbol": 538788,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/538788",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gilada-finance-&-investments-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gilada-finance-and-investments-ltd",
       "Google Link": "https://www.google.com/search?q=Gilada%20Finance%20&%20Investments%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17689,7 +17689,7 @@
       "BSE Symbol": 530779,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530779",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dynamic-portfolio-management-&-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dynamic-portfolio-management-and-services-ltd",
       "Google Link": "https://www.google.com/search?q=Dynamic%20Portfolio%20Management%20&%20Services%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17770,7 +17770,7 @@
       "BSE Symbol": 511756,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511756",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/abirami-financial-services-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/abirami-financial-services-india-ltd",
       "Google Link": "https://www.google.com/search?q=Abirami%20Financial%20Services%20(India)%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17905,7 +17905,7 @@
       "BSE Symbol": 531033,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531033",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/regal-entertainment-&-consultants-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/regal-entertainment-and-consultants-ltd",
       "Google Link": "https://www.google.com/search?q=Regal%20Entertainment%20&%20Consultants%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17923,7 +17923,7 @@
       "BSE Symbol": 508956,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/508956",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hb-leasing-&-finance-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hb-leasing-and-finance-company-ltd",
       "Google Link": "https://www.google.com/search?q=HB%20Leasing%20&%20Finance%20Company%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17968,7 +17968,7 @@
       "BSE Symbol": 538857,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/538857",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/scintilla-commercial-&-credit-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/scintilla-commercial-and-credit-ltd",
       "Google Link": "https://www.google.com/search?q=Scintilla%20Commercial%20&%20Credit%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -17977,7 +17977,7 @@
       "BSE Symbol": 538787,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/538787",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/goenka-business-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/goenka-business-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Goenka%20Business%20&%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -18004,7 +18004,7 @@
       "BSE Symbol": 538708,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/538708",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/econo-trade-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/econo-trade-india-ltd",
       "Google Link": "https://www.google.com/search?q=Econo%20Trade%20(India)%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -18022,7 +18022,7 @@
       "BSE Symbol": 509024,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/509024",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/golden-legand-leasing-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/golden-legand-leasing-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Golden%20Legand%20Leasing%20&%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -18229,7 +18229,7 @@
       "BSE Symbol": 535910,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/535910",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/money-masters-leasing-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/money-masters-leasing-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Money%20Masters%20Leasing%20&%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -18373,7 +18373,7 @@
       "BSE Symbol": 509038,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/509038",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/voltaire-leasing-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/voltaire-leasing-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Voltaire%20Leasing%20&%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -18409,7 +18409,7 @@
       "BSE Symbol": 538952,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/538952",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/abhinav-leasing-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/abhinav-leasing-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=Abhinav%20Leasing%20&%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -18445,7 +18445,7 @@
       "BSE Symbol": 530581,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530581",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ekam-leasing-&-finance-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ekam-leasing-and-finance-company-ltd",
       "Google Link": "https://www.google.com/search?q=Ekam%20Leasing%20&%20Finance%20Company%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -18454,7 +18454,7 @@
       "BSE Symbol": 511728,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511728",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kz-leasing-&-finance-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kz-leasing-and-finance-ltd",
       "Google Link": "https://www.google.com/search?q=KZ%20Leasing%20&%20Finance%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -18535,7 +18535,7 @@
       "BSE Symbol": 501386,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/501386",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/e-&-e-enterprises-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/e-and-e-enterprises-ltd",
       "Google Link": "https://www.google.com/search?q=E%20&%20E%20Enterprises%20Ltd.",
       "Sector": "Finance - NBFC"
     },
@@ -18737,7 +18737,7 @@
       "BSE Symbol": 544530,
       "NSE Symbol": "ARSSBL",
       "Screener Link": "https://www.screener.in/company/544530",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/anand-rathi-share-&-stock-brokers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/anand-rathi-share-and-stock-brokers-ltd",
       "Google Link": "https://www.google.com/search?q=Anand%20Rathi%20Share%20&%20Stock%20Brokers%20Ltd.",
       "Sector": "Finance - Stock Broking"
     },
@@ -18881,7 +18881,7 @@
       "BSE Symbol": 531550,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531550",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jhaveri-credits-&-capital-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jhaveri-credits-and-capital-ltd",
       "Google Link": "https://www.google.com/search?q=Jhaveri%20Credits%20&%20Capital%20Ltd.",
       "Sector": "Finance - Stock Broking"
     },
@@ -18908,7 +18908,7 @@
       "BSE Symbol": 530393,
       "NSE Symbol": "DBSTOCKBRO",
       "Screener Link": "https://www.screener.in/company/530393",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/db-(international)-stock-brokers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/db-international-stock-brokers-ltd",
       "Google Link": "https://www.google.com/search?q=DB%20(International)%20Stock%20Brokers%20Ltd.",
       "Sector": "Finance - Stock Broking"
     },
@@ -18917,7 +18917,7 @@
       "BSE Symbol": 533506,
       "NSE Symbol": "INVENTURE",
       "Screener Link": "https://www.screener.in/company/533506",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/inventure-growth-&-securities-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/inventure-growth-and-securities-ltd",
       "Google Link": "https://www.google.com/search?q=Inventure%20Growth%20&%20Securities%20Ltd.",
       "Sector": "Finance - Stock Broking"
     },
@@ -19016,7 +19016,7 @@
       "BSE Symbol": 511654,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511654",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sugal-&-damani-share-brokers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sugal-and-damani-share-brokers-ltd",
       "Google Link": "https://www.google.com/search?q=Sugal%20&%20Damani%20Share%20Brokers%20Ltd.",
       "Sector": "Finance - Stock Broking"
     },
@@ -19070,7 +19070,7 @@
       "BSE Symbol": 532304,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/532304",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kjmc-corporate-advisors-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kjmc-corporate-advisors-india-ltd",
       "Google Link": "https://www.google.com/search?q=KJMC%20Corporate%20Advisors%20(India)%20Ltd.",
       "Sector": "Finance - Stock Broking"
     },
@@ -19142,7 +19142,7 @@
       "BSE Symbol": 511636,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511636",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/djs-stock-&-shares-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/djs-stock-and-shares-ltd",
       "Google Link": "https://www.google.com/search?q=DJS%20Stock%20&%20Shares%20Ltd.",
       "Sector": "Finance - Stock Broking"
     },
@@ -19151,7 +19151,7 @@
       "BSE Symbol": 509760,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/509760",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/modern-shares-&-stockbrokers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/modern-shares-and-stockbrokers-ltd",
       "Google Link": "https://www.google.com/search?q=Modern%20Shares%20&%20Stockbrokers%20Ltd.",
       "Sector": "Finance - Stock Broking"
     },
@@ -19160,7 +19160,7 @@
       "BSE Symbol": 511122,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/511122",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/first-custodian-fund-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/first-custodian-fund-india-ltd",
       "Google Link": "https://www.google.com/search?q=First%20Custodian%20Fund%20(India)%20Ltd.",
       "Sector": "Finance - Stock Broking"
     },
@@ -19539,7 +19539,7 @@
       "BSE Symbol": 513418,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/513418",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/smiths-&-founders-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/smiths-and-founders-india-ltd",
       "Google Link": "https://www.google.com/search?q=Smiths%20&%20Founders%20(India)%20Ltd.",
       "Sector": "Forgings"
     },
@@ -19577,7 +19577,7 @@
       "BSE Symbol": 532155,
       "NSE Symbol": "GAIL",
       "Screener Link": "https://www.screener.in/company/532155",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gail-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gail-india-ltd",
       "Google Link": "https://www.google.com/search?q=GAIL%20(India)%20Ltd.",
       "Sector": "Gas Transmission/Marketing"
     },
@@ -19788,7 +19788,7 @@
       "BSE Symbol": 544350,
       "NSE Symbol": "AGARWALEYE",
       "Screener Link": "https://www.screener.in/company/544350",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dr-agarwal's-health-care-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dr-agarwal-s-health-care-ltd",
       "Google Link": "https://www.google.com/search?q=Dr.%20Agarwal's%20Health%20Care%20Ltd.",
       "Sector": "Hospital & Healthcare Services"
     },
@@ -19797,7 +19797,7 @@
       "BSE Symbol": 543524,
       "NSE Symbol": "RAINBOW",
       "Screener Link": "https://www.screener.in/company/543524",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rainbow-children's-medicare-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rainbow-children-s-medicare-ltd",
       "Google Link": "https://www.google.com/search?q=Rainbow%20Children's%20Medicare%20Ltd.",
       "Sector": "Hospital & Healthcare Services"
     },
@@ -19860,7 +19860,7 @@
       "BSE Symbol": 543950,
       "NSE Symbol": "YATHARTH",
       "Screener Link": "https://www.screener.in/company/543950",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/yatharth-hospital-&-trauma-care-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/yatharth-hospital-and-trauma-care-services-ltd",
       "Google Link": "https://www.google.com/search?q=Yatharth%20Hospital%20&%20Trauma%20Care%20Services%20Ltd.",
       "Sector": "Hospital & Healthcare Services"
     },
@@ -19878,7 +19878,7 @@
       "BSE Symbol": 523323,
       "NSE Symbol": "KOVAI",
       "Screener Link": "https://www.screener.in/company/523323",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kovai-medical-center-&-hospital-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kovai-medical-center-and-hospital-ltd",
       "Google Link": "https://www.google.com/search?q=Kovai%20Medical%20Center%20&%20Hospital%20Ltd.",
       "Sector": "Hospital & Healthcare Services"
     },
@@ -19914,7 +19914,7 @@
       "BSE Symbol": 524520,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/524520",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kmc-speciality-hospitals-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kmc-speciality-hospitals-india-ltd",
       "Google Link": "https://www.google.com/search?q=KMC%20Speciality%20Hospitals%20(India)%20Ltd.",
       "Sector": "Hospital & Healthcare Services"
     },
@@ -20004,7 +20004,7 @@
       "BSE Symbol": 540788,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/540788",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/aspira-pathlab-&-diagnostics-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/aspira-pathlab-and-diagnostics-ltd",
       "Google Link": "https://www.google.com/search?q=Aspira%20Pathlab%20&%20Diagnostics%20Ltd.",
       "Sector": "Hospital & Healthcare Services"
     },
@@ -20031,7 +20031,7 @@
       "BSE Symbol": 524548,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/524548",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sharma-east-india-hospitals-&-medical-research-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sharma-east-india-hospitals-and-medical-research-ltd",
       "Google Link": "https://www.google.com/search?q=Sharma%20East%20India%20Hospitals%20&%20Medical%20Research%20Ltd",
       "Sector": "Hospital & Healthcare Services"
     },
@@ -20150,7 +20150,7 @@
       "BSE Symbol": 544408,
       "NSE Symbol": "THELEELA",
       "Screener Link": "https://www.screener.in/company/544408",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/leela-palaces-hotels-&-resorts-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/leela-palaces-hotels-and-resorts-ltd",
       "Google Link": "https://www.google.com/search?q=Leela%20Palaces%20Hotels%20&%20Resorts%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20186,7 +20186,7 @@
       "BSE Symbol": 533088,
       "NSE Symbol": "MHRIL",
       "Screener Link": "https://www.screener.in/company/533088",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mahindra-holidays-&-resorts-india-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mahindra-holidays-and-resorts-india-ltd",
       "Google Link": "https://www.google.com/search?q=Mahindra%20Holidays%20&%20Resorts%20India%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20231,7 +20231,7 @@
       "BSE Symbol": 532390,
       "NSE Symbol": "TAJGVK",
       "Screener Link": "https://www.screener.in/company/532390",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/taj-gvk-hotels-&-resorts-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/taj-gvk-hotels-and-resorts-ltd",
       "Google Link": "https://www.google.com/search?q=Taj%20GVK%20Hotels%20&%20Resorts%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20258,7 +20258,7 @@
       "BSE Symbol": 500023,
       "NSE Symbol": "ASIANHOTNR",
       "Screener Link": "https://www.screener.in/company/500023",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/asian-hotels-(north)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/asian-hotels-north-ltd",
       "Google Link": "https://www.google.com/search?q=Asian%20Hotels%20(North)%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20276,7 +20276,7 @@
       "BSE Symbol": 507836,
       "NSE Symbol": "MCCHRLS-B",
       "Screener Link": "https://www.screener.in/company/507836",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mac-charles-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mac-charles-india-ltd",
       "Google Link": "https://www.google.com/search?q=Mac%20Charles%20(India)%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20330,7 +20330,7 @@
       "BSE Symbol": 533221,
       "NSE Symbol": "AHLWEST",
       "Screener Link": "https://www.screener.in/company/533221",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/asian-hotels-(west)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/asian-hotels-west-ltd",
       "Google Link": "https://www.google.com/search?q=Asian%20Hotels%20(West)%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20348,7 +20348,7 @@
       "BSE Symbol": 526668,
       "NSE Symbol": "KAMATHOTEL",
       "Screener Link": "https://www.screener.in/company/526668",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kamat-hotels-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kamat-hotels-india-ltd",
       "Google Link": "https://www.google.com/search?q=Kamat%20Hotels%20(India)%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20366,7 +20366,7 @@
       "BSE Symbol": 523269,
       "NSE Symbol": "ADVANIHOTR",
       "Screener Link": "https://www.screener.in/company/523269",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/advani-hotels-&-resorts-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/advani-hotels-and-resorts-india-ltd",
       "Google Link": "https://www.google.com/search?q=Advani%20Hotels%20&%20Resorts%20(India)%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20375,7 +20375,7 @@
       "BSE Symbol": 544080,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/544080",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sayaji-hotels-(indore)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sayaji-hotels-indore-ltd",
       "Google Link": "https://www.google.com/search?q=Sayaji%20Hotels%20(Indore)%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20411,7 +20411,7 @@
       "BSE Symbol": 544090,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/544090",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sayaji-hotels-(pune)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sayaji-hotels-pune-ltd",
       "Google Link": "https://www.google.com/search?q=Sayaji%20Hotels%20(Pune)%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20420,7 +20420,7 @@
       "BSE Symbol": 533227,
       "NSE Symbol": "AHLEAST",
       "Screener Link": "https://www.screener.in/company/533227",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/asian-hotels-(east)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/asian-hotels-east-ltd",
       "Google Link": "https://www.google.com/search?q=Asian%20Hotels%20(East)%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20438,7 +20438,7 @@
       "BSE Symbol": 526550,
       "NSE Symbol": "CCHHL",
       "Screener Link": "https://www.screener.in/company/526550",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/country-club-hospitality-&-holidays-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/country-club-hospitality-and-holidays-ltd",
       "Google Link": "https://www.google.com/search?q=Country%20Club%20Hospitality%20&%20Holidays%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20483,7 +20483,7 @@
       "BSE Symbol": 514402,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/514402",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/eco-hotels-&-resorts-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/eco-hotels-and-resorts-ltd",
       "Google Link": "https://www.google.com/search?q=Eco%20Hotels%20&%20Resorts%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20510,7 +20510,7 @@
       "BSE Symbol": 526640,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526640",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/royale-manor-hotels-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/royale-manor-hotels-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Royale%20Manor%20Hotels%20&%20Industries%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20564,7 +20564,7 @@
       "BSE Symbol": 526628,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526628",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ajwa-fun-world-&-resort-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ajwa-fun-world-and-resort-ltd",
       "Google Link": "https://www.google.com/search?q=Ajwa%20Fun%20World%20&%20Resort%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20591,7 +20591,7 @@
       "BSE Symbol": 507966,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/507966",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ras-resorts-&-apart-hotels-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ras-resorts-and-apart-hotels-ltd",
       "Google Link": "https://www.google.com/search?q=Ras%20Resorts%20&%20Apart%20Hotels%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     },
@@ -20672,7 +20672,7 @@
       "BSE Symbol": 526187,
       "NSE Symbol": "TATIASKYLN",
       "Screener Link": "https://www.screener.in/company/526187",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ashram-onlinecom-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ashram-online-com-ltd",
       "Google Link": "https://www.google.com/search?q=Ashram%20Online.Com%20Ltd.",
       "Sector": "Hotel, Resort & Restaurants"
     }
@@ -20710,7 +20710,7 @@
       "BSE Symbol": 500830,
       "NSE Symbol": "COLPAL",
       "Screener Link": "https://www.screener.in/company/500830",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/colgate-palmolive-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/colgate-palmolive-india-ltd",
       "Google Link": "https://www.google.com/search?q=Colgate-Palmolive%20(India)%20Ltd.",
       "Sector": "Household & Personal Products"
     },
@@ -20728,7 +20728,7 @@
       "BSE Symbol": 500459,
       "NSE Symbol": "PGHH",
       "Screener Link": "https://www.screener.in/company/500459",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/procter-&-gamble-hygiene-and-health-care-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/procter-and-gamble-hygiene-and-health-care-ltd",
       "Google Link": "https://www.google.com/search?q=Procter%20&%20Gamble%20Hygiene%20and%20Health%20Care%20Ltd.",
       "Sector": "Household & Personal Products"
     },
@@ -20764,7 +20764,7 @@
       "BSE Symbol": 523025,
       "NSE Symbol": "SAFARI",
       "Screener Link": "https://www.screener.in/company/523025",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/safari-industries-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/safari-industries-india-ltd",
       "Google Link": "https://www.google.com/search?q=Safari%20Industries%20(India)%20Ltd.",
       "Sector": "Household & Personal Products"
     },
@@ -20836,7 +20836,7 @@
       "BSE Symbol": 531412,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531412",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/radix-industries-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/radix-industries-india-ltd",
       "Google Link": "https://www.google.com/search?q=Radix%20Industries%20(India)%20Ltd.",
       "Sector": "Household & Personal Products"
     },
@@ -20872,7 +20872,7 @@
       "BSE Symbol": 532335,
       "NSE Symbol": "AMBICAAGAR",
       "Screener Link": "https://www.screener.in/company/532335",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ambica-agarbathies-&-aroma-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ambica-agarbathies-and-aroma-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Ambica%20Agarbathies%20&%20Aroma%20Industries%20Ltd.",
       "Sector": "Household & Personal Products"
     },
@@ -20892,7 +20892,7 @@
       "BSE Symbol": 543952,
       "NSE Symbol": "NIITMTS",
       "Screener Link": "https://www.screener.in/company/543952",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/niit-learning-systems-ltd-",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/niit-learning-systems-ltd",
       "Google Link": "https://www.google.com/search?q=NIIT%20Learning%20Systems%20Ltd.%20",
       "Sector": "IT - Education"
     },
@@ -20973,7 +20973,7 @@
       "BSE Symbol": 532398,
       "NSE Symbol": "UMESLTD",
       "Screener Link": "https://www.screener.in/company/532398",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/usha-martin-education-&-solutions-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/usha-martin-education-and-solutions-ltd",
       "Google Link": "https://www.google.com/search?q=Usha%20Martin%20Education%20&%20Solutions%20Ltd.",
       "Sector": "IT - Education"
     },
@@ -21121,7 +21121,7 @@
       "BSE Symbol": 533146,
       "NSE Symbol": "DLINKINDIA",
       "Screener Link": "https://www.screener.in/company/533146",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/d-link-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/d-link-india-ltd",
       "Google Link": "https://www.google.com/search?q=D-Link%20(India)%20Ltd.",
       "Sector": "IT - Networking"
     },
@@ -21231,7 +21231,7 @@
       "BSE Symbol": 540115,
       "NSE Symbol": "LTTS",
       "Screener Link": "https://www.screener.in/company/540115",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/l&t-technology-services-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/l-and-t-technology-services-ltd",
       "Google Link": "https://www.google.com/search?q=L&T%20Technology%20Services%20Ltd.",
       "Sector": "IT - Software"
     },
@@ -21690,7 +21690,7 @@
       "BSE Symbol": 532365,
       "NSE Symbol": "DSSL",
       "Screener Link": "https://www.screener.in/company/532365",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dynacons-systems-&-solutions-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dynacons-systems-and-solutions-ltd",
       "Google Link": "https://www.google.com/search?q=Dynacons%20Systems%20&%20Solutions%20Ltd.",
       "Sector": "IT - Software"
     },
@@ -21825,7 +21825,7 @@
       "BSE Symbol": 517344,
       "NSE Symbol": "MINDTECK",
       "Screener Link": "https://www.screener.in/company/517344",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mindteck-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mindteck-india-ltd",
       "Google Link": "https://www.google.com/search?q=Mindteck%20(India)%20Ltd.",
       "Sector": "IT - Software"
     },
@@ -22266,7 +22266,7 @@
       "BSE Symbol": 531489,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531489",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/cg-vak-software-&-exports-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/cg-vak-software-and-exports-ltd",
       "Google Link": "https://www.google.com/search?q=CG-VAK%20Software%20&%20Exports%20Ltd.",
       "Sector": "IT - Software"
     },
@@ -22275,7 +22275,7 @@
       "BSE Symbol": 517447,
       "NSE Symbol": "RSSOFTWARE",
       "Screener Link": "https://www.screener.in/company/517447",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rs-software-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rs-software-india-ltd",
       "Google Link": "https://www.google.com/search?q=RS%20Software%20(India)%20Ltd.",
       "Sector": "IT - Software"
     },
@@ -22437,7 +22437,7 @@
       "BSE Symbol": 509040,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/509040",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/netlink-solutions-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/netlink-solutions-india-ltd",
       "Google Link": "https://www.google.com/search?q=Netlink%20Solutions%20(India)%20Ltd.",
       "Sector": "IT - Software"
     },
@@ -22482,7 +22482,7 @@
       "BSE Symbol": 517415,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/517415",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/lee-&-nee-softwares-(exports)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/lee-and-nee-softwares-exports-ltd",
       "Google Link": "https://www.google.com/search?q=Lee%20&%20Nee%20Softwares%20(Exports)%20Ltd.",
       "Sector": "IT - Software"
     },
@@ -22716,7 +22716,7 @@
       "BSE Symbol": 505797,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/505797",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mipco-seamless-rings-(gujarat)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mipco-seamless-rings-gujarat-ltd",
       "Google Link": "https://www.google.com/search?q=Mipco%20Seamless%20Rings%20(Gujarat)%20Ltd.",
       "Sector": "IT - Software"
     },
@@ -22952,7 +22952,7 @@
       "BSE Symbol": 544308,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/544308",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hilltone-software-&-gases-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hilltone-software-and-gases-ltd",
       "Google Link": "https://www.google.com/search?q=Hilltone%20Software%20&%20Gases%20Ltd.",
       "Sector": "Industrial  Gases & Fuels"
     },
@@ -22979,7 +22979,7 @@
       "BSE Symbol": 538707,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/538707",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rajasthan-cylinders-&-containers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rajasthan-cylinders-and-containers-ltd",
       "Google Link": "https://www.google.com/search?q=Rajasthan%20Cylinders%20&%20Containers%20Ltd.",
       "Sector": "Industrial  Gases & Fuels"
     },
@@ -23163,7 +23163,7 @@
       "BSE Symbol": 530973,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530973",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/alfa-ica-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/alfa-ica-india-ltd",
       "Google Link": "https://www.google.com/search?q=Alfa%20Ica%20(India)%20Ltd.",
       "Sector": "Laminates/Decoratives"
     },
@@ -23428,7 +23428,7 @@
       "BSE Symbol": 544258,
       "NSE Symbol": "WCIL",
       "Screener Link": "https://www.screener.in/company/544258",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/western-carriers-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/western-carriers-india-ltd",
       "Google Link": "https://www.google.com/search?q=Western%20Carriers%20(India)%20Ltd.",
       "Sector": "Logistics"
     },
@@ -23509,7 +23509,7 @@
       "BSE Symbol": 536264,
       "NSE Symbol": "TIGERLOGS",
       "Screener Link": "https://www.screener.in/company/536264",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tiger-logistics-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tiger-logistics-india-ltd",
       "Google Link": "https://www.google.com/search?q=Tiger%20Logistics%20(India)%20Ltd.",
       "Sector": "Logistics"
     },
@@ -23626,7 +23626,7 @@
       "BSE Symbol": 533289,
       "NSE Symbol": "KTIL",
       "Screener Link": "https://www.screener.in/company/533289",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kesar-terminals-&-infrastructure-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kesar-terminals-and-infrastructure-ltd",
       "Google Link": "https://www.google.com/search?q=Kesar%20Terminals%20&%20Infrastructure%20Ltd.",
       "Sector": "Logistics"
     },
@@ -23772,7 +23772,7 @@
       "BSE Symbol": 544029,
       "NSE Symbol": "GANDHAR",
       "Screener Link": "https://www.screener.in/company/544029",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gandhar-oil-refinery-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gandhar-oil-refinery-india-ltd",
       "Google Link": "https://www.google.com/search?q=Gandhar%20Oil%20Refinery%20(India)%20Ltd.",
       "Sector": "Lubricants"
     },
@@ -23994,7 +23994,7 @@
       "BSE Symbol": 532626,
       "NSE Symbol": "POCL",
       "Screener Link": "https://www.screener.in/company/532626",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/pondy-oxides-&-chemicals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/pondy-oxides-and-chemicals-ltd",
       "Google Link": "https://www.google.com/search?q=Pondy%20Oxides%20&%20Chemicals%20Ltd.",
       "Sector": "Metal - Non Ferrous"
     },
@@ -24093,7 +24093,7 @@
       "BSE Symbol": 513498,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/513498",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/southern-magnesium-&-chemicals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/southern-magnesium-and-chemicals-ltd",
       "Google Link": "https://www.google.com/search?q=Southern%20Magnesium%20&%20Chemicals%20Ltd.",
       "Sector": "Metal - Non Ferrous"
     },
@@ -24129,7 +24129,7 @@
       "BSE Symbol": 537766,
       "NSE Symbol": "BCP",
       "Screener Link": "https://www.screener.in/company/537766",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bc-power-controls-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/b-c-power-controls-ltd",
       "Google Link": "https://www.google.com/search?q=B.C.%20Power%20Controls%20Ltd.",
       "Sector": "Metal - Non Ferrous"
     },
@@ -24185,7 +24185,7 @@
       "BSE Symbol": 504918,
       "NSE Symbol": "SANDUMA",
       "Screener Link": "https://www.screener.in/company/504918",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sandur-manganese-&-iron-ores-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sandur-manganese-and-iron-ores-ltd",
       "Google Link": "https://www.google.com/search?q=Sandur%20Manganese%20&%20Iron%20Ores%20Ltd.",
       "Sector": "Mining & Minerals"
     },
@@ -24313,7 +24313,7 @@
       "BSE Symbol": 539400,
       "NSE Symbol": "MALLCOM",
       "Screener Link": "https://www.screener.in/company/539400",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mallcom-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mallcom-india-ltd",
       "Google Link": "https://www.google.com/search?q=Mallcom%20(India)%20Ltd",
       "Sector": "Miscellaneous"
     },
@@ -24349,7 +24349,7 @@
       "BSE Symbol": 501430,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/501430",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bombay-cycle-&-motor-agency-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bombay-cycle-and-motor-agency-ltd",
       "Google Link": "https://www.google.com/search?q=Bombay%20Cycle%20&%20Motor%20Agency%20Ltd.",
       "Sector": "Miscellaneous"
     },
@@ -24358,7 +24358,7 @@
       "BSE Symbol": 531111,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531111",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gothi-plascon-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gothi-plascon-india-ltd",
       "Google Link": "https://www.google.com/search?q=Gothi%20Plascon%20(India)%20Ltd.",
       "Sector": "Miscellaneous"
     },
@@ -24394,7 +24394,7 @@
       "BSE Symbol": 505320,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/505320",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/lynx-machinery-&-commercials-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/lynx-machinery-and-commercials-ltd",
       "Google Link": "https://www.google.com/search?q=Lynx%20Machinery%20&%20Commercials%20Ltd.",
       "Sector": "Miscellaneous"
     },
@@ -24448,7 +24448,7 @@
       "BSE Symbol": 526115,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526115",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/manor-estates-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/manor-estates-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Manor%20Estates%20&%20Industries%20Ltd.",
       "Sector": "Miscellaneous"
     },
@@ -24457,7 +24457,7 @@
       "BSE Symbol": 504356,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/504356",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/multipurpose-trading-&-agencies-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/multipurpose-trading-and-agencies-ltd",
       "Google Link": "https://www.google.com/search?q=Multipurpose%20Trading%20&%20Agencies%20Ltd.",
       "Sector": "Miscellaneous"
     },
@@ -24477,7 +24477,7 @@
       "BSE Symbol": 500312,
       "NSE Symbol": "ONGC",
       "Screener Link": "https://www.screener.in/company/500312",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/oil-&-natural-gas-corporation-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/oil-and-natural-gas-corporation-ltd",
       "Google Link": "https://www.google.com/search?q=Oil%20&%20Natural%20Gas%20Corporation%20Ltd.",
       "Sector": "Oil Exploration"
     },
@@ -24531,7 +24531,7 @@
       "BSE Symbol": 511034,
       "NSE Symbol": "JINDRILL",
       "Screener Link": "https://www.screener.in/company/511034",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jindal-drilling-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jindal-drilling-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Jindal%20Drilling%20&%20Industries%20Ltd.",
       "Sector": "Oil Exploration"
     },
@@ -24540,7 +24540,7 @@
       "BSE Symbol": 522261,
       "NSE Symbol": "DOLPHIN",
       "Screener Link": "https://www.screener.in/company/522261",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dolphin-offshore-enterprises-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dolphin-offshore-enterprises-india-ltd",
       "Google Link": "https://www.google.com/search?q=Dolphin%20Offshore%20Enterprises%20(India)%20Ltd.",
       "Sector": "Oil Exploration"
     },
@@ -24677,7 +24677,7 @@
       "BSE Symbol": 523186,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/523186",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/b&a-packaging-india-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/b-and-a-packaging-india-ltd",
       "Google Link": "https://www.google.com/search?q=B&A%20Packaging%20India%20Ltd.",
       "Sector": "Packaging"
     },
@@ -24713,7 +24713,7 @@
       "BSE Symbol": 542666,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/542666",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gkp-printing-&-packaging-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gkp-printing-and-packaging-ltd",
       "Google Link": "https://www.google.com/search?q=GKP%20Printing%20&%20Packaging%20Ltd.",
       "Sector": "Packaging"
     },
@@ -24834,7 +24834,7 @@
       "BSE Symbol": 531426,
       "NSE Symbol": "TNPL",
       "Screener Link": "https://www.screener.in/company/531426",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tamil-nadu-newsprint-&-papers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tamil-nadu-newsprint-and-papers-ltd",
       "Google Link": "https://www.google.com/search?q=Tamil%20Nadu%20Newsprint%20&%20Papers%20Ltd.",
       "Sector": "Paper & Paper Products"
     },
@@ -24915,7 +24915,7 @@
       "BSE Symbol": 543668,
       "NSE Symbol": "BBTCL",
       "Screener Link": "https://www.screener.in/company/543668",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/b&b-triplewall-containers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/b-and-b-triplewall-containers-ltd",
       "Google Link": "https://www.google.com/search?q=B&B%20Triplewall%20Containers%20Ltd.",
       "Sector": "Paper & Paper Products"
     },
@@ -24933,7 +24933,7 @@
       "BSE Symbol": 502420,
       "NSE Symbol": "ORIENTPPR",
       "Screener Link": "https://www.screener.in/company/502420",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/orient-paper-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/orient-paper-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Orient%20Paper%20&%20Industries%20Ltd.",
       "Sector": "Paper & Paper Products"
     },
@@ -24960,7 +24960,7 @@
       "BSE Symbol": 538961,
       "NSE Symbol": "GENUSPAPER",
       "Screener Link": "https://www.screener.in/company/538961",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/genus-paper-&-boards-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/genus-paper-and-boards-ltd",
       "Google Link": "https://www.google.com/search?q=Genus%20Paper%20&%20Boards%20Ltd.",
       "Sector": "Paper & Paper Products"
     },
@@ -24969,7 +24969,7 @@
       "BSE Symbol": 538795,
       "NSE Symbol": "SAPPL",
       "Screener Link": "https://www.screener.in/company/538795",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shree-ajit-pulp-&-paper-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shree-ajit-pulp-and-paper-ltd",
       "Google Link": "https://www.google.com/search?q=Shree%20Ajit%20Pulp%20&%20Paper%20Ltd.",
       "Sector": "Paper & Paper Products"
     },
@@ -25014,7 +25014,7 @@
       "BSE Symbol": 500388,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/500388",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shree-krishna-paper-mills-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shree-krishna-paper-mills-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Shree%20Krishna%20Paper%20Mills%20&%20Industries%20Ltd.",
       "Sector": "Paper & Paper Products"
     },
@@ -25131,7 +25131,7 @@
       "BSE Symbol": 540824,
       "NSE Symbol": "ASTRON",
       "Screener Link": "https://www.screener.in/company/540824",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/astron-paper-&-board-mill-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/astron-paper-and-board-mill-ltd",
       "Google Link": "https://www.google.com/search?q=Astron%20Paper%20&%20Board%20Mill%20Ltd.",
       "Sector": "Paper & Paper Products"
     },
@@ -25167,7 +25167,7 @@
       "BSE Symbol": 516020,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/516020",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/agio-paper-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/agio-paper-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Agio%20Paper%20&%20Industries%20Ltd.",
       "Sector": "Paper & Paper Products"
     },
@@ -25277,7 +25277,7 @@
       "BSE Symbol": 531719,
       "NSE Symbol": "BHAGCHEM",
       "Screener Link": "https://www.screener.in/company/531719",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bhagiradha-chemicals-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bhagiradha-chemicals-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Bhagiradha%20Chemicals%20&%20Industries%20Ltd.",
       "Sector": "Pesticides & Agrochemicals"
     },
@@ -25304,7 +25304,7 @@
       "BSE Symbol": 532851,
       "NSE Symbol": "INSECTICID",
       "Screener Link": "https://www.screener.in/company/532851",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/insecticides-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/insecticides-india-ltd",
       "Google Link": "https://www.google.com/search?q=Insecticides%20(India)%20Ltd.",
       "Sector": "Pesticides & Agrochemicals"
     },
@@ -25331,7 +25331,7 @@
       "BSE Symbol": 506618,
       "NSE Symbol": "PUNJABCHEM",
       "Screener Link": "https://www.screener.in/company/506618",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/punjab-chemicals-&-crop-protection-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/punjab-chemicals-and-crop-protection-ltd",
       "Google Link": "https://www.google.com/search?q=Punjab%20Chemicals%20&%20Crop%20Protection%20Ltd.",
       "Sector": "Pesticides & Agrochemicals"
     },
@@ -25457,7 +25457,7 @@
       "BSE Symbol": 524808,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/524808",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/phyto-chem-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/phyto-chem-india-ltd",
       "Google Link": "https://www.google.com/search?q=Phyto%20Chem%20(India)%20Ltd.",
       "Sector": "Pesticides & Agrochemicals"
     }
@@ -25533,7 +25533,7 @@
       "BSE Symbol": 532488,
       "NSE Symbol": "DIVISLAB",
       "Screener Link": "https://www.screener.in/company/532488",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/divi's-laboratories-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/divi-s-laboratories-ltd",
       "Google Link": "https://www.google.com/search?q=Divi's%20Laboratories%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -25596,7 +25596,7 @@
       "BSE Symbol": 500124,
       "NSE Symbol": "DRREDDY",
       "Screener Link": "https://www.screener.in/company/500124",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dr-reddy's-laboratories-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dr-reddy-s-laboratories-ltd",
       "Google Link": "https://www.google.com/search?q=Dr.%20Reddy's%20Laboratories%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -25884,7 +25884,7 @@
       "BSE Symbol": 500126,
       "NSE Symbol": "PGHL",
       "Screener Link": "https://www.screener.in/company/500126",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/procter-&-gamble-health-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/procter-and-gamble-health-ltd",
       "Google Link": "https://www.google.com/search?q=Procter%20&%20Gamble%20Health%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -25920,7 +25920,7 @@
       "BSE Symbol": 544222,
       "NSE Symbol": "AKUMS",
       "Screener Link": "https://www.screener.in/company/544222",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/akums-drugs-&-pharmaceuticals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/akums-drugs-and-pharmaceuticals-ltd",
       "Google Link": "https://www.google.com/search?q=Akums%20Drugs%20&%20Pharmaceuticals%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -26154,7 +26154,7 @@
       "BSE Symbol": 544742,
       "NSE Symbol": "SAIPARENT",
       "Screener Link": "https://www.screener.in/company/544742",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sai-parenteral's-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sai-parenteral-s-ltd",
       "Google Link": "https://www.google.com/search?q=Sai%20Parenteral's%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -26262,7 +26262,7 @@
       "BSE Symbol": 524470,
       "NSE Symbol": "SYNCOMF",
       "Screener Link": "https://www.screener.in/company/524470",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/syncom-formulations-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/syncom-formulations-india-ltd",
       "Google Link": "https://www.google.com/search?q=Syncom%20Formulations%20(India)%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -26379,7 +26379,7 @@
       "BSE Symbol": 524500,
       "NSE Symbol": "KILITCH",
       "Screener Link": "https://www.screener.in/company/524500",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kilitch-drugs-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kilitch-drugs-india-ltd",
       "Google Link": "https://www.google.com/search?q=Kilitch%20Drugs%20(India)%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -26532,7 +26532,7 @@
       "BSE Symbol": 531173,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531173",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/syschem-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/syschem-india-ltd",
       "Google Link": "https://www.google.com/search?q=Syschem%20(India)%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -26613,7 +26613,7 @@
       "BSE Symbol": 524238,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/524238",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gujarat-inject-(kerala)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gujarat-inject-kerala-ltd",
       "Google Link": "https://www.google.com/search?q=Gujarat%20Inject%20(Kerala)%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -26703,7 +26703,7 @@
       "BSE Symbol": 524202,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/524202",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/lactose-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/lactose-india-ltd",
       "Google Link": "https://www.google.com/search?q=Lactose%20(India)%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -26712,7 +26712,7 @@
       "BSE Symbol": 524518,
       "NSE Symbol": "KREBSBIO",
       "Screener Link": "https://www.screener.in/company/524518",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/krebs-biochemicals-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/krebs-biochemicals-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Krebs%20Biochemicals%20&%20Industries%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -26964,7 +26964,7 @@
       "BSE Symbol": 524400,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/524400",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ishita-drugs-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ishita-drugs-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Ishita%20Drugs%20&%20Industries%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -27036,7 +27036,7 @@
       "BSE Symbol": 524768,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/524768",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/emmessar-biotech-&-nutrition-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/emmessar-biotech-and-nutrition-ltd",
       "Google Link": "https://www.google.com/search?q=Emmessar%20Biotech%20&%20Nutrition%20Ltd.",
       "Sector": "Pharmaceuticals & Drugs"
     },
@@ -27202,7 +27202,7 @@
       "BSE Symbol": 524019,
       "NSE Symbol": "KINGFA",
       "Screener Link": "https://www.screener.in/company/524019",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kingfa-science-&-technology-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kingfa-science-and-technology-india-ltd",
       "Google Link": "https://www.google.com/search?q=Kingfa%20Science%20&%20Technology%20(India)%20Ltd.",
       "Sector": "Plastic Products"
     },
@@ -27472,7 +27472,7 @@
       "BSE Symbol": 526423,
       "NSE Symbol": "KRITI",
       "Screener Link": "https://www.screener.in/company/526423",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kriti-industries-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kriti-industries-india-ltd",
       "Google Link": "https://www.google.com/search?q=Kriti%20Industries%20(India)%20Ltd.",
       "Sector": "Plastic Products"
     },
@@ -27562,7 +27562,7 @@
       "BSE Symbol": 507785,
       "NSE Symbol": "TAINWALCHM",
       "Screener Link": "https://www.screener.in/company/507785",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tainwala-chemicals-&-plastics-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tainwala-chemicals-and-plastics-india-ltd",
       "Google Link": "https://www.google.com/search?q=Tainwala%20Chemicals%20&%20Plastics%20(India)%20Ltd.",
       "Sector": "Plastic Products"
     },
@@ -27742,7 +27742,7 @@
       "BSE Symbol": 526409,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526409",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kkalpana-lndustries-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kkalpana-lndustries-india-ltd",
       "Google Link": "https://www.google.com/search?q=Kkalpana%20lndustries%20(India)%20Ltd.",
       "Sector": "Plastic Products"
     },
@@ -28021,7 +28021,7 @@
       "BSE Symbol": 531779,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531779",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/padmanabh-alloys-&-polymers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/padmanabh-alloys-and-polymers-ltd",
       "Google Link": "https://www.google.com/search?q=Padmanabh%20Alloys%20&%20Polymers%20Ltd.",
       "Sector": "Plastic Products"
     },
@@ -28048,7 +28048,7 @@
       "BSE Symbol": 530931,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530931",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/stanpacks-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/stanpacks-india-ltd",
       "Google Link": "https://www.google.com/search?q=Stanpacks%20(India)%20Ltd.",
       "Sector": "Plastic Products"
     },
@@ -28385,7 +28385,7 @@
       "BSE Symbol": 532708,
       "NSE Symbol": "GVKPIL",
       "Screener Link": "https://www.screener.in/company/532708",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gvk-power-&-infrastructure-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gvk-power-and-infrastructure-ltd",
       "Google Link": "https://www.google.com/search?q=GVK%20Power%20&%20Infrastructure%20Ltd.",
       "Sector": "Power Generation/Distribution"
     },
@@ -28466,7 +28466,7 @@
       "BSE Symbol": 503657,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/503657",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/veer-energy-&-infrastructure-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/veer-energy-and-infrastructure-ltd",
       "Google Link": "https://www.google.com/search?q=Veer%20Energy%20&%20Infrastructure%20Ltd.",
       "Sector": "Power Generation/Distribution"
     }
@@ -28542,7 +28542,7 @@
       "BSE Symbol": 533151,
       "NSE Symbol": "DBCORP",
       "Screener Link": "https://www.screener.in/company/533151",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/db-corp-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/d-b-corp-ltd",
       "Google Link": "https://www.google.com/search?q=D.B.%20Corp%20Ltd.",
       "Sector": "Printing And Publishing"
     },
@@ -28614,7 +28614,7 @@
       "BSE Symbol": 543193,
       "NSE Symbol": "DJML",
       "Screener Link": "https://www.screener.in/company/543193",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dj-mediaprint-&-logistics-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dj-mediaprint-and-logistics-ltd",
       "Google Link": "https://www.google.com/search?q=DJ%20Mediaprint%20&%20Logistics%20Ltd.",
       "Sector": "Printing And Publishing"
     },
@@ -28677,7 +28677,7 @@
       "BSE Symbol": 532640,
       "NSE Symbol": "CYBERMEDIA",
       "Screener Link": "https://www.screener.in/company/532640",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/cyber-media-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/cyber-media-india-ltd",
       "Google Link": "https://www.google.com/search?q=Cyber%20Media%20(India)%20Ltd.",
       "Sector": "Printing And Publishing"
     },
@@ -28713,7 +28713,7 @@
       "BSE Symbol": 540081,
       "NSE Symbol": "SABEVENTS",
       "Screener Link": "https://www.screener.in/company/540081",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sab-events-&-governance-now-media-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sab-events-and-governance-now-media-ltd",
       "Google Link": "https://www.google.com/search?q=SAB%20Events%20&%20Governance%20Now%20Media%20Ltd.",
       "Sector": "Printing And Publishing"
     },
@@ -28868,7 +28868,7 @@
       "BSE Symbol": 540143,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/540143",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sagarsoft-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sagarsoft-india-ltd",
       "Google Link": "https://www.google.com/search?q=Sagarsoft%20(India)%20Ltd.",
       "Sector": "Professional Services"
     },
@@ -28924,7 +28924,7 @@
       "BSE Symbol": 533326,
       "NSE Symbol": "TEXRAIL",
       "Screener Link": "https://www.screener.in/company/533326",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/texmaco-rail-&-engineering-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/texmaco-rail-and-engineering-ltd",
       "Google Link": "https://www.google.com/search?q=Texmaco%20Rail%20&%20Engineering%20Ltd.",
       "Sector": "Railways Wagons/Coaches"
     }
@@ -29065,7 +29065,7 @@
       "BSE Symbol": 523160,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/523160",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/foseco-crucible-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/foseco-crucible-india-ltd",
       "Google Link": "https://www.google.com/search?q=Foseco%20Crucible%20(India)%20Ltd.",
       "Sector": "Refractories"
     },
@@ -29366,7 +29366,7 @@
       "BSE Symbol": 543401,
       "NSE Symbol": "GOCOLORS",
       "Screener Link": "https://www.screener.in/company/543401",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/go-fashion-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/go-fashion-india-ltd",
       "Google Link": "https://www.google.com/search?q=Go%20Fashion%20(India)%20Ltd.",
       "Sector": "Retailing"
     },
@@ -29375,7 +29375,7 @@
       "BSE Symbol": 543989,
       "NSE Symbol": "KALAMANDIR",
       "Screener Link": "https://www.screener.in/company/543989",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sai-silks-(kalamandir)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sai-silks-kalamandir-ltd",
       "Google Link": "https://www.google.com/search?q=Sai%20Silks%20(Kalamandir)%20Ltd.",
       "Sector": "Retailing"
     },
@@ -29420,7 +29420,7 @@
       "BSE Symbol": 540956,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/540956",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bhatia-communications-&-retail-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bhatia-communications-and-retail-india-ltd",
       "Google Link": "https://www.google.com/search?q=Bhatia%20Communications%20&%20Retail%20(India)%20Ltd.",
       "Sector": "Retailing"
     },
@@ -29429,7 +29429,7 @@
       "BSE Symbol": 542337,
       "NSE Symbol": "SPENCERS",
       "Screener Link": "https://www.screener.in/company/542337",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/spencer's-retail-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/spencer-s-retail-ltd",
       "Google Link": "https://www.google.com/search?q=Spencer's%20Retail%20Ltd.",
       "Sector": "Retailing"
     },
@@ -29656,7 +29656,7 @@
       "BSE Symbol": 508571,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/508571",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/cochin-malabar-estates-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/cochin-malabar-estates-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Cochin%20Malabar%20Estates%20&%20Industries%20Ltd.",
       "Sector": "Rubber  Products"
     },
@@ -29703,7 +29703,7 @@
       "BSE Symbol": 542011,
       "NSE Symbol": "GRSE",
       "Screener Link": "https://www.screener.in/company/542011",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/garden-reach-shipbuilders-&-engineers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/garden-reach-shipbuilders-and-engineers-ltd",
       "Google Link": "https://www.google.com/search?q=Garden%20Reach%20Shipbuilders%20&%20Engineers%20Ltd.",
       "Sector": "Ship Building"
     },
@@ -29721,7 +29721,7 @@
       "BSE Symbol": 543273,
       "NSE Symbol": "KMEW",
       "Screener Link": "https://www.screener.in/company/543273",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/knowledge-marine-&-engineering-works-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/knowledge-marine-and-engineering-works-ltd",
       "Google Link": "https://www.google.com/search?q=Knowledge%20Marine%20&%20Engineering%20Works%20Ltd.",
       "Sector": "Ship Building"
     },
@@ -30024,7 +30024,7 @@
       "BSE Symbol": 504614,
       "NSE Symbol": "SARDAEN",
       "Screener Link": "https://www.screener.in/company/504614",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sarda-energy-&-minerals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sarda-energy-and-minerals-ltd",
       "Google Link": "https://www.google.com/search?q=Sarda%20Energy%20&%20Minerals%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30042,7 +30042,7 @@
       "BSE Symbol": 520111,
       "NSE Symbol": "RATNAMANI",
       "Screener Link": "https://www.screener.in/company/520111",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ratnamani-metals-&-tubes-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ratnamani-metals-and-tubes-ltd",
       "Google Link": "https://www.google.com/search?q=Ratnamani%20Metals%20&%20Tubes%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30150,7 +30150,7 @@
       "BSE Symbol": 532804,
       "NSE Symbol": "TIIL",
       "Screener Link": "https://www.screener.in/company/532804",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/technocraft-industries-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/technocraft-industries-india-ltd",
       "Google Link": "https://www.google.com/search?q=Technocraft%20Industries%20(India)%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30213,7 +30213,7 @@
       "BSE Symbol": 513269,
       "NSE Symbol": "MANINDS",
       "Screener Link": "https://www.screener.in/company/513269",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/man-industries-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/man-industries-india-ltd",
       "Google Link": "https://www.google.com/search?q=Man%20Industries%20(India)%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30240,7 +30240,7 @@
       "BSE Symbol": 543528,
       "NSE Symbol": "VENUSPIPES",
       "Screener Link": "https://www.screener.in/company/543528",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/venus-pipes-&-tubes-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/venus-pipes-and-tubes-ltd",
       "Google Link": "https://www.google.com/search?q=Venus%20Pipes%20&%20Tubes%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30294,7 +30294,7 @@
       "BSE Symbol": 532650,
       "NSE Symbol": "MSPL",
       "Screener Link": "https://www.screener.in/company/532650",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/msp-steel-&-power-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/msp-steel-and-power-ltd",
       "Google Link": "https://www.google.com/search?q=MSP%20Steel%20&%20Power%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30357,7 +30357,7 @@
       "BSE Symbol": 539046,
       "NSE Symbol": "MANAKCOAT",
       "Screener Link": "https://www.screener.in/company/539046",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/manaksia-coated-metals-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/manaksia-coated-metals-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Manaksia%20Coated%20Metals%20&%20Industries%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30366,7 +30366,7 @@
       "BSE Symbol": 526608,
       "NSE Symbol": "ELECTHERM",
       "Screener Link": "https://www.screener.in/company/526608",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/electrotherm-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/electrotherm-india-ltd",
       "Google Link": "https://www.google.com/search?q=Electrotherm%20(India)%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30537,7 +30537,7 @@
       "BSE Symbol": 543962,
       "NSE Symbol": "DPWIRES",
       "Screener Link": "https://www.screener.in/company/543962",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dp-wires-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/d-p-wires-ltd",
       "Google Link": "https://www.google.com/search?q=D.P.%20Wires%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30573,7 +30573,7 @@
       "BSE Symbol": 504903,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/504903",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rathi-steel-&-power-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rathi-steel-and-power-ltd",
       "Google Link": "https://www.google.com/search?q=Rathi%20Steel%20&%20Power%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30654,7 +30654,7 @@
       "BSE Symbol": 505693,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/505693",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/la-tim-metal-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/la-tim-metal-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=LA%20TIM%20Metal%20&%20Industries%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30690,7 +30690,7 @@
       "BSE Symbol": 531845,
       "NSE Symbol": "ZENITHSTL",
       "Screener Link": "https://www.screener.in/company/531845",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/zenith-steel-pipes-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/zenith-steel-pipes-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Zenith%20Steel%20Pipes%20&%20Industries%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30744,7 +30744,7 @@
       "BSE Symbol": 513566,
       "NSE Symbol": "NOVAIRNSTL",
       "Screener Link": "https://www.screener.in/company/513566",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/nova-iron-&-steel-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/nova-iron-and-steel-ltd",
       "Google Link": "https://www.google.com/search?q=Nova%20Iron%20&%20Steel%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30780,7 +30780,7 @@
       "BSE Symbol": 531810,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531810",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/metal-coatings-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/metal-coatings-india-ltd",
       "Google Link": "https://www.google.com/search?q=Metal%20Coatings%20(India)%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30807,7 +30807,7 @@
       "BSE Symbol": 526847,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526847",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ashirwad-steels-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ashirwad-steels-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Ashirwad%20Steels%20&%20Industries%20Ltd.",
       "Sector": "Steel & Iron Products"
     },
@@ -30971,7 +30971,7 @@
       "BSE Symbol": 512455,
       "NSE Symbol": "LLOYDSME",
       "Screener Link": "https://www.screener.in/company/512455",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/lloyds-metals-&-energy-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/lloyds-metals-and-energy-ltd",
       "Google Link": "https://www.google.com/search?q=Lloyds%20Metals%20&%20Energy%20Ltd.",
       "Sector": "Steel/Sponge Iron/Pig Iron"
     },
@@ -31025,7 +31025,7 @@
       "BSE Symbol": 544204,
       "NSE Symbol": "VRAJ",
       "Screener Link": "https://www.screener.in/company/544204",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vraj-iron-&-steel-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vraj-iron-and-steel-ltd",
       "Google Link": "https://www.google.com/search?q=Vraj%20Iron%20&%20Steel%20Ltd.",
       "Sector": "Steel/Sponge Iron/Pig Iron"
     },
@@ -31072,7 +31072,7 @@
       "BSE Symbol": 500125,
       "NSE Symbol": "EIDPARRY",
       "Screener Link": "https://www.screener.in/company/500125",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/eid---parry-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/e-i-d-parry-india-ltd",
       "Google Link": "https://www.google.com/search?q=E.I.D.%20-%20Parry%20(India)%20Ltd.",
       "Sector": "Sugar"
     },
@@ -31090,7 +31090,7 @@
       "BSE Symbol": 532356,
       "NSE Symbol": "TRIVENI",
       "Screener Link": "https://www.screener.in/company/532356",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/triveni-engineering-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/triveni-engineering-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Triveni%20Engineering%20&%20Industries%20Ltd.",
       "Sector": "Sugar"
     },
@@ -31144,7 +31144,7 @@
       "BSE Symbol": 540649,
       "NSE Symbol": "AVADHSUGAR",
       "Screener Link": "https://www.screener.in/company/540649",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/avadh-sugar-&-energy-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/avadh-sugar-and-energy-ltd",
       "Google Link": "https://www.google.com/search?q=Avadh%20Sugar%20&%20Energy%20Ltd.",
       "Sector": "Sugar"
     },
@@ -31189,7 +31189,7 @@
       "BSE Symbol": 540650,
       "NSE Symbol": "MAGADSUGAR",
       "Screener Link": "https://www.screener.in/company/540650",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/magadh-sugar-&-energy-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/magadh-sugar-and-energy-ltd",
       "Google Link": "https://www.google.com/search?q=Magadh%20Sugar%20&%20Energy%20Ltd.",
       "Sector": "Sugar"
     },
@@ -31243,7 +31243,7 @@
       "BSE Symbol": 533192,
       "NSE Symbol": "KCPSUGIND",
       "Screener Link": "https://www.screener.in/company/533192",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kcp-sugar-and-industries-corporation-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/k-c-p-sugar-and-industries-corporation-ltd",
       "Google Link": "https://www.google.com/search?q=K.C.P.%20Sugar%20And%20Industries%20Corporation%20Ltd.",
       "Sector": "Sugar"
     },
@@ -31261,7 +31261,7 @@
       "BSE Symbol": 532460,
       "NSE Symbol": "PONNIERODE",
       "Screener Link": "https://www.screener.in/company/532460",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ponni-sugars-(erode)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ponni-sugars-erode-ltd",
       "Google Link": "https://www.google.com/search?q=Ponni%20Sugars%20(Erode)%20Ltd.",
       "Sector": "Sugar"
     },
@@ -31270,7 +31270,7 @@
       "BSE Symbol": 532673,
       "NSE Symbol": "KMSUGAR",
       "Screener Link": "https://www.screener.in/company/532673",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/km-sugar-mills-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/k-m-sugar-mills-ltd",
       "Google Link": "https://www.google.com/search?q=K.M.%20Sugar%20Mills%20Ltd.",
       "Sector": "Sugar"
     },
@@ -31333,7 +31333,7 @@
       "BSE Symbol": 500354,
       "NSE Symbol": "RAJSREESUG",
       "Screener Link": "https://www.screener.in/company/500354",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rajshree-sugars-&-chemicals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rajshree-sugars-and-chemicals-ltd",
       "Google Link": "https://www.google.com/search?q=Rajshree%20Sugars%20&%20Chemicals%20Ltd.",
       "Sector": "Sugar"
     },
@@ -31351,7 +31351,7 @@
       "BSE Symbol": 507498,
       "NSE Symbol": "PICCADSUG",
       "Screener Link": "https://www.screener.in/company/507498",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/piccadily-sugar-&-allied-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/piccadily-sugar-and-allied-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Piccadily%20Sugar%20&%20Allied%20Industries%20Ltd.",
       "Sector": "Sugar"
     },
@@ -31387,7 +31387,7 @@
       "BSE Symbol": 537709,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/537709",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shree-hanuman-sugar-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/shree-hanuman-sugar-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Shree%20Hanuman%20Sugar%20&%20Industries%20Ltd.",
       "Sector": "Sugar"
     }
@@ -31416,7 +31416,7 @@
       "BSE Symbol": 532798,
       "NSE Symbol": "NETWORK18",
       "Screener Link": "https://www.screener.in/company/532798",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/network-18-media-&-investments-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/network-18-media-and-investments-ltd",
       "Google Link": "https://www.google.com/search?q=Network%2018%20Media%20&%20Investments%20Ltd.",
       "Sector": "TV Broadcasting & Software Production"
     },
@@ -31479,7 +31479,7 @@
       "BSE Symbol": 532700,
       "NSE Symbol": "ENIL",
       "Screener Link": "https://www.screener.in/company/532700",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/entertainment-network-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/entertainment-network-india-ltd",
       "Google Link": "https://www.google.com/search?q=Entertainment%20Network%20(India)%20Ltd.",
       "Sector": "TV Broadcasting & Software Production"
     },
@@ -31596,7 +31596,7 @@
       "BSE Symbol": 509073,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/509073",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hathway-bhawani-cabletel-&-datacom-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hathway-bhawani-cabletel-and-datacom-ltd",
       "Google Link": "https://www.google.com/search?q=Hathway%20Bhawani%20Cabletel%20&%20Datacom%20Ltd.",
       "Sector": "TV Broadcasting & Software Production"
     },
@@ -31634,7 +31634,7 @@
       "BSE Symbol": 519600,
       "NSE Symbol": "CCL",
       "Screener Link": "https://www.screener.in/company/519600",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ccl-products-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ccl-products-india-ltd",
       "Google Link": "https://www.google.com/search?q=CCL%20Products%20(India)%20Ltd.",
       "Sector": "Tea/Coffee"
     },
@@ -31643,7 +31643,7 @@
       "BSE Symbol": 526173,
       "NSE Symbol": "ANDREWYU",
       "Screener Link": "https://www.screener.in/company/526173",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/andrew-yule-&-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/andrew-yule-and-company-ltd",
       "Google Link": "https://www.google.com/search?q=Andrew%20Yule%20&%20Company%20Ltd.",
       "Sector": "Tea/Coffee"
     },
@@ -31670,7 +31670,7 @@
       "BSE Symbol": 509715,
       "NSE Symbol": "JAYSREETEA",
       "Screener Link": "https://www.screener.in/company/509715",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jay-shree-tea-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jay-shree-tea-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Jay%20Shree%20Tea%20&%20Industries%20Ltd.",
       "Sector": "Tea/Coffee"
     },
@@ -31697,7 +31697,7 @@
       "BSE Symbol": 538902,
       "NSE Symbol": "DTIL",
       "Screener Link": "https://www.screener.in/company/538902",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dhunseri-tea-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/dhunseri-tea-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Dhunseri%20Tea%20&%20Industries%20Ltd.",
       "Sector": "Tea/Coffee"
     },
@@ -31706,7 +31706,7 @@
       "BSE Symbol": 508136,
       "NSE Symbol": "BNALTD",
       "Screener Link": "https://www.screener.in/company/508136",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/b&a-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/b-and-a-ltd",
       "Google Link": "https://www.google.com/search?q=B&A%20Ltd.",
       "Sector": "Tea/Coffee"
     },
@@ -31715,7 +31715,7 @@
       "BSE Symbol": 532230,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/532230",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bengal-tea-&-fabrics-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bengal-tea-and-fabrics-ltd",
       "Google Link": "https://www.google.com/search?q=Bengal%20Tea%20&%20Fabrics%20Ltd.",
       "Sector": "Tea/Coffee"
     },
@@ -31724,7 +31724,7 @@
       "BSE Symbol": 519528,
       "NSE Symbol": "NORBTEAEXP",
       "Screener Link": "https://www.screener.in/company/519528",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/norben-tea-&-exports-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/norben-tea-and-exports-ltd",
       "Google Link": "https://www.google.com/search?q=Norben%20Tea%20&%20Exports%20Ltd.",
       "Sector": "Tea/Coffee"
     },
@@ -31787,7 +31787,7 @@
       "BSE Symbol": 541005,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/541005",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kanco-tea-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kanco-tea-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Kanco%20Tea%20&%20Industries%20Ltd.",
       "Sector": "Tea/Coffee"
     },
@@ -31944,7 +31944,7 @@
       "BSE Symbol": 590041,
       "NSE Symbol": "KAVDEFENCE",
       "Screener Link": "https://www.screener.in/company/590041",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kavveri-defence-&-wireless-technologies-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kavveri-defence-and-wireless-technologies-ltd",
       "Google Link": "https://www.google.com/search?q=Kavveri%20Defence%20&%20Wireless%20Technologies%20Ltd.",
       "Sector": "Telecommunication - Equipment"
     },
@@ -31962,7 +31962,7 @@
       "BSE Symbol": 538401,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/538401",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/maestros-electronics-&-telecommunications-systems-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/maestros-electronics-and-telecommunications-systems-ltd",
       "Google Link": "https://www.google.com/search?q=Maestros%20Electronics%20&%20Telecommunications%20Systems%20Ltd.",
       "Sector": "Telecommunication - Equipment"
     },
@@ -32072,7 +32072,7 @@
       "BSE Symbol": 532371,
       "NSE Symbol": "TTML",
       "Screener Link": "https://www.screener.in/company/532371",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tata-teleservices-(maharashtra)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tata-teleservices-maharashtra-ltd",
       "Google Link": "https://www.google.com/search?q=Tata%20Teleservices%20(Maharashtra)%20Ltd.",
       "Sector": "Telecommunication - Service  Provider"
     },
@@ -32081,7 +32081,7 @@
       "BSE Symbol": 533162,
       "NSE Symbol": "HATHWAY",
       "Screener Link": "https://www.screener.in/company/533162",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hathway-cable-&-datacom-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/hathway-cable-and-datacom-ltd",
       "Google Link": "https://www.google.com/search?q=Hathway%20Cable%20&%20Datacom%20Ltd.",
       "Sector": "Telecommunication - Service  Provider"
     },
@@ -32137,7 +32137,7 @@
       "BSE Symbol": 532889,
       "NSE Symbol": "KPRMILL",
       "Screener Link": "https://www.screener.in/company/532889",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kpr-mill-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/k-p-r-mill-ltd",
       "Google Link": "https://www.google.com/search?q=K.P.R.%20Mill%20Ltd.",
       "Sector": "Textile"
     },
@@ -32272,7 +32272,7 @@
       "BSE Symbol": 514234,
       "NSE Symbol": "SANGAMIND",
       "Screener Link": "https://www.screener.in/company/514234",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sangam-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sangam-india-ltd",
       "Google Link": "https://www.google.com/search?q=Sangam%20(India)%20Ltd.",
       "Sector": "Textile"
     },
@@ -32308,7 +32308,7 @@
       "BSE Symbol": 540048,
       "NSE Symbol": "SPAL",
       "Screener Link": "https://www.screener.in/company/540048",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sp-apparels-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/s-p-apparels-ltd",
       "Google Link": "https://www.google.com/search?q=S.P.%20Apparels%20Ltd.",
       "Sector": "Textile"
     },
@@ -32389,7 +32389,7 @@
       "BSE Symbol": 533552,
       "NSE Symbol": "RUPA",
       "Screener Link": "https://www.screener.in/company/533552",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rupa-&-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rupa-and-company-ltd",
       "Google Link": "https://www.google.com/search?q=Rupa%20&%20Company%20Ltd.",
       "Sector": "Textile"
     },
@@ -32542,7 +32542,7 @@
       "BSE Symbol": 533941,
       "NSE Symbol": "THOMASCOTT",
       "Screener Link": "https://www.screener.in/company/533941",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/thomas-scott-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/thomas-scott-india-ltd",
       "Google Link": "https://www.google.com/search?q=Thomas%20Scott%20(India)%20Ltd.",
       "Sector": "Textile"
     },
@@ -32596,7 +32596,7 @@
       "BSE Symbol": 539399,
       "NSE Symbol": "BELLACASA",
       "Screener Link": "https://www.screener.in/company/539399",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bella-casa-fashion-&-retail-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bella-casa-fashion-and-retail-ltd",
       "Google Link": "https://www.google.com/search?q=Bella%20Casa%20Fashion%20&%20Retail%20Ltd.",
       "Sector": "Textile"
     },
@@ -32677,7 +32677,7 @@
       "BSE Symbol": 538119,
       "NSE Symbol": "RNBDENIMS",
       "Screener Link": "https://www.screener.in/company/538119",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/r&b-denims-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/r-and-b-denims-ltd",
       "Google Link": "https://www.google.com/search?q=R&B%20Denims%20Ltd.",
       "Sector": "Textile"
     },
@@ -32695,7 +32695,7 @@
       "BSE Symbol": 538890,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/538890",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mk-exim-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/mk-exim-india-ltd",
       "Google Link": "https://www.google.com/search?q=MK%20Exim%20(India)%20Ltd.",
       "Sector": "Textile"
     },
@@ -32794,7 +32794,7 @@
       "BSE Symbol": 514142,
       "NSE Symbol": "TTL",
       "Screener Link": "https://www.screener.in/company/514142",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/tt-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/t-t-ltd",
       "Google Link": "https://www.google.com/search?q=T.T.%20Ltd.",
       "Sector": "Textile"
     },
@@ -32884,7 +32884,7 @@
       "BSE Symbol": 531234,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531234",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/scoobee-day-garments-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/scoobee-day-garments-india-ltd",
       "Google Link": "https://www.google.com/search?q=Scoobee%20Day%20Garments%20(India)%20Ltd.",
       "Sector": "Textile"
     },
@@ -32920,7 +32920,7 @@
       "BSE Symbol": 531119,
       "NSE Symbol": "CEENIKEXPO",
       "Screener Link": "https://www.screener.in/company/531119",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ceenik-exports-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ceenik-exports-india-ltd",
       "Google Link": "https://www.google.com/search?q=Ceenik%20Exports%20(India)%20Ltd.",
       "Sector": "Textile"
     },
@@ -33010,7 +33010,7 @@
       "BSE Symbol": 507910,
       "NSE Symbol": "FIBERWEB",
       "Screener Link": "https://www.screener.in/company/507910",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/fiberweb-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/fiberweb-india-ltd",
       "Google Link": "https://www.google.com/search?q=Fiberweb%20(India)%20Ltd.",
       "Sector": "Textile"
     },
@@ -33217,7 +33217,7 @@
       "BSE Symbol": 507817,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/507817",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/wires-&-fabriks-(sa)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/wires-and-fabriks-s-a-ltd",
       "Google Link": "https://www.google.com/search?q=Wires%20&%20Fabriks%20(S.A.)%20Ltd.",
       "Sector": "Textile"
     },
@@ -33271,7 +33271,7 @@
       "BSE Symbol": 521036,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/521036",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/source-industries-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/source-industries-india-ltd",
       "Google Link": "https://www.google.com/search?q=Source%20Industries%20(India)%20Ltd.",
       "Sector": "Textile"
     },
@@ -33388,7 +33388,7 @@
       "BSE Symbol": 531437,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531437",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/prakash-woollen-&-synthetic-mills-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/prakash-woollen-and-synthetic-mills-ltd",
       "Google Link": "https://www.google.com/search?q=Prakash%20Woollen%20&%20Synthetic%20Mills%20Ltd.",
       "Sector": "Textile"
     },
@@ -33469,7 +33469,7 @@
       "BSE Symbol": 531029,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531029",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bharat-textiles-&-proofing-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/bharat-textiles-and-proofing-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Bharat%20Textiles%20&%20Proofing%20Industries%20Ltd.",
       "Sector": "Textile"
     },
@@ -33595,7 +33595,7 @@
       "BSE Symbol": 532015,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/532015",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gravity-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/gravity-india-ltd",
       "Google Link": "https://www.google.com/search?q=Gravity%20(India)%20Ltd.",
       "Sector": "Textile"
     },
@@ -33604,7 +33604,7 @@
       "BSE Symbol": 507808,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/507808",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/united-leasing-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/united-leasing-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=United%20Leasing%20&%20Industries%20Ltd.",
       "Sector": "Textile"
     },
@@ -33788,7 +33788,7 @@
       "BSE Symbol": 500207,
       "NSE Symbol": "INDORAMA",
       "Screener Link": "https://www.screener.in/company/500207",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/indo-rama-synthetics-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/indo-rama-synthetics-india-ltd",
       "Google Link": "https://www.google.com/search?q=Indo%20Rama%20Synthetics%20(India)%20Ltd.",
       "Sector": "Textile - Manmade  Fibres"
     },
@@ -33878,7 +33878,7 @@
       "BSE Symbol": 535387,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/535387",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/lakhotia-polyesters-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/lakhotia-polyesters-india-ltd",
       "Google Link": "https://www.google.com/search?q=Lakhotia%20Polyesters%20(India)%20Ltd.",
       "Sector": "Textile - Manmade  Fibres"
     },
@@ -34033,7 +34033,7 @@
       "BSE Symbol": 533006,
       "NSE Symbol": "BIRLACOT",
       "Screener Link": "https://www.screener.in/company/533006",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/birla-cotsyn-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/birla-cotsyn-india-ltd",
       "Google Link": "https://www.google.com/search?q=Birla%20Cotsyn%20(India)%20Ltd.",
       "Sector": "Textile - Spinning"
     },
@@ -34132,7 +34132,7 @@
       "BSE Symbol": 500282,
       "NSE Symbol": "MODTHREAD",
       "Screener Link": "https://www.screener.in/company/500282",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/modern-threads-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/modern-threads-india-ltd",
       "Google Link": "https://www.google.com/search?q=Modern%20Threads%20(India)%20Ltd.",
       "Sector": "Textile - Spinning"
     },
@@ -34303,7 +34303,7 @@
       "BSE Symbol": 521178,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/521178",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sri-ramakrishna-mills-(coimbatore)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sri-ramakrishna-mills-coimbatore-ltd",
       "Google Link": "https://www.google.com/search?q=Sri%20Ramakrishna%20Mills%20(Coimbatore)%20Ltd.",
       "Sector": "Textile - Spinning"
     },
@@ -34330,7 +34330,7 @@
       "BSE Symbol": 503092,
       "NSE Symbol": "PASUPATSPG",
       "Screener Link": "https://www.screener.in/company/503092",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/pasupati-spinning-&-weaving-mills-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/pasupati-spinning-and-weaving-mills-ltd",
       "Google Link": "https://www.google.com/search?q=Pasupati%20Spinning%20&%20Weaving%20Mills%20Ltd.",
       "Sector": "Textile - Spinning"
     },
@@ -34465,7 +34465,7 @@
       "BSE Symbol": 521161,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/521161",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sri-lakshmi-saraswathi-textiles-(arni)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/sri-lakshmi-saraswathi-textiles-arni-ltd",
       "Google Link": "https://www.google.com/search?q=Sri%20Lakshmi%20Saraswathi%20Textiles%20(Arni)%20Ltd.",
       "Sector": "Textile - Spinning"
     },
@@ -34638,7 +34638,7 @@
       "BSE Symbol": 526179,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526179",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ludlow-jute-&-specialities-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/ludlow-jute-and-specialities-ltd",
       "Google Link": "https://www.google.com/search?q=Ludlow%20Jute%20&%20Specialities%20Ltd.",
       "Sector": "Textile - Weaving"
     },
@@ -34946,7 +34946,7 @@
       "BSE Symbol": 538920,
       "NSE Symbol": "VINCOFE",
       "Screener Link": "https://www.screener.in/company/538920",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vintage-coffee-&-beverages-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vintage-coffee-and-beverages-ltd",
       "Google Link": "https://www.google.com/search?q=Vintage%20Coffee%20&%20Beverages%20Ltd.",
       "Sector": "Trading"
     },
@@ -35000,7 +35000,7 @@
       "BSE Symbol": 590065,
       "NSE Symbol": "IMPAL",
       "Screener Link": "https://www.screener.in/company/590065",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/india-motor-parts-&-accessories-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/india-motor-parts-and-accessories-ltd",
       "Google Link": "https://www.google.com/search?q=India%20Motor%20Parts%20&%20Accessories%20Ltd.",
       "Sector": "Trading"
     },
@@ -35126,7 +35126,7 @@
       "BSE Symbol": 543995,
       "NSE Symbol": "MVGJL",
       "Screener Link": "https://www.screener.in/company/543995",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/manoj-vaibhav-gems-'n'-jewellers-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/manoj-vaibhav-gems-n-jewellers-ltd",
       "Google Link": "https://www.google.com/search?q=Manoj%20Vaibhav%20Gems%20'N'%20Jewellers%20Ltd.",
       "Sector": "Trading"
     },
@@ -35279,7 +35279,7 @@
       "BSE Symbol": 512229,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/512229",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/veritas-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/veritas-india-ltd",
       "Google Link": "https://www.google.com/search?q=Veritas%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -35288,7 +35288,7 @@
       "BSE Symbol": 524129,
       "NSE Symbol": "VINYLINDIA",
       "Screener Link": "https://www.screener.in/company/524129",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vinyl-chemicals-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/vinyl-chemicals-india-ltd",
       "Google Link": "https://www.google.com/search?q=Vinyl%20Chemicals%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -35342,7 +35342,7 @@
       "BSE Symbol": 539922,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/539922",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rotographics-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rotographics-india-ltd",
       "Google Link": "https://www.google.com/search?q=Rotographics%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -35423,7 +35423,7 @@
       "BSE Symbol": 540717,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/540717",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/polo-queen-industrial-&-fintech-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/polo-queen-industrial-and-fintech-ltd",
       "Google Link": "https://www.google.com/search?q=Polo%20Queen%20Industrial%20&%20Fintech%20Ltd.",
       "Sector": "Trading"
     },
@@ -35441,7 +35441,7 @@
       "BSE Symbol": 521034,
       "NSE Symbol": "SOMATEX",
       "Screener Link": "https://www.screener.in/company/521034",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/soma-textiles-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/soma-textiles-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=Soma%20Textiles%20&%20Industries%20Ltd.",
       "Sector": "Trading"
     },
@@ -35459,7 +35459,7 @@
       "BSE Symbol": 514324,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/514324",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/omnitex-industries-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/omnitex-industries-india-ltd",
       "Google Link": "https://www.google.com/search?q=Omnitex%20Industries%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -35576,7 +35576,7 @@
       "BSE Symbol": 524412,
       "NSE Symbol": "AAREYDRUGS",
       "Screener Link": "https://www.screener.in/company/524412",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/aarey-drugs-&-pharmaceuticals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/aarey-drugs-and-pharmaceuticals-ltd",
       "Google Link": "https://www.google.com/search?q=Aarey%20Drugs%20&%20Pharmaceuticals%20Ltd.",
       "Sector": "Trading"
     },
@@ -35603,7 +35603,7 @@
       "BSE Symbol": 506863,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/506863",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/swadeshi-industries-&-leasing-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/swadeshi-industries-and-leasing-ltd",
       "Google Link": "https://www.google.com/search?q=Swadeshi%20Industries%20&%20Leasing%20Ltd.",
       "Sector": "Trading"
     },
@@ -35855,7 +35855,7 @@
       "BSE Symbol": 501391,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/501391",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/wh-brady-&-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/wh-brady-and-company-ltd",
       "Google Link": "https://www.google.com/search?q=WH%20Brady%20&%20Company%20Ltd.",
       "Sector": "Trading"
     },
@@ -35891,7 +35891,7 @@
       "BSE Symbol": 506530,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/506530",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kemp-&-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/kemp-and-company-ltd",
       "Google Link": "https://www.google.com/search?q=Kemp%20&%20Company%20Ltd.",
       "Sector": "Trading"
     },
@@ -35963,7 +35963,7 @@
       "BSE Symbol": 509945,
       "NSE Symbol": "THACKER",
       "Screener Link": "https://www.screener.in/company/509945",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/thacker-&-company-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/thacker-and-company-ltd",
       "Google Link": "https://www.google.com/search?q=Thacker%20&%20Company%20Ltd.",
       "Sector": "Trading"
     },
@@ -36080,7 +36080,7 @@
       "BSE Symbol": 531688,
       "NSE Symbol": "PRITHVISOF",
       "Screener Link": "https://www.screener.in/company/531688",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/prithvi-exchange-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/prithvi-exchange-india-ltd",
       "Google Link": "https://www.google.com/search?q=Prithvi%20Exchange%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -36107,7 +36107,7 @@
       "BSE Symbol": 530545,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/530545",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/cosco-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/cosco-india-ltd",
       "Google Link": "https://www.google.com/search?q=Cosco%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -36323,7 +36323,7 @@
       "BSE Symbol": 524396,
       "NSE Symbol": "BIOFILCHEM",
       "Screener Link": "https://www.screener.in/company/524396",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/biofil-chemicals-&-pharmaceuticals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/biofil-chemicals-and-pharmaceuticals-ltd",
       "Google Link": "https://www.google.com/search?q=Biofil%20Chemicals%20&%20Pharmaceuticals%20Ltd.",
       "Sector": "Trading"
     },
@@ -36530,7 +36530,7 @@
       "BSE Symbol": 531156,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531156",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/alfavision-overseas-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/alfavision-overseas-india-ltd",
       "Google Link": "https://www.google.com/search?q=Alfavision%20Overseas%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -36557,7 +36557,7 @@
       "BSE Symbol": 512301,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/512301",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/chambal-breweries-&-distilleries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/chambal-breweries-and-distilleries-ltd",
       "Google Link": "https://www.google.com/search?q=Chambal%20Breweries%20&%20Distilleries%20Ltd.",
       "Sector": "Trading"
     },
@@ -36620,7 +36620,7 @@
       "BSE Symbol": 524661,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/524661",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/welcure-drugs-&-pharmaceuticals-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/welcure-drugs-and-pharmaceuticals-ltd",
       "Google Link": "https://www.google.com/search?q=Welcure%20Drugs%20&%20Pharmaceuticals%20Ltd.",
       "Sector": "Trading"
     },
@@ -36791,7 +36791,7 @@
       "BSE Symbol": 524210,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/524210",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/pentokey-organy-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/pentokey-organy-india-ltd",
       "Google Link": "https://www.google.com/search?q=Pentokey%20Organy%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -36809,7 +36809,7 @@
       "BSE Symbol": 519532,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/519532",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/asian-tea-&-exports-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/asian-tea-and-exports-ltd",
       "Google Link": "https://www.google.com/search?q=Asian%20Tea%20&%20Exports%20Ltd.",
       "Sector": "Trading"
     },
@@ -36944,7 +36944,7 @@
       "BSE Symbol": 531539,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/531539",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rishabh-digha-steel-&-allied-products-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/rishabh-digha-steel-and-allied-products-ltd",
       "Google Link": "https://www.google.com/search?q=Rishabh%20Digha%20Steel%20&%20Allied%20Products%20Ltd.",
       "Sector": "Trading"
     },
@@ -36962,7 +36962,7 @@
       "BSE Symbol": 534755,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/534755",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/trio-mercantile-&-trading-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/trio-mercantile-and-trading-ltd",
       "Google Link": "https://www.google.com/search?q=Trio%20Mercantile%20&%20Trading%20Ltd.",
       "Sector": "Trading"
     },
@@ -37034,7 +37034,7 @@
       "BSE Symbol": 507970,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/507970",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/paramount-cosmetics-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/paramount-cosmetics-india-ltd",
       "Google Link": "https://www.google.com/search?q=Paramount%20Cosmetics%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -37133,7 +37133,7 @@
       "BSE Symbol": 526773,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526773",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/pressure-sensitive-systems-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/pressure-sensitive-systems-india-ltd",
       "Google Link": "https://www.google.com/search?q=Pressure%20Sensitive%20Systems%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -37277,7 +37277,7 @@
       "BSE Symbol": 501477,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/501477",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/muller-&-phipps-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/muller-and-phipps-india-ltd",
       "Google Link": "https://www.google.com/search?q=Muller%20&%20Phipps%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -37340,7 +37340,7 @@
       "BSE Symbol": 526473,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526473",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/elegant-floriculture-&-agrotech-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/elegant-floriculture-and-agrotech-india-ltd",
       "Google Link": "https://www.google.com/search?q=Elegant%20Floriculture%20&%20Agrotech%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -37511,7 +37511,7 @@
       "BSE Symbol": 543207,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/543207",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/natural-biocon-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/natural-biocon-india-ltd",
       "Google Link": "https://www.google.com/search?q=Natural%20Biocon%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -37520,7 +37520,7 @@
       "BSE Symbol": 526588,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/526588",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/photoquip-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/photoquip-india-ltd",
       "Google Link": "https://www.google.com/search?q=Photoquip%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -37547,7 +37547,7 @@
       "BSE Symbol": 523351,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/523351",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/standard-shoe-sole-&-mould-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/standard-shoe-sole-and-mould-india-ltd",
       "Google Link": "https://www.google.com/search?q=Standard%20Shoe%20Sole%20&%20Mould%20(India)%20Ltd.",
       "Sector": "Trading"
     },
@@ -37853,7 +37853,7 @@
       "BSE Symbol": 514060,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/514060",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/newtrac-foods-&-beverages-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/newtrac-foods-and-beverages-ltd",
       "Google Link": "https://www.google.com/search?q=Newtrac%20Foods%20&%20Beverages%20Ltd.",
       "Sector": "Trading"
     },
@@ -37907,7 +37907,7 @@
       "BSE Symbol": 539278,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/539278",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/symbiox-investment-&-trading-co-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/symbiox-investment-and-trading-co-ltd",
       "Google Link": "https://www.google.com/search?q=Symbiox%20Investment%20&%20Trading%20Co%20Ltd.",
       "Sector": "Trading"
     },
@@ -37961,7 +37961,7 @@
       "BSE Symbol": 504369,
       "NSE Symbol": null,
       "Screener Link": "https://www.screener.in/company/504369",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/grandma-trading-&-agencies-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/grandma-trading-and-agencies-ltd",
       "Google Link": "https://www.google.com/search?q=Grandma%20Trading%20&%20Agencies%20Ltd.",
       "Sector": "Trading"
     },
@@ -38109,7 +38109,7 @@
       "BSE Symbol": 500413,
       "NSE Symbol": "THOMASCOOK",
       "Screener Link": "https://www.screener.in/company/500413",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/thomas-cook-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/thomas-cook-india-ltd",
       "Google Link": "https://www.google.com/search?q=Thomas%20Cook%20(India)%20Ltd.",
       "Sector": "Travel Services"
     },
@@ -38237,7 +38237,7 @@
       "BSE Symbol": 530007,
       "NSE Symbol": "JKTYRE",
       "Screener Link": "https://www.screener.in/company/530007",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jk-tyre-&-industries-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/jk-tyre-and-industries-ltd",
       "Google Link": "https://www.google.com/search?q=JK%20Tyre%20&%20Industries%20Ltd.",
       "Sector": "Tyres & Allied"
     },
@@ -38304,7 +38304,7 @@
       "BSE Symbol": 532548,
       "NSE Symbol": "CENTURYPLY",
       "Screener Link": "https://www.screener.in/company/532548",
-      "Business Line Link": "https://www.thehindubusinessline.com/stocks/century-plyboards-(india)-ltd",
+      "Business Line Link": "https://www.thehindubusinessline.com/stocks/century-plyboards-india-ltd",
       "Google Link": "https://www.google.com/search?q=Century%20Plyboards%20(India)%20Ltd.",
       "Sector": "Wood & Wood Products"
     },
