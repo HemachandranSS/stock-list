@@ -507,11 +507,11 @@ function getAllQuestions() {
   return Array.from(form.querySelectorAll(".question-card"))
     .map((card, index) => {
       const status = card.querySelector(".status")?.value || "";
-      const answer = card.querySelector(".answer")?.value || "";
-      const sentiment = card.querySelector(".sentiment")?.value || "";
-      const weightage = card.querySelector(".weightage")?.value || "";
-      const sources = card.querySelector(".sources")?.value || "";
-      const remarks = card.querySelector(".remarks")?.value || "";
+      const answer = (card.querySelector(".answer")?.value || "").trim();
+      const sentiment = (card.querySelector(".sentiment")?.value || "").trim();
+      const weightage = (card.querySelector(".weightage")?.value || "").trim();
+      const sources = (card.querySelector(".sources")?.value || "").trim();
+      const remarks = (card.querySelector(".remarks")?.value || "").trim();
       const prompt = card.querySelector(".prompt-text")?.textContent || "";
       const section = card.querySelector(".section-tag")?.textContent || "";
       const itemTitle = card.querySelector(".question-head h3")?.textContent || `Item ${index + 1}`;
@@ -644,8 +644,8 @@ function buildPrintHtml() {
           margin:0 0 10px;
           background:var(--card);
           box-shadow:0 6px 14px rgba(15,23,42,.035);
-          break-inside:avoid;
-          page-break-inside:avoid;
+          break-inside:auto;
+          page-break-inside:auto;
         }
         .print-q-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;margin-bottom:4px}
         .print-q-head > div{min-width:0}
