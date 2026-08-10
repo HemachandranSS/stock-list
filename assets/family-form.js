@@ -3914,10 +3914,12 @@ function init() {
   document.getElementById("csvBtn")?.addEventListener("click", downloadCsv);
   document.getElementById("pdfBtn")?.addEventListener("click", exportPdf);
   document.getElementById("resetBtn")?.addEventListener("click", () => {
-    localStorage.removeItem("familyDraft");
-    form.reset();
-    const familyInput = document.getElementById("familyName");
-    if (familyInput && !familyInput.value) familyInput.value = "My Family";
+    if (confirm("Are you sure you want to reset the draft? All progress will be lost.")) {
+      localStorage.removeItem("familyDraft");
+      form.reset();
+      const familyInput = document.getElementById("familyName");
+      if (familyInput && !familyInput.value) familyInput.value = "My Family";
+    }
   });
 }
 
