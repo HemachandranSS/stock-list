@@ -131,7 +131,53 @@ const newLockerRows = Array.from({ length: 7 }, (_, idx) => ({
   code: String(idx + 1)
 }));
 
+const fdrDetailsRows = Array.from({ length: 9 }, (_, idx) => ({
+  code: String(idx + 1)
+}));
+
+const mutualFundsRows = Array.from({ length: 15 }, (_, idx) => ({
+  code: String(idx + 1)
+}));
+
+const ppfAccountRows = Array.from({ length: 3 }, (_, idx) => ({
+  code: String(idx + 1)
+}));
+
+const pensionAccountRows = Array.from({ length: 3 }, (_, idx) => ({
+  code: String(idx + 1)
+}));
+
+const liabilitiesRows = Array.from({ length: 8 }, (_, idx) => ({
+  code: String(idx + 1)
+}));
+
+const locationOfImpDocumentsRows = [
+  { code: "A", label: "Personal Will" },
+  { code: "B", label: "Spouse's Will" },
+  { code: "C", label: "Insurance Policies" },
+  { code: "D", label: "Invest. Papers" },
+  { code: "E", label: "Property Records" },
+  { code: "F", label: "Birth Certificate" },
+  { code: "G", label: "Marriage Certificate" },
+  { code: "H", label: "Domicile Certificate" },
+  { code: "I", label: "Important Agreements" },
+  { code: "J", label: "Other Important Papers" },
+  { code: "K", label: "" },
+  { code: "L", label: "" },
+  { code: "M", label: "" },
+  { code: "N", label: "" },
+  { code: "O", label: "" }
+];
+
 const vehicleInsuranceBlocks = [
+  { code: "1" },
+];
+
+const willBlocks = [
+  { code: "1" },
+];
+
+const powerOfAttorneyBlocks = [
   { code: "1" },
 ];
 
@@ -164,7 +210,16 @@ let creditCardExtraCount = 0;
 let newLicDetailsExtraCount = 0;
 let newBankAccountExtraCount = 0;
 let newLockerExtraCount = 0;
+let fdrDetailsExtraCount = 0;
+let mutualFundsExtraCount = 0;
+let ppfAccountExtraCount = 0;
+let pensionAccountExtraCount = 0;
 let vehicleInsuranceExtraCount = 0;
+let willExtraCount = 0;
+let powerOfAttorneyExtraCount = 0;
+let liabilitiesExtraCount = 0;
+let locationOfImpDocumentsExtraCount = 0;
+let anyOtherDetailsExtraCount = 0;
 
 function slug(text) {
   return String(text).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
@@ -175,21 +230,37 @@ function getVal(id) {
   return el ? el.value : "";
 }
 
+function nextNumericRowCode(tbody, fallbackStart) {
+  const existingMax = Array.from(tbody.querySelectorAll(".row-code"))
+    .map((el) => Number.parseInt(el.textContent || "", 10))
+    .filter((n) => Number.isFinite(n))
+    .reduce((max, n) => Math.max(max, n), 0);
+  return String(Math.max(existingMax + 1, fallbackStart));
+}
+
+function nextAlphaRowCode(tbody, fallbackStart = "A") {
+  const existing = Array.from(tbody.querySelectorAll(".row-code"))
+    .map((el) => String(el.textContent || "").trim().toUpperCase())
+    .filter(Boolean);
+  const last = existing[existing.length - 1] || fallbackStart;
+  const code = last.charCodeAt(0);
+  if (code >= 65 && code < 90) return String.fromCharCode(code + 1);
+  return fallbackStart;
+}
+
 function baseName() {
-  const name = getVal("familyName", "family").trim().toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "_").replace(/(^_|_$)/g, "");
   const d = new Date();
   const dd = String(d.getDate()).padStart(2, "0");
   const mm = String(d.getMonth() + 1).padStart(2, "0");
   const yyyy = String(d.getFullYear());
   const hh = String(d.getHours()).padStart(2, "0");
   const min = String(d.getMinutes()).padStart(2, "0");
-  const sec = String(d.getSeconds()).padStart(2, "0");
-  return `${name}_family_must_know_${dd}_${mm}_${yyyy}_${hh}_${min}_${sec}`;
+  return `families_should_know_${dd}_${mm}_${yyyy}_${hh}_${min}`;
 }
 
 function buildChecklistTitle() {
   const name = getVal("familyName", "").trim();
-  return name ? `What My Family Should Know (${name})` : "What My Family Should Know";
+  return name ? `What Families Should Know (${name})` : "What Families Should Know";
 }
 
 function addField(parent, label, id) {
@@ -287,7 +358,7 @@ function addImportantDocRow(tbody) {
 
 function addAadhaarRow(tbody) {
   aadhaarExtraCount += 1;
-  const code = String(10 + aadhaarExtraCount);
+  const code = nextNumericRowCode(tbody, 11);
   const keyPrefix = `aadhaar-extra-${aadhaarExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.aadhaarExtra = String(aadhaarExtraCount);
@@ -317,7 +388,7 @@ function addAadhaarRow(tbody) {
 
 function addPanRow(tbody) {
   panExtraCount += 1;
-  const code = String(10 + panExtraCount);
+  const code = nextNumericRowCode(tbody, 11);
   const keyPrefix = `pan-extra-${panExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.panExtra = String(panExtraCount);
@@ -347,7 +418,7 @@ function addPanRow(tbody) {
 
 function addVoterRow(tbody) {
   voterExtraCount += 1;
-  const code = String(10 + voterExtraCount);
+  const code = nextNumericRowCode(tbody, 11);
   const keyPrefix = `voter-extra-${voterExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.voterExtra = String(voterExtraCount);
@@ -377,7 +448,7 @@ function addVoterRow(tbody) {
 
 function addImpDateRow(tbody) {
   impDatesExtraCount += 1;
-  const code = String(10 + impDatesExtraCount);
+  const code = nextNumericRowCode(tbody, 11);
   const keyPrefix = `imp-dates-extra-${impDatesExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.impDateExtra = String(impDatesExtraCount);
@@ -407,7 +478,7 @@ function addImpDateRow(tbody) {
 
 function addHousePropertyRow(tbody) {
   housePropertyExtraCount += 1;
-  const code = String(3 + housePropertyExtraCount);
+  const code = nextNumericRowCode(tbody, 4);
   const keyPrefix = `house-property-extra-${housePropertyExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.housePropertyExtra = String(housePropertyExtraCount);
@@ -439,7 +510,7 @@ function addHousePropertyRow(tbody) {
 
 function addElectricityRow(tbody) {
   electricityExtraCount += 1;
-  const code = String(2 + electricityExtraCount);
+  const code = nextNumericRowCode(tbody, 3);
   const keyPrefix = `electricity-extra-${electricityExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.electricityExtra = String(electricityExtraCount);
@@ -471,7 +542,7 @@ function addElectricityRow(tbody) {
 
 function addLpgGasRow(tbody) {
   lpgGasExtraCount += 1;
-  const code = String(1 + lpgGasExtraCount);
+  const code = nextNumericRowCode(tbody, 2);
   const keyPrefix = `lpg-gas-extra-${lpgGasExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.lpgGasExtra = String(lpgGasExtraCount);
@@ -501,7 +572,7 @@ function addLpgGasRow(tbody) {
 
 function addDthRow(tbody) {
   dthExtraCount += 1;
-  const code = String(1 + dthExtraCount);
+  const code = nextNumericRowCode(tbody, 2);
   const keyPrefix = `dth-extra-${dthExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.dthExtra = String(dthExtraCount);
@@ -531,7 +602,7 @@ function addDthRow(tbody) {
 
 function addPaidSubscriptionRow(tbody) {
   paidSubscriptionExtraCount += 1;
-  const code = String(22 + paidSubscriptionExtraCount);
+  const code = nextNumericRowCode(tbody, 23);
   const keyPrefix = `paid-subscription-extra-${paidSubscriptionExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.paidSubscriptionExtra = String(paidSubscriptionExtraCount);
@@ -561,7 +632,7 @@ function addPaidSubscriptionRow(tbody) {
 
 function addMediclaimPolicyRow(tbody) {
   mediclaimPolicyExtraCount += 1;
-  const code = String(2 + mediclaimPolicyExtraCount);
+  const code = nextNumericRowCode(tbody, 3);
   const keyPrefix = `mediclaim-policy-extra-${mediclaimPolicyExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.mediclaimPolicyExtra = String(mediclaimPolicyExtraCount);
@@ -593,7 +664,7 @@ function addMediclaimPolicyRow(tbody) {
 
 function addPmjbyPmsbyRow(tbody) {
   pmjbyPmsbyExtraCount += 1;
-  const code = String(2 + pmjbyPmsbyExtraCount);
+  const code = nextNumericRowCode(tbody, 3);
   const keyPrefix = `pmjby-pmsby-extra-${pmjbyPmsbyExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.pmjbyPmsbyExtra = String(pmjbyPmsbyExtraCount);
@@ -625,7 +696,7 @@ function addPmjbyPmsbyRow(tbody) {
 
 function addLicRenewalRow(tbody) {
   licRenewalExtraCount += 1;
-  const code = String(13 + licRenewalExtraCount);
+  const code = nextNumericRowCode(tbody, 14);
   const keyPrefix = `lic-renewal-extra-${licRenewalExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.licRenewalExtra = String(licRenewalExtraCount);
@@ -657,7 +728,7 @@ function addLicRenewalRow(tbody) {
 
 function addFireBurglaryRow(tbody) {
   fireBurglaryExtraCount += 1;
-  const code = String(2 + fireBurglaryExtraCount);
+  const code = nextNumericRowCode(tbody, 3);
   const keyPrefix = `fire-burglary-extra-${fireBurglaryExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.fireBurglaryExtra = String(fireBurglaryExtraCount);
@@ -690,7 +761,7 @@ function addFireBurglaryRow(tbody) {
 
 function addDebitCardRow(tbody) {
   debitCardExtraCount += 1;
-  const code = String(7 + debitCardExtraCount);
+  const code = nextNumericRowCode(tbody, 8);
   const keyPrefix = `debit-card-extra-${debitCardExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.debitCardExtra = String(debitCardExtraCount);
@@ -723,7 +794,7 @@ function addDebitCardRow(tbody) {
 
 function addCreditCardRow(tbody) {
   creditCardExtraCount += 1;
-  const code = String(5 + creditCardExtraCount);
+  const code = nextNumericRowCode(tbody, 6);
   const keyPrefix = `credit-card-extra-${creditCardExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.creditCardExtra = String(creditCardExtraCount);
@@ -756,7 +827,7 @@ function addCreditCardRow(tbody) {
 
 function addNewLicDetailsRow(tbody) {
   newLicDetailsExtraCount += 1;
-  const code = String(13 + newLicDetailsExtraCount);
+  const code = nextNumericRowCode(tbody, 14);
   const keyPrefix = `new-lic-details-extra-${newLicDetailsExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.newLicDetailsExtra = String(newLicDetailsExtraCount);
@@ -765,17 +836,29 @@ function addNewLicDetailsRow(tbody) {
     <td><textarea id="${keyPrefix}-policy" name="${keyPrefix}-policy" rows="2" placeholder="Name & Type of Policy"></textarea></td>
     <td><textarea id="${keyPrefix}-policy-no" name="${keyPrefix}-policy-no" rows="2" placeholder="Policy No."></textarea></td>
     <td><textarea id="${keyPrefix}-insured" name="${keyPrefix}-insured" rows="2" placeholder="Amt. Insured"></textarea></td>
-    <td><textarea id="${keyPrefix}-date" name="${keyPrefix}-date" rows="2" placeholder="Issue Date/ Maturity Date"></textarea></td>
-    <td><textarea id="${keyPrefix}-premium" name="${keyPrefix}-premium" rows="2" placeholder="Premium"></textarea></td>
-    <td><textarea id="${keyPrefix}-due" name="${keyPrefix}-due" rows="2" placeholder="Premium Due Date"></textarea></td>
+    <td><textarea id="${keyPrefix}-date" name="${keyPrefix}-nominee" rows="2" placeholder="Nominee"></textarea></td>
+    <td><textarea id="${keyPrefix}-premium" name="${keyPrefix}-any-special-instruction" rows="2" placeholder="Any Special Instruction"></textarea></td>
   `;
+  const actionCell = document.createElement("td");
+  actionCell.className = "row-actions";
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "row-remove";
+  removeBtn.textContent = "−";
+  removeBtn.title = "Remove row";
+  removeBtn.addEventListener("click", () => {
+    tr.remove();
+    persistDraft();
+  });
+  actionCell.appendChild(removeBtn);
+  tr.appendChild(actionCell);
   tbody.appendChild(tr);
   persistDraft();
 }
 
 function addNewBankAccountRow(tbody) {
   newBankAccountExtraCount += 1;
-  const code = String(8 + newBankAccountExtraCount);
+  const code = nextNumericRowCode(tbody, 9);
   const keyPrefix = `new-bank-account-extra-${newBankAccountExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.newBankAccountExtra = String(newBankAccountExtraCount);
@@ -786,13 +869,26 @@ function addNewBankAccountRow(tbody) {
     <td><textarea id="${keyPrefix}-type" name="${keyPrefix}-type" rows="2" placeholder="Type of Account"></textarea></td>
     <td><textarea id="${keyPrefix}-nominee" name="${keyPrefix}-nominee" rows="2" placeholder="Nominee/s"></textarea></td>
   `;
+  const actionCell = document.createElement("td");
+  actionCell.className = "row-actions";
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "row-remove";
+  removeBtn.textContent = "−";
+  removeBtn.title = "Remove row";
+  removeBtn.addEventListener("click", () => {
+    tr.remove();
+    persistDraft();
+  });
+  actionCell.appendChild(removeBtn);
+  tr.appendChild(actionCell);
   tbody.appendChild(tr);
   persistDraft();
 }
 
 function addNewLockerRow(tbody) {
   newLockerExtraCount += 1;
-  const code = String(7 + newLockerExtraCount);
+  const code = nextNumericRowCode(tbody, 8);
   const keyPrefix = `new-locker-extra-${newLockerExtraCount}`;
   const tr = document.createElement("tr");
   tr.dataset.newLockerExtra = String(newLockerExtraCount);
@@ -807,8 +903,161 @@ function addNewLockerRow(tbody) {
     <td><textarea id="${keyPrefix}-nominee" name="${keyPrefix}-nominee" rows="2" placeholder="Nominee"></textarea></td>
     <td><textarea id="${keyPrefix}-contents" name="${keyPrefix}-contents" rows="2" placeholder="Contents"></textarea></td>
   `;
+  const actionCell = document.createElement("td");
+  actionCell.className = "row-actions";
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "row-remove";
+  removeBtn.textContent = "−";
+  removeBtn.title = "Remove row";
+  removeBtn.addEventListener("click", () => {
+    tr.remove();
+    persistDraft();
+  });
+  actionCell.appendChild(removeBtn);
+  tr.appendChild(actionCell);
   tbody.appendChild(tr);
   persistDraft();
+}
+
+function addFdrDetailsRow(tbody) {
+  fdrDetailsExtraCount += 1;
+  const code = nextNumericRowCode(tbody, 10);
+  const keyPrefix = `fdr-details-extra-${fdrDetailsExtraCount}`;
+  const tr = document.createElement("tr");
+  tr.dataset.fdrDetailsExtra = String(fdrDetailsExtraCount);
+  tr.innerHTML = `
+    <td class="row-code">${code}</td>
+    <td><textarea id="${keyPrefix}-bank" name="${keyPrefix}-bank" rows="2" placeholder="Bank/Company Name & Branch"></textarea></td>
+    <td><textarea id="${keyPrefix}-type" name="${keyPrefix}-type" rows="2" placeholder="Type of Dep. (SDR/FDR/RD)"></textarea></td>
+    <td><textarea id="${keyPrefix}-fdr" name="${keyPrefix}-fdr" rows="2" placeholder="FDR No."></textarea></td>
+    <td><textarea id="${keyPrefix}-date" name="${keyPrefix}-date" rows="2" placeholder="Date of Dep."></textarea></td>
+    <td><textarea id="${keyPrefix}-amt" name="${keyPrefix}-amt" rows="2" placeholder="Amt. (Rs.)"></textarea></td>
+    <td><textarea id="${keyPrefix}-maturity" name="${keyPrefix}-maturity" rows="2" placeholder="Maturity Date"></textarea></td>
+    <td><textarea id="${keyPrefix}-nominee" name="${keyPrefix}-nominee" rows="2" placeholder="Nominee/s"></textarea></td>
+    <td><textarea id="${keyPrefix}-loan" name="${keyPrefix}-loan" rows="2" placeholder="Loan / OD availed"></textarea></td>
+  `;
+  const actionCell = document.createElement("td");
+  actionCell.className = "row-actions";
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "row-remove";
+  removeBtn.textContent = "−";
+  removeBtn.title = "Remove row";
+  removeBtn.addEventListener("click", () => {
+    tr.remove();
+    persistDraft();
+  });
+  actionCell.appendChild(removeBtn);
+  tr.appendChild(actionCell);
+  tbody.appendChild(tr);
+  persistDraft();
+}
+
+function addMutualFundsRow(tbody) {
+  mutualFundsExtraCount += 1;
+  const existingMax = Array.from(tbody.querySelectorAll("tr .row-code"))
+    .map((el) => Number.parseInt(el.textContent || "", 10))
+    .filter((n) => Number.isFinite(n))
+    .reduce((max, n) => Math.max(max, n), 0);
+  const code = nextNumericRowCode(tbody, 16);
+  const keyPrefix = `mutual-funds-extra-${mutualFundsExtraCount}`;
+  const tr = document.createElement("tr");
+  tr.dataset.mutualFundsExtra = String(mutualFundsExtraCount);
+  tr.innerHTML = `
+    <td class="row-code">${code}</td>
+    <td><textarea id="${keyPrefix}-folio" name="${keyPrefix}-folio" rows="2" placeholder="Folio Number"></textarea></td>
+    <td><textarea id="${keyPrefix}-fund" name="${keyPrefix}-fund" rows="2" placeholder="Name of Fund"></textarea></td>
+    <td><textarea id="${keyPrefix}-applicant" name="${keyPrefix}-applicant" rows="2" placeholder="Applicant"></textarea></td>
+    <td><textarea id="${keyPrefix}-nominee" name="${keyPrefix}-nominee" rows="2" placeholder="Nominee"></textarea></td>
+    <td><textarea id="${keyPrefix}-amount" name="${keyPrefix}-amount" rows="2" placeholder="Total Amount Invested"></textarea></td>
+  `;
+  const actionCell = document.createElement("td");
+  actionCell.className = "row-actions";
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "row-remove";
+  removeBtn.textContent = "−";
+  removeBtn.title = "Remove row";
+  removeBtn.addEventListener("click", () => {
+    tr.remove();
+    persistDraft();
+  });
+  actionCell.appendChild(removeBtn);
+  tr.appendChild(actionCell);
+  tbody.appendChild(tr);
+  persistDraft();
+}
+
+function addPpfAccountRow(tbody) {
+  ppfAccountExtraCount += 1;
+  const code = nextNumericRowCode(tbody, 4);
+  const keyPrefix = `ppf-account-extra-${ppfAccountExtraCount}`;
+  const tr = document.createElement("tr");
+  tr.dataset.ppfAccountExtra = String(ppfAccountExtraCount);
+  tr.innerHTML = `
+    <td class="row-code">${code}</td>
+    <td><textarea id="${keyPrefix}-bank" name="${keyPrefix}-bank" rows="2" placeholder="Bank Name & Branch"></textarea></td>
+    <td><textarea id="${keyPrefix}-fvg" name="${keyPrefix}-fvg" rows="2" placeholder="Fvg."></textarea></td>
+    <td><textarea id="${keyPrefix}-account" name="${keyPrefix}-account" rows="2" placeholder="PPF A/c. No."></textarea></td>
+    <td><textarea id="${keyPrefix}-maturity" name="${keyPrefix}-maturity" rows="2" placeholder="Maturity Date"></textarea></td>
+    <td><textarea id="${keyPrefix}-nominee" name="${keyPrefix}-nominee" rows="2" placeholder="Nominee/s"></textarea></td>
+  `;
+  const actionCell = document.createElement("td");
+  actionCell.className = "row-actions";
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "row-remove";
+  removeBtn.textContent = "−";
+  removeBtn.title = "Remove row";
+  removeBtn.addEventListener("click", () => {
+    tr.remove();
+    persistDraft();
+  });
+  actionCell.appendChild(removeBtn);
+  tr.appendChild(actionCell);
+  tbody.appendChild(tr);
+  persistDraft();
+}
+
+function addPensionAccountRow(tbody) {
+  pensionAccountExtraCount += 1;
+  const code = nextNumericRowCode(tbody, 4);
+  const keyPrefix = `pension-account-extra-${pensionAccountExtraCount}`;
+  const tr = document.createElement("tr");
+  tr.dataset.pensionAccountExtra = String(pensionAccountExtraCount);
+  tr.innerHTML = `
+    <td class="row-code">${code}</td>
+    <td><textarea id="${keyPrefix}-bank" name="${keyPrefix}-bank" rows="2" placeholder="Bank Name & Branch"></textarea></td>
+    <td><textarea id="${keyPrefix}-account-type" name="${keyPrefix}-account-type" rows="2" placeholder="Type of Account & Pension A/c. No."></textarea></td>
+    <td><textarea id="${keyPrefix}-instructions" name="${keyPrefix}-instructions" rows="2" placeholder="Operating Instructions"></textarea></td>
+    <td><textarea id="${keyPrefix}-order" name="${keyPrefix}-order" rows="2" placeholder="Pension Payment Order No."></textarea></td>
+    <td><textarea id="${keyPrefix}-nominee" name="${keyPrefix}-nominee" rows="2" placeholder="Nominee/s"></textarea></td>
+    <td><textarea id="${keyPrefix}-due" name="${keyPrefix}-due" rows="2" placeholder="Due Date for Live Certificate"></textarea></td>
+    <td><textarea id="${keyPrefix}-signature" name="${keyPrefix}-signature" rows="2" placeholder="Signature"></textarea></td>
+  `;
+  const actionCell = document.createElement("td");
+  actionCell.className = "row-actions";
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "row-remove";
+  removeBtn.textContent = "−";
+  removeBtn.title = "Remove row";
+  removeBtn.addEventListener("click", () => {
+    tr.remove();
+    persistDraft();
+  });
+  actionCell.appendChild(removeBtn);
+  tr.appendChild(actionCell);
+  tbody.appendChild(tr);
+  persistDraft();
+}
+
+function markActionTables() {
+  form.querySelectorAll("td.row-actions").forEach((cell) => {
+    const section = cell.closest(".subsection, .section-block");
+    if (section) section.classList.add("table-has-actions");
+  });
 }
 
 function addVehicleInsuranceBlock(container, removable = true) {
@@ -859,6 +1108,153 @@ function addVehicleInsuranceBlock(container, removable = true) {
     });
   }
   container.appendChild(block);
+  persistDraft();
+}
+
+function addWillBlock(container, removable = true) {
+  willExtraCount += 1;
+  const idx = willBlocks.length + willExtraCount;
+  const block = document.createElement("section");
+  block.className = "subsection vehicle-insurance-block will-block";
+  block.dataset.willBlock = String(idx);
+  block.innerHTML = `
+    <div class="subsection-header">
+      <h3>Will (If Any)</h3>
+      <span>Testament and will details</span>
+    </div>
+    ${removable ? '<button type="button" class="row-remove section-remove" title="Remove section">−</button>' : ""}
+    <div class="field-stack single-column">
+      <label><span>Will</span><textarea id="will-${idx}-will" name="will-${idx}-will" rows="3"></textarea></label>
+      <label><span>My will is executed on</span><textarea id="will-${idx}-executed-on" name="will-${idx}-executed-on" rows="3"></textarea></label>
+      <label><span>Copy of the will is kept at</span><textarea id="will-${idx}-kept-at" name="will-${idx}-kept-at" rows="3"></textarea></label>
+    </div>
+  `;
+  const removeBtn = block.querySelector(".section-remove");
+  if (removeBtn) {
+    removeBtn.addEventListener("click", () => {
+      block.remove();
+      persistDraft();
+    });
+  }
+  container.appendChild(block);
+  persistDraft();
+}
+
+function addPowerOfAttorneyBlock(container, removable = true) {
+  powerOfAttorneyExtraCount += 1;
+  const idx = powerOfAttorneyBlocks.length + powerOfAttorneyExtraCount;
+  const block = document.createElement("section");
+  block.className = "subsection vehicle-insurance-block power-of-attorney-block";
+  block.dataset.powerOfAttorneyBlock = String(idx);
+  block.innerHTML = `
+    <div class="subsection-header">
+      <h3>Power Of Attorney</h3>
+      <span>Authority and document details</span>
+    </div>
+    ${removable ? '<button type="button" class="row-remove section-remove" title="Remove section">−</button>' : ""}
+    <div class="field-stack single-column">
+      <label><span>POWER OF ATTORNEY</span><textarea id="power-of-attorney-${idx}-heading" name="power-of-attorney-${idx}-heading" rows="3"></textarea></label>
+      <label><span>Power of Attorney executed for Wife/Son/Others</span><textarea id="power-of-attorney-${idx}-for" name="power-of-attorney-${idx}-for" rows="3"></textarea></label>
+      <label><span>My Power of Attorney is</span><textarea id="power-of-attorney-${idx}-is" name="power-of-attorney-${idx}-is" rows="3"></textarea></label>
+      <label><span>Deed Executed on</span><textarea id="power-of-attorney-${idx}-deed" name="power-of-attorney-${idx}-deed" rows="3"></textarea></label>
+      <label><span>Details kept in File No.</span><textarea id="power-of-attorney-${idx}-file-no" name="power-of-attorney-${idx}-file-no" rows="3"></textarea></label>
+    </div>
+  `;
+  const removeBtn = block.querySelector(".section-remove");
+  if (removeBtn) {
+    removeBtn.addEventListener("click", () => {
+      block.remove();
+      persistDraft();
+    });
+  }
+  container.appendChild(block);
+  persistDraft();
+}
+
+function addLiabilitiesRow(tbody) {
+  liabilitiesExtraCount += 1;
+  const code = nextNumericRowCode(tbody, 1);
+  const keyPrefix = `liabilities-extra-${liabilitiesExtraCount}`;
+  const tr = document.createElement("tr");
+  tr.dataset.liabilitiesExtra = String(liabilitiesExtraCount);
+  tr.innerHTML = `
+    <td class="row-code">${code}</td>
+    <td><textarea id="${keyPrefix}-amount" name="${keyPrefix}-amount" rows="2" placeholder="Amount"></textarea></td>
+    <td><textarea id="${keyPrefix}-borrowed-from" name="${keyPrefix}-borrowed-from" rows="2" placeholder="Borrowed From"></textarea></td>
+    <td><textarea id="${keyPrefix}-rate-of-int" name="${keyPrefix}-rate-of-int" rows="2" placeholder="Rate of Int"></textarea></td>
+    <td><textarea id="${keyPrefix}-already-paid" name="${keyPrefix}-already-paid" rows="2" placeholder="Already Paid"></textarea></td>
+    <td><textarea id="${keyPrefix}-balance" name="${keyPrefix}-balance" rows="2" placeholder="Balance"></textarea></td>
+  `;
+  const actionCell = document.createElement("td");
+  actionCell.className = "row-actions";
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "row-remove";
+  removeBtn.textContent = "−";
+  removeBtn.title = "Remove row";
+  removeBtn.addEventListener("click", () => {
+    tr.remove();
+    persistDraft();
+  });
+  actionCell.appendChild(removeBtn);
+  tr.appendChild(actionCell);
+  tbody.appendChild(tr);
+  persistDraft();
+}
+
+function addLocationOfImpDocumentsRow(tbody) {
+  locationOfImpDocumentsExtraCount += 1;
+  const code = nextAlphaRowCode(tbody, "A");
+  const keyPrefix = `location-of-imp-docs-extra-${locationOfImpDocumentsExtraCount}`;
+  const tr = document.createElement("tr");
+  tr.dataset.locationOfImpDocsExtra = String(locationOfImpDocumentsExtraCount);
+  tr.innerHTML = `
+    <td class="row-code">${code}</td>
+    <td><textarea id="${keyPrefix}-label" name="${keyPrefix}-label" rows="2" placeholder="Document / Paper Name"></textarea></td>
+    <td><textarea id="${keyPrefix}-location" name="${keyPrefix}-location" rows="2" placeholder="Location / Details"></textarea></td>
+  `;
+  const actionCell = document.createElement("td");
+  actionCell.className = "row-actions";
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "row-remove";
+  removeBtn.textContent = "−";
+  removeBtn.title = "Remove row";
+  removeBtn.addEventListener("click", () => {
+    tr.remove();
+    persistDraft();
+  });
+  actionCell.appendChild(removeBtn);
+  tr.appendChild(actionCell);
+  tbody.appendChild(tr);
+  persistDraft();
+}
+
+function addAnyOtherDetailsRow(tbody) {
+  anyOtherDetailsExtraCount += 1;
+  const code = String(anyOtherDetailsExtraCount);
+  const keyPrefix = `any-other-details-${anyOtherDetailsExtraCount}`;
+  const tr = document.createElement("tr");
+  tr.dataset.anyOtherDetailsExtra = String(anyOtherDetailsExtraCount);
+  tr.innerHTML = `
+    <td class="row-code">${code}</td>
+    <td><textarea id="${keyPrefix}-detail" name="${keyPrefix}-detail" rows="3" placeholder="Any other detail"></textarea></td>
+    <td class="row-actions"></td>
+  `;
+  const actionCell = document.createElement("td");
+  actionCell.className = "row-actions";
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "row-remove";
+  removeBtn.textContent = "−";
+  removeBtn.title = "Remove row";
+  removeBtn.addEventListener("click", () => {
+    tr.remove();
+    persistDraft();
+  });
+  actionCell.appendChild(removeBtn);
+  tr.appendChild(actionCell);
+  tbody.appendChild(tr);
   persistDraft();
 }
 
@@ -1408,7 +1804,7 @@ function buildForm() {
   newLicSection.querySelector("span").textContent = "Insurance records";
   const newLicThead = newLicSection.querySelector("thead");
   const newLicTbody = newLicSection.querySelector("tbody");
-  newLicThead.innerHTML = `<tr><th>Sr. No.</th><th>Name & Type of Policy</th><th>Policy No.</th><th>Amt. Insured</th><th>Nominee</th><th>Any Special Instructions</th></tr>`;
+  newLicThead.innerHTML = `<tr><th>Sr. No.</th><th>Name & Type of Policy</th><th>Policy No.</th><th>Amt. Insured</th><th>Nominee</th><th>Any Special Instructions</th><th>Action</th></tr>`;
   newLicDetailsRows.forEach((row) => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
@@ -1418,6 +1814,7 @@ function buildForm() {
       <td><textarea id="new-lic-${row.code}-insured" name="new-lic-${row.code}-insured" rows="2"></textarea></td>
       <td><textarea id="new-lic-${row.code}-nominee" name="new-lic-${row.code}-nominee" rows="2"></textarea></td>
       <td><textarea id="new-lic-${row.code}-instructions" name="new-lic-${row.code}-instructions" rows="2"></textarea></td>
+      <td class="row-actions"></td>
     `;
     newLicTbody.appendChild(tr);
   });
@@ -1436,7 +1833,7 @@ function buildForm() {
   newPmjbySection.querySelector("span").textContent = "Insurance and savings policies";
   const newPmjbyThead = newPmjbySection.querySelector("thead");
   const newPmjbyTbody = newPmjbySection.querySelector("tbody");
-  newPmjbyThead.innerHTML = `<tr><th>Sr. No.</th><th>Name & Type of Policy</th><th>Name of the Bank</th><th>Date of Commencement</th><th>Nominee</th></tr>`;
+  newPmjbyThead.innerHTML = `<tr><th>Sr. No.</th><th>Name & Type of Policy</th><th>Name of the Bank</th><th>Date of Commencement</th><th>Nominee</th><th>Action</th></tr>`;
   newPmjbyPmsbyRows.forEach((row) => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
@@ -1445,6 +1842,7 @@ function buildForm() {
       <td><textarea id="new-pmjby-${row.code}-bank" name="new-pmjby-${row.code}-bank" rows="2"></textarea></td>
       <td><textarea id="new-pmjby-${row.code}-date" name="new-pmjby-${row.code}-date" rows="2"></textarea></td>
       <td><textarea id="new-pmjby-${row.code}-nominee" name="new-pmjby-${row.code}-nominee" rows="2"></textarea></td>
+      <td class="row-actions"></td>
     `;
     tr.querySelector('textarea[id$="-policy"]').value = row.label;
     newPmjbyTbody.appendChild(tr);
@@ -1464,7 +1862,7 @@ function buildForm() {
   newBankSection.querySelector("span").textContent = "Account records";
   const newBankThead = newBankSection.querySelector("thead");
   const newBankTbody = newBankSection.querySelector("tbody");
-  newBankThead.innerHTML = `<tr><th>Sr. No.</th><th>Bank Name</th><th>Branch</th><th>Type of Account</th><th>Nominee/s</th></tr>`;
+  newBankThead.innerHTML = `<tr><th>Sr. No.</th><th>Bank Name</th><th>Branch</th><th>Type of Account</th><th>Nominee/s</th><th>Action</th></tr>`;
   newBankAccountRows.forEach((row) => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
@@ -1473,6 +1871,7 @@ function buildForm() {
       <td><textarea id="new-bank-${row.code}-branch" name="new-bank-${row.code}-branch" rows="2"></textarea></td>
       <td><textarea id="new-bank-${row.code}-type" name="new-bank-${row.code}-type" rows="2"></textarea></td>
       <td><textarea id="new-bank-${row.code}-nominee" name="new-bank-${row.code}-nominee" rows="2"></textarea></td>
+      <td class="row-actions"></td>
     `;
     newBankTbody.appendChild(tr);
   });
@@ -1491,7 +1890,7 @@ function buildForm() {
   newLockerSection.querySelector("span").textContent = "Safe deposit records";
   const newLockerThead = newLockerSection.querySelector("thead");
   const newLockerTbody = newLockerSection.querySelector("tbody");
-  newLockerThead.innerHTML = `<tr><th>Sr. No.</th><th>Bank Name & Branch</th><th>Locker No.</th><th>In the Name of</th><th>Deputy</th><th>Rent (Rs.)</th><th>Rent Renewal Date</th><th>Nominee</th><th>Contents</th></tr>`;
+  newLockerThead.innerHTML = `<tr><th>Sr. No.</th><th>Bank Name & Branch</th><th>Locker No.</th><th>In the Name of</th><th>Deputy</th><th>Rent (Rs.)</th><th>Rent Renewal Date</th><th>Nominee</th><th>Contents</th><th>Action</th></tr>`;
   newLockerRows.forEach((row) => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
@@ -1504,6 +1903,7 @@ function buildForm() {
       <td><textarea id="new-locker-${row.code}-renewal" name="new-locker-${row.code}-renewal" rows="2"></textarea></td>
       <td><textarea id="new-locker-${row.code}-nominee" name="new-locker-${row.code}-nominee" rows="2"></textarea></td>
       <td><textarea id="new-locker-${row.code}-contents" name="new-locker-${row.code}-contents" rows="2"></textarea></td>
+      <td class="row-actions"></td>
     `;
     newLockerTbody.appendChild(tr);
   });
@@ -1514,6 +1914,280 @@ function buildForm() {
   newLockerAddBtn.addEventListener("click", () => addNewLockerRow(newLockerTbody));
   newLockerWrap.appendChild(newLockerAddBtn);
   form.appendChild(newLockerSection);
+
+  const fdrSection = tableTemplate.content.cloneNode(true);
+  const fdrWrap = fdrSection.querySelector(".subsection");
+  fdrWrap.id = "section-fdr-details";
+  fdrSection.querySelector("h3").textContent = "FDR Details";
+  fdrSection.querySelector("span").textContent = "Deposit records";
+  const fdrThead = fdrSection.querySelector("thead");
+  const fdrTbody = fdrSection.querySelector("tbody");
+  fdrThead.innerHTML = `<tr><th>Sr. No.</th><th>Bank/Company Name & Branch</th><th>Type of Dep. (SDR/FDR/RD)</th><th>FDR No.</th><th>Date of Dep.</th><th>Amt. (Rs.)</th><th>Maturity Date</th><th>Nominee/s</th><th>Loan / OD availed</th><th>Action</th></tr>`;
+  fdrDetailsRows.forEach((row) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="row-code">${row.code}</td>
+      <td><textarea id="fdr-${row.code}-bank" name="fdr-${row.code}-bank" rows="2"></textarea></td>
+      <td><textarea id="fdr-${row.code}-type" name="fdr-${row.code}-type" rows="2"></textarea></td>
+      <td><textarea id="fdr-${row.code}-fdr" name="fdr-${row.code}-fdr" rows="2"></textarea></td>
+      <td><textarea id="fdr-${row.code}-date" name="fdr-${row.code}-date" rows="2"></textarea></td>
+      <td><textarea id="fdr-${row.code}-amt" name="fdr-${row.code}-amt" rows="2"></textarea></td>
+      <td><textarea id="fdr-${row.code}-maturity" name="fdr-${row.code}-maturity" rows="2"></textarea></td>
+      <td><textarea id="fdr-${row.code}-nominee" name="fdr-${row.code}-nominee" rows="2"></textarea></td>
+      <td><textarea id="fdr-${row.code}-loan" name="fdr-${row.code}-loan" rows="2"></textarea></td>
+      <td class="row-actions"></td>
+    `;
+    fdrTbody.appendChild(tr);
+  });
+  const fdrAddBtn = document.createElement("button");
+  fdrAddBtn.type = "button";
+  fdrAddBtn.className = "row-add";
+  fdrAddBtn.textContent = "+ Add Row";
+  fdrAddBtn.addEventListener("click", () => addFdrDetailsRow(fdrTbody));
+  fdrWrap.appendChild(fdrAddBtn);
+  form.appendChild(fdrSection);
+
+  const mutualFundsSection = tableTemplate.content.cloneNode(true);
+  const mutualFundsWrap = mutualFundsSection.querySelector(".subsection");
+  mutualFundsWrap.id = "section-mutual-funds";
+  mutualFundsSection.querySelector("table").classList.add("mutual-funds-table");
+  mutualFundsSection.querySelector("h3").textContent = "Mutual Funds";
+  mutualFundsSection.querySelector("span").textContent = "Fund records";
+  const mutualFundsThead = mutualFundsSection.querySelector("thead");
+  const mutualFundsTbody = mutualFundsSection.querySelector("tbody");
+  mutualFundsThead.innerHTML = `<tr><th>Sr. No.</th><th>Folio Number</th><th>Name of Fund</th><th>Applicant</th><th>Nominee</th><th>Total Amount Invested</th><th>Action</th></tr>`;
+  mutualFundsRows.forEach((row) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="row-code">${row.code}</td>
+      <td><textarea id="mutual-funds-${row.code}-folio" name="mutual-funds-${row.code}-folio" rows="2" placeholder="Folio Number"></textarea></td>
+      <td><textarea id="mutual-funds-${row.code}-fund" name="mutual-funds-${row.code}-fund" rows="2" placeholder="Name of Fund"></textarea></td>
+      <td><textarea id="mutual-funds-${row.code}-applicant" name="mutual-funds-${row.code}-applicant" rows="2" placeholder="Applicant"></textarea></td>
+      <td><textarea id="mutual-funds-${row.code}-nominee" name="mutual-funds-${row.code}-nominee" rows="2" placeholder="Nominee"></textarea></td>
+      <td><textarea id="mutual-funds-${row.code}-amount" name="mutual-funds-${row.code}-amount" rows="2" placeholder="Total Amount Invested"></textarea></td>
+      <td class="row-actions"></td>
+    `;
+    mutualFundsTbody.appendChild(tr);
+  });
+  const mutualFundsAddBtn = document.createElement("button");
+  mutualFundsAddBtn.type = "button";
+  mutualFundsAddBtn.className = "row-add";
+  mutualFundsAddBtn.textContent = "+ Add Row";
+  mutualFundsAddBtn.addEventListener("click", () => addMutualFundsRow(mutualFundsTbody));
+  mutualFundsWrap.appendChild(mutualFundsAddBtn);
+  form.appendChild(mutualFundsSection);
+
+  const ppfSection = tableTemplate.content.cloneNode(true);
+  const ppfWrap = ppfSection.querySelector(".subsection");
+  ppfWrap.id = "section-ppf-account-details";
+  ppfSection.querySelector("h3").textContent = "PPF Account Details";
+  ppfSection.querySelector("span").textContent = "Savings and deposit records";
+  const ppfThead = ppfSection.querySelector("thead");
+  const ppfTbody = ppfSection.querySelector("tbody");
+  ppfThead.innerHTML = `<tr><th>Sr. No.</th><th>Bank Name & Branch</th><th>Fvg.</th><th>PPF A/c. No.</th><th>Maturity Date</th><th>Nominee/s</th><th>Action</th></tr>`;
+  ppfAccountRows.forEach((row) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="row-code">${row.code}</td>
+      <td><textarea id="ppf-${row.code}-bank" name="ppf-${row.code}-bank" rows="2" placeholder="Bank Name & Branch"></textarea></td>
+      <td><textarea id="ppf-${row.code}-fvg" name="ppf-${row.code}-fvg" rows="2" placeholder="Fvg."></textarea></td>
+      <td><textarea id="ppf-${row.code}-account" name="ppf-${row.code}-account" rows="2" placeholder="PPF A/c. No."></textarea></td>
+      <td><textarea id="ppf-${row.code}-maturity" name="ppf-${row.code}-maturity" rows="2" placeholder="Maturity Date"></textarea></td>
+      <td><textarea id="ppf-${row.code}-nominee" name="ppf-${row.code}-nominee" rows="2" placeholder="Nominee/s"></textarea></td>
+      <td class="row-actions"></td>
+    `;
+    ppfTbody.appendChild(tr);
+  });
+  const ppfAddBtn = document.createElement("button");
+  ppfAddBtn.type = "button";
+  ppfAddBtn.className = "row-add";
+  ppfAddBtn.textContent = "+ Add Row";
+  ppfAddBtn.addEventListener("click", () => addPpfAccountRow(ppfTbody));
+  ppfWrap.appendChild(ppfAddBtn);
+  form.appendChild(ppfSection);
+
+  const pensionSection = tableTemplate.content.cloneNode(true);
+  const pensionWrap = pensionSection.querySelector(".subsection");
+  pensionWrap.id = "section-pension-account";
+  pensionSection.querySelector("h3").textContent = "Pension Account";
+  pensionSection.querySelector("span").textContent = "Retirement account records";
+  const pensionThead = pensionSection.querySelector("thead");
+  const pensionTbody = pensionSection.querySelector("tbody");
+  pensionThead.innerHTML = `<tr><th>Sr. No.</th><th>Bank Name & Branch</th><th>Type of Account & Pension A/c. No.</th><th>Operating Instructions</th><th>Pension Payment Order No.</th><th>Nominee/s</th><th>Due Date for Live Certificate</th><th>Signature</th><th>Action</th></tr>`;
+  pensionAccountRows.forEach((row) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="row-code">${row.code}</td>
+      <td><textarea id="pension-${row.code}-bank" name="pension-${row.code}-bank" rows="2" placeholder="Bank Name & Branch"></textarea></td>
+      <td><textarea id="pension-${row.code}-account-type" name="pension-${row.code}-account-type" rows="2" placeholder="Type of Account & Pension A/c. No."></textarea></td>
+      <td><textarea id="pension-${row.code}-instructions" name="pension-${row.code}-instructions" rows="2" placeholder="Operating Instructions"></textarea></td>
+      <td><textarea id="pension-${row.code}-order" name="pension-${row.code}-order" rows="2" placeholder="Pension Payment Order No."></textarea></td>
+      <td><textarea id="pension-${row.code}-nominee" name="pension-${row.code}-nominee" rows="2" placeholder="Nominee/s"></textarea></td>
+      <td><textarea id="pension-${row.code}-due" name="pension-${row.code}-due" rows="2" placeholder="Due Date for Live Certificate"></textarea></td>
+      <td><textarea id="pension-${row.code}-signature" name="pension-${row.code}-signature" rows="2" placeholder="Signature"></textarea></td>
+      <td class="row-actions"></td>
+    `;
+    pensionTbody.appendChild(tr);
+  });
+  const pensionAddBtn = document.createElement("button");
+  pensionAddBtn.type = "button";
+  pensionAddBtn.className = "row-add";
+  pensionAddBtn.textContent = "+ Add Row";
+  pensionAddBtn.addEventListener("click", () => addPensionAccountRow(pensionTbody));
+  pensionWrap.appendChild(pensionAddBtn);
+  form.appendChild(pensionSection);
+
+  const willSection = document.createElement("section");
+  willSection.className = "section-block";
+  willSection.id = "section-will-if-any";
+  willSection.innerHTML = `
+    <div class="subsection-header">
+      <h2>Will (If Any)</h2>
+      <p>Single-document will notes and storage details.</p>
+    </div>
+  `;
+  const willList = document.createElement("div");
+  willList.className = "vehicle-insurance-list";
+  willBlocks.forEach((_, idx) => addWillBlock(willList, idx !== 0));
+  const willAddBtn = document.createElement("button");
+  willAddBtn.type = "button";
+  willAddBtn.className = "row-add";
+  willAddBtn.textContent = "+ Add Section";
+  willAddBtn.addEventListener("click", () => addWillBlock(willList, true));
+  willSection.appendChild(willList);
+  willSection.appendChild(willAddBtn);
+  form.appendChild(willSection);
+
+  const poaSection = document.createElement("section");
+  poaSection.className = "section-block";
+  poaSection.id = "section-power-of-attorney";
+  poaSection.innerHTML = `
+    <div class="subsection-header">
+      <h2>Power Of Attorney</h2>
+      <p>Authority and deed reference notes.</p>
+    </div>
+  `;
+  const poaList = document.createElement("div");
+  poaList.className = "vehicle-insurance-list";
+  powerOfAttorneyBlocks.forEach((_, idx) => addPowerOfAttorneyBlock(poaList, idx !== 0));
+  const poaAddBtn = document.createElement("button");
+  poaAddBtn.type = "button";
+  poaAddBtn.className = "row-add";
+  poaAddBtn.textContent = "+ Add Section";
+  poaAddBtn.addEventListener("click", () => addPowerOfAttorneyBlock(poaList, true));
+  poaSection.appendChild(poaList);
+  poaSection.appendChild(poaAddBtn);
+  form.appendChild(poaSection);
+
+  const liabilitiesSection = tableTemplate.content.cloneNode(true);
+  const liabilitiesWrap = liabilitiesSection.querySelector(".subsection");
+  liabilitiesWrap.id = "section-my-liabilities-debts";
+  liabilitiesSection.querySelector("h3").textContent = "My Liabilities / Debts";
+  liabilitiesSection.querySelector("span").textContent = "Loans and outstanding dues";
+  const liabilitiesThead = liabilitiesSection.querySelector("thead");
+  const liabilitiesTbody = liabilitiesSection.querySelector("tbody");
+  liabilitiesThead.innerHTML = `<tr><th>S. No</th><th>Amount</th><th>Borrowed From</th><th>Rate of Int</th><th>Already Paid</th><th>Balance</th><th>Action</th></tr>`;
+  liabilitiesRows.forEach((row) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="row-code">${row.code}</td>
+      <td><textarea id="liabilities-${row.code}-amount" name="liabilities-${row.code}-amount" rows="2" placeholder="Amount"></textarea></td>
+      <td><textarea id="liabilities-${row.code}-borrowed-from" name="liabilities-${row.code}-borrowed-from" rows="2" placeholder="Borrowed From"></textarea></td>
+      <td><textarea id="liabilities-${row.code}-rate-of-int" name="liabilities-${row.code}-rate-of-int" rows="2" placeholder="Rate of Int"></textarea></td>
+      <td><textarea id="liabilities-${row.code}-already-paid" name="liabilities-${row.code}-already-paid" rows="2" placeholder="Already Paid"></textarea></td>
+      <td><textarea id="liabilities-${row.code}-balance" name="liabilities-${row.code}-balance" rows="2" placeholder="Balance"></textarea></td>
+      <td class="row-actions"></td>
+    `;
+    liabilitiesTbody.appendChild(tr);
+  });
+  const liabilitiesAddBtn = document.createElement("button");
+  liabilitiesAddBtn.type = "button";
+  liabilitiesAddBtn.className = "row-add";
+  liabilitiesAddBtn.textContent = "+ Add Row";
+  liabilitiesAddBtn.addEventListener("click", () => addLiabilitiesRow(liabilitiesTbody));
+  liabilitiesWrap.appendChild(liabilitiesAddBtn);
+  form.appendChild(liabilitiesSection);
+
+  const locationImpDocsSection = tableTemplate.content.cloneNode(true);
+  const locationImpDocsWrap = locationImpDocsSection.querySelector(".subsection");
+  locationImpDocsWrap.id = "section-location-of-imp-documents";
+  locationImpDocsSection.querySelector("h3").textContent = "Location of Imp Documents";
+  locationImpDocsSection.querySelector("span").textContent = "Where the original documents are kept";
+  const locationImpDocsThead = locationImpDocsSection.querySelector("thead");
+  const locationImpDocsTbody = locationImpDocsSection.querySelector("tbody");
+  locationImpDocsThead.innerHTML = `<tr><th></th><th>Document Name</th><th>Location</th><th>Action</th></tr>`;
+  locationOfImpDocumentsRows.forEach((row) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="row-code">${row.code}</td>
+      <td><textarea id="location-imp-doc-${row.code}-label" name="location-imp-doc-${row.code}-label" rows="2" placeholder="Document / Paper Name"></textarea></td>
+      <td><textarea id="location-imp-doc-${row.code}-location" name="location-imp-doc-${row.code}-location" rows="2" placeholder="Location / Details"></textarea></td>
+      <td class="row-actions"></td>
+    `;
+    locationImpDocsTbody.appendChild(tr);
+  });
+  const locationImpDocsAddBtn = document.createElement("button");
+  locationImpDocsAddBtn.type = "button";
+  locationImpDocsAddBtn.className = "row-add";
+  locationImpDocsAddBtn.textContent = "+ Add Row";
+  locationImpDocsAddBtn.addEventListener("click", () => addLocationOfImpDocumentsRow(locationImpDocsTbody));
+  locationImpDocsWrap.appendChild(locationImpDocsAddBtn);
+  form.appendChild(locationImpDocsSection);
+
+  const anyOtherSection = tableTemplate.content.cloneNode(true);
+  const anyOtherWrap = anyOtherSection.querySelector(".subsection");
+  anyOtherWrap.id = "section-any-other-details";
+  anyOtherSection.querySelector("h3").textContent = "Any Other Details";
+  anyOtherSection.querySelector("span").textContent = "Free text notes and additional details";
+  const anyOtherThead = anyOtherSection.querySelector("thead");
+  const anyOtherTbody = anyOtherSection.querySelector("tbody");
+  anyOtherThead.innerHTML = `<tr><th>S. No</th><th>Details</th><th>Action</th></tr>`;
+  const anyOtherInitial = document.createElement("tr");
+  anyOtherInitial.innerHTML = `
+    <td class="row-code">1</td>
+    <td><textarea id="any-other-details-1-detail" name="any-other-details-1-detail" rows="4" placeholder="Any other detail"></textarea></td>
+    <td class="row-actions"></td>
+  `;
+  anyOtherTbody.appendChild(anyOtherInitial);
+  const anyOtherAddBtn = document.createElement("button");
+  anyOtherAddBtn.type = "button";
+  anyOtherAddBtn.className = "row-add";
+  anyOtherAddBtn.textContent = "+ Add Row";
+  anyOtherAddBtn.addEventListener("click", () => addAnyOtherDetailsRow(anyOtherTbody));
+  anyOtherWrap.appendChild(anyOtherAddBtn);
+  form.appendChild(anyOtherSection);
+
+  const navLinks = [
+    ["Family Profile", "#section-family-profile"],
+    ["Ready Reference", "#section-ready-reference"],
+    ["Imp Documents", "#section-important-documents"],
+    ["AADHAR Cards", "#section-aadhaar-card-details"],
+    ["PAN Cards", "#section-pan-card-details"],
+    ["Voter IDs", "#section-voter-election-id-card-details"],
+    ["Important Dates", "#section-imp-dates"],
+    ["House Property", "#section-house-property-details"],
+    ["Electricity", "#section-electricity-details"],
+    ["LPG Gas", "#section-lpg-gas-details"],
+    ["DTH", "#section-dth-details"],
+    ["Paid Subscriptions", "#section-paid-subscription-services"],
+    ["Mediclaim", "#section-mediclaim-policy"],
+    ["PMJJBY & PMSBY", "#section-pmjby-pmsby"],
+    ["LIC Renewal", "#section-lic-renewal-details"],
+    ["Vehicle Insurance", "#section-vehicle-insurance-policy"],
+    ["Fire & Burglary", "#section-fire-burglary-insurance"],
+    ["Debit Cards", "#section-debit-card-details"],
+    ["Credit Cards", "#section-credit-card-details"],
+    ["FDR Details", "#section-fdr-details"],
+    ["Mutual Funds", "#section-mutual-funds"],
+    ["PPF Account", "#section-ppf-account-details"],
+    ["Pension Account", "#section-pension-account"],
+    ["Will", "#section-will-if-any"],
+    ["Power of Attorney", "#section-power-of-attorney"],
+    ["Liabilities / Debts", "#section-my-liabilities-debts"],
+    ["Location of Imp Docs", "#section-location-of-imp-documents"],
+    ["Any Other Details", "#section-any-other-details"]
+  ];
+  navLinks.forEach(([text, href]) => addSectionNav(text, href));
 }
 
 function collectData() {
@@ -1524,6 +2198,7 @@ function collectData() {
     email: getVal("email"),
     residence_address: getVal("residenceAddress"),
     generated_at: new Date().toLocaleString(),
+    family_profile_additional_fields: [],
     ready_reference: [],
     important_documents: [],
     aadhaar_details: [],
@@ -1545,7 +2220,16 @@ function collectData() {
     new_pmjby_pmsby_details: [],
     new_bank_account_details: [],
     new_locker_details: [],
+    fdr_details: [],
+    mutual_funds: [],
+    ppf_account_details: [],
+    pension_account_details: [],
     vehicle_insurance_policies: [],
+    will_details: [],
+    power_of_attorney_details: [],
+    liabilities_details: [],
+    location_of_imp_documents: [],
+    any_other_details: [],
     tables: {}
   };
 
@@ -1557,6 +2241,19 @@ function collectData() {
       office_address: getVal(`ready-${slug(row.label)}-address`),
       mobile_contact: getVal(`ready-${slug(row.label)}-mobile`)
     });
+  });
+
+  form.querySelectorAll(".dynamic-field").forEach((wrap) => {
+    const sectionKey = wrap.dataset.sectionKey || "";
+    const label = wrap.querySelector('input[type="text"]')?.value || "";
+    const value = wrap.querySelector("textarea")?.value || "";
+    if (sectionKey) {
+      data.family_profile_additional_fields.push({
+        section_key: sectionKey,
+        label,
+        value
+      });
+    }
   });
 
   const readyTable = form.querySelector("#section-ready-reference table tbody");
@@ -1843,6 +2540,22 @@ function collectData() {
     });
   }
 
+  const pensionTable = form.querySelector("#section-pension-account table tbody");
+  if (pensionTable) {
+    pensionTable.querySelectorAll("tr").forEach((tr) => {
+      data.pension_account_details.push({
+        sr_no: tr.querySelector(".row-code")?.textContent || "",
+        bank_name_branch: tr.querySelector('textarea[id$="-bank"]')?.value || "",
+        type_of_account_pension_ac_no: tr.querySelector('textarea[id$="-account-type"]')?.value || "",
+        operating_instructions: tr.querySelector('textarea[id$="-instructions"]')?.value || "",
+        pension_payment_order_no: tr.querySelector('textarea[id$="-order"]')?.value || "",
+        nominee_s: tr.querySelector('textarea[id$="-nominee"]')?.value || "",
+        due_date_for_live_certificate: tr.querySelector('textarea[id$="-due"]')?.value || "",
+        signature: tr.querySelector('textarea[id$="-signature"]')?.value || ""
+      });
+    });
+  }
+
   const newLockerTable = form.querySelector("#section-new-locker-details table tbody");
   if (newLockerTable) {
     newLockerTable.querySelectorAll("tr").forEach((tr) => {
@@ -1856,6 +2569,51 @@ function collectData() {
         rent_renewal_date: tr.querySelector('textarea[id$="-renewal"]')?.value || "",
         nominee: tr.querySelector('textarea[id$="-nominee"]')?.value || "",
         contents: tr.querySelector('textarea[id$="-contents"]')?.value || ""
+      });
+    });
+  }
+
+  const fdrTable = form.querySelector("#section-fdr-details table tbody");
+  if (fdrTable) {
+    fdrTable.querySelectorAll("tr").forEach((tr) => {
+      data.fdr_details.push({
+        sr_no: tr.querySelector(".row-code")?.textContent || "",
+        bank_company_name_branch: tr.querySelector('textarea[id$="-bank"]')?.value || "",
+        type_of_dep: tr.querySelector('textarea[id$="-type"]')?.value || "",
+        fdr_no: tr.querySelector('textarea[id$="-fdr"]')?.value || "",
+        date_of_dep: tr.querySelector('textarea[id$="-date"]')?.value || "",
+        amt_rs: tr.querySelector('textarea[id$="-amt"]')?.value || "",
+        maturity_date: tr.querySelector('textarea[id$="-maturity"]')?.value || "",
+        nominee_s: tr.querySelector('textarea[id$="-nominee"]')?.value || "",
+        loan_od_availed: tr.querySelector('textarea[id$="-loan"]')?.value || ""
+      });
+    });
+  }
+
+  const mutualFundsTable = form.querySelector("#section-mutual-funds table tbody");
+  if (mutualFundsTable) {
+    mutualFundsTable.querySelectorAll("tr").forEach((tr) => {
+      data.mutual_funds.push({
+        sr_no: tr.querySelector(".row-code")?.textContent || "",
+        folio_number: tr.querySelector('textarea[id$="-folio"]')?.value || "",
+        name_of_fund: tr.querySelector('textarea[id$="-fund"]')?.value || "",
+        applicant: tr.querySelector('textarea[id$="-applicant"]')?.value || "",
+        nominee: tr.querySelector('textarea[id$="-nominee"]')?.value || "",
+        total_amount_invested: tr.querySelector('textarea[id$="-amount"]')?.value || ""
+      });
+    });
+  }
+
+  const ppfTable = form.querySelector("#section-ppf-account-details table tbody");
+  if (ppfTable) {
+    ppfTable.querySelectorAll("tr").forEach((tr) => {
+      data.ppf_account_details.push({
+        sr_no: tr.querySelector(".row-code")?.textContent || "",
+        bank_name_branch: tr.querySelector('textarea[id$="-bank"]')?.value || "",
+        fvg: tr.querySelector('textarea[id$="-fvg"]')?.value || "",
+        ppf_account_no: tr.querySelector('textarea[id$="-account"]')?.value || "",
+        maturity_date: tr.querySelector('textarea[id$="-maturity"]')?.value || "",
+        nominee_s: tr.querySelector('textarea[id$="-nominee"]')?.value || ""
       });
     });
   }
@@ -1881,6 +2639,61 @@ function collectData() {
       remarks: tr?.querySelector('textarea[id$="-remarks"]')?.value || ""
     });
   });
+
+  form.querySelectorAll(".will-block").forEach((block) => {
+    data.will_details.push({
+      sr_no: block.dataset.willBlock || "",
+      will: block.querySelector('textarea[id$="-will"]')?.value || "",
+      executed_on: block.querySelector('textarea[id$="-executed-on"]')?.value || "",
+      kept_at: block.querySelector('textarea[id$="-kept-at"]')?.value || ""
+    });
+  });
+
+  form.querySelectorAll(".power-of-attorney-block").forEach((block) => {
+    data.power_of_attorney_details.push({
+      sr_no: block.dataset.powerOfAttorneyBlock || "",
+      heading: block.querySelector('textarea[id$="-heading"]')?.value || "",
+      executed_for: block.querySelector('textarea[id$="-for"]')?.value || "",
+      power_of_attorney_is: block.querySelector('textarea[id$="-is"]')?.value || "",
+      deed_executed_on: block.querySelector('textarea[id$="-deed"]')?.value || "",
+      file_no: block.querySelector('textarea[id$="-file-no"]')?.value || ""
+    });
+  });
+
+  const liabilitiesTable = form.querySelector("#section-my-liabilities-debts table tbody");
+  if (liabilitiesTable) {
+    liabilitiesTable.querySelectorAll("tr").forEach((tr) => {
+      data.liabilities_details.push({
+        sr_no: tr.querySelector(".row-code")?.textContent || "",
+        amount: tr.querySelector('textarea[id$="-amount"]')?.value || "",
+        borrowed_from: tr.querySelector('textarea[id$="-borrowed-from"]')?.value || "",
+        rate_of_int: tr.querySelector('textarea[id$="-rate-of-int"]')?.value || "",
+        already_paid: tr.querySelector('textarea[id$="-already-paid"]')?.value || "",
+        balance: tr.querySelector('textarea[id$="-balance"]')?.value || ""
+      });
+    });
+  }
+
+  const locationOfImpDocsTable = form.querySelector("#section-location-of-imp-documents table tbody");
+  if (locationOfImpDocsTable) {
+    locationOfImpDocsTable.querySelectorAll("tr").forEach((tr) => {
+      data.location_of_imp_documents.push({
+        sr_no: tr.querySelector(".row-code")?.textContent || "",
+        label: tr.querySelector('textarea[id$="-label"]')?.value || tr.querySelector(".row-label")?.textContent || "",
+        location: tr.querySelector('textarea[id$="-location"]')?.value || ""
+      });
+    });
+  }
+
+  const anyOtherTable = form.querySelector("#section-any-other-details table tbody");
+  if (anyOtherTable) {
+    anyOtherTable.querySelectorAll("tr").forEach((tr) => {
+      data.any_other_details.push({
+        sr_no: tr.querySelector(".row-code")?.textContent || "",
+        detail: tr.querySelector('textarea[id$="-detail"]')?.value || ""
+      });
+    });
+  }
 
   return data;
 }
@@ -1911,6 +2724,12 @@ function downloadCsv() {
     ["generated_at", data.generated_at],
     []
   ].map((r) => r.map(csvEscape).join(","));
+
+  const familyProfileExtrasCsv = data.family_profile_additional_fields.map((row) => [
+    row.section_key || "",
+    row.label || "",
+    row.value || ""
+  ].map(csvEscape).join(","));
 
   const readyRows = data.ready_reference.map((row) => [
     row.code,
@@ -2103,6 +2922,83 @@ function downloadCsv() {
     row.contents || ""
   ].map(csvEscape).join(","));
 
+  const fdrRowsCsv = data.fdr_details.map((row) => [
+    row.sr_no,
+    row.bank_company_name_branch || "",
+    row.type_of_dep || "",
+    row.fdr_no || "",
+    row.date_of_dep || "",
+    row.amt_rs || "",
+    row.maturity_date || "",
+    row.nominee_s || "",
+    row.loan_od_availed || ""
+  ].map(csvEscape).join(","));
+
+  const mutualFundsRowsCsv = data.mutual_funds.map((row) => [
+    row.sr_no,
+    row.folio_number || "",
+    row.name_of_fund || "",
+    row.applicant || "",
+    row.nominee || "",
+    row.total_amount_invested || ""
+  ].map(csvEscape).join(","));
+
+  const ppfRowsCsv = data.ppf_account_details.map((row) => [
+    row.sr_no,
+    row.bank_name_branch || "",
+    row.fvg || "",
+    row.ppf_account_no || "",
+    row.maturity_date || "",
+    row.nominee_s || ""
+  ].map(csvEscape).join(","));
+
+  const pensionRowsCsv = data.pension_account_details.map((row) => [
+    row.sr_no,
+    row.bank_name_branch || "",
+    row.type_of_account_pension_ac_no || "",
+    row.operating_instructions || "",
+    row.pension_payment_order_no || "",
+    row.nominee_s || "",
+    row.due_date_for_live_certificate || "",
+    row.signature || ""
+  ].map(csvEscape).join(","));
+
+  const willRowsCsv = data.will_details.map((row) => [
+    row.sr_no,
+    row.will || "",
+    row.executed_on || "",
+    row.kept_at || ""
+  ].map(csvEscape).join(","));
+
+  const powerOfAttorneyRowsCsv = data.power_of_attorney_details.map((row) => [
+    row.sr_no,
+    row.heading || "",
+    row.executed_for || "",
+    row.power_of_attorney_is || "",
+    row.deed_executed_on || "",
+    row.file_no || ""
+  ].map(csvEscape).join(","));
+
+  const liabilitiesRowsCsv = data.liabilities_details.map((row) => [
+    row.sr_no,
+    row.amount || "",
+    row.borrowed_from || "",
+    row.rate_of_int || "",
+    row.already_paid || "",
+    row.balance || ""
+  ].map(csvEscape).join(","));
+
+  const locationOfImpDocsRowsCsv = data.location_of_imp_documents.map((row) => [
+    row.sr_no,
+    row.label || "",
+    row.location || ""
+  ].map(csvEscape).join(","));
+
+  const anyOtherRowsCsv = data.any_other_details.map((row) => [
+    row.sr_no,
+    row.detail || ""
+  ].map(csvEscape).join(","));
+
   const vehicleInsuranceRowsCsv = data.vehicle_insurance_policies.map((row) => [
     row.sr_no,
     row.reg_no || "",
@@ -2123,6 +3019,8 @@ function downloadCsv() {
 
   const csv = [
     ...rows,
+    [`SECTION`, `Family Profile Additional Fields`].map(csvEscape).join(","),
+    ...familyProfileExtrasCsv,
     [`SECTION`, `Ready Reference`].map(csvEscape).join(","),
     ...readyRows,
     [`SECTION`, `Imp Documents`].map(csvEscape).join(","),
@@ -2167,7 +3065,25 @@ function downloadCsv() {
     [`SECTION`, `Bank Account Details`].map(csvEscape).join(","),
     ...newBankRowsCsv,
     [`SECTION`, `Locker Details`].map(csvEscape).join(","),
-    ...newLockerRowsCsv
+    ...newLockerRowsCsv,
+    [`SECTION`, `FDR Details`].map(csvEscape).join(","),
+    ...fdrRowsCsv,
+    [`SECTION`, `Mutual Funds`].map(csvEscape).join(","),
+    ...mutualFundsRowsCsv,
+    [`SECTION`, `PPF Account Details`].map(csvEscape).join(","),
+    ...ppfRowsCsv,
+    [`SECTION`, `Pension Account`].map(csvEscape).join(","),
+    ...pensionRowsCsv,
+    [`SECTION`, `Will (If Any)`].map(csvEscape).join(","),
+    ...willRowsCsv,
+    [`SECTION`, `Power Of Attorney`].map(csvEscape).join(","),
+    ...powerOfAttorneyRowsCsv,
+    [`SECTION`, `My Liabilities / Debts`].map(csvEscape).join(","),
+    ...liabilitiesRowsCsv,
+    [`SECTION`, `Location of Imp Documents`].map(csvEscape).join(","),
+    ...locationOfImpDocsRowsCsv,
+    [`SECTION`, `Any Other Details`].map(csvEscape).join(","),
+    ...anyOtherRowsCsv
   ].join("\n");
   const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
   const url = URL.createObjectURL(blob);
@@ -2180,6 +3096,39 @@ function downloadCsv() {
 
 function buildPrintHtml() {
   const data = collectData();
+  const familyProfileExtrasHtml = data.family_profile_additional_fields.length
+    ? `
+      <div class="print-table-wrap" style="margin-top:10px">
+        <table class="print-table">
+          <thead>
+            <tr>
+              <th>Field Label</th><th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${data.family_profile_additional_fields.map((row) => `
+              <tr>
+                <td>${row.label || "&nbsp;"}</td>
+                <td>${row.value || "&nbsp;"}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    `
+    : "";
+  const familyProfileHtml = `
+    <section class="print-card">
+      <h3>Family Profile</h3>
+      <div class="print-grid">
+        <div><dt>Family Name</dt><dd>${data.family_name || "&nbsp;"}</dd></div>
+        <div><dt>Mobile / Phone (Self)</dt><dd>${data.mobile_phone || "&nbsp;"}</dd></div>
+        <div><dt>Email</dt><dd>${data.email || "&nbsp;"}</dd></div>
+        <div><dt>Residence Address</dt><dd>${data.residence_address || "&nbsp;"}</dd></div>
+      </div>
+      ${familyProfileExtrasHtml}
+    </section>
+  `;
   const readyHtml = `
     <section class="print-card">
       <h3>Ready Reference</h3>
@@ -2191,7 +3140,7 @@ function buildPrintHtml() {
         </thead>
         <tbody>
           ${data.ready_reference.map((row) => {
-            return `
+    return `
               <tr>
                 <td>${row.code}</td>
                 <td>${row.label}</td>
@@ -2200,7 +3149,7 @@ function buildPrintHtml() {
                 <td>${row.mobile_contact || "&nbsp;"}</td>
               </tr>
             `;
-          }).join("")}
+  }).join("")}
         </tbody>
       </table>
     </section>
@@ -2597,6 +3546,198 @@ function buildPrintHtml() {
       </table>
     </section>
   `;
+  const fdrHtml = `
+    <section class="print-card">
+      <h3>FDR Details</h3>
+      <table class="print-table">
+        <thead>
+          <tr>
+            <th>Sr. No.</th><th>Bank/Company Name & Branch</th><th>Type of Dep. (SDR/FDR/RD)</th><th>FDR No.</th><th>Date of Dep.</th><th>Amt. (Rs.)</th><th>Maturity Date</th><th>Nominee/s</th><th>Loan / OD availed</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${data.fdr_details.map((row) => `
+            <tr>
+              <td>${row.sr_no || "&nbsp;"}</td>
+              <td>${row.bank_company_name_branch || "&nbsp;"}</td>
+              <td>${row.type_of_dep || "&nbsp;"}</td>
+              <td>${row.fdr_no || "&nbsp;"}</td>
+              <td>${row.date_of_dep || "&nbsp;"}</td>
+              <td>${row.amt_rs || "&nbsp;"}</td>
+              <td>${row.maturity_date || "&nbsp;"}</td>
+              <td>${row.nominee_s || "&nbsp;"}</td>
+              <td>${row.loan_od_availed || "&nbsp;"}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </section>
+  `;
+  const mutualFundsHtml = `
+    <section class="print-card">
+      <h3>Mutual Funds</h3>
+      <table class="print-table">
+        <thead>
+          <tr>
+            <th>Folio Number</th><th>Name of Fund</th><th>Applicant</th><th>Nominee</th><th>Total Amount Invested</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${data.mutual_funds.map((row) => `
+            <tr>
+              <td>${row.folio_number || "&nbsp;"}</td>
+              <td>${row.name_of_fund || "&nbsp;"}</td>
+              <td>${row.applicant || "&nbsp;"}</td>
+              <td>${row.nominee || "&nbsp;"}</td>
+              <td>${row.total_amount_invested || "&nbsp;"}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </section>
+  `;
+  const ppfHtml = `
+    <section class="print-card">
+      <h3>PPF Account Details</h3>
+      <table class="print-table">
+        <thead>
+          <tr>
+            <th>Sr. No.</th><th>Bank Name & Branch</th><th>Fvg.</th><th>PPF A/c. No.</th><th>Maturity Date</th><th>Nominee/s</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${data.ppf_account_details.map((row) => `
+            <tr>
+              <td>${row.sr_no || "&nbsp;"}</td>
+              <td>${row.bank_name_branch || "&nbsp;"}</td>
+              <td>${row.fvg || "&nbsp;"}</td>
+              <td>${row.ppf_account_no || "&nbsp;"}</td>
+              <td>${row.maturity_date || "&nbsp;"}</td>
+              <td>${row.nominee_s || "&nbsp;"}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </section>
+  `;
+  const pensionHtml = `
+    <section class="print-card">
+      <h3>Pension Account</h3>
+      <table class="print-table">
+        <thead>
+          <tr>
+            <th>Sr. No.</th><th>Bank Name & Branch</th><th>Type of Account & Pension A/c. No.</th><th>Operating Instructions</th><th>Pension Payment Order No.</th><th>Nominee/s</th><th>Due Date for Live Certificate</th><th>Signature</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${data.pension_account_details.map((row) => `
+            <tr>
+              <td>${row.sr_no || "&nbsp;"}</td>
+              <td>${row.bank_name_branch || "&nbsp;"}</td>
+              <td>${row.type_of_account_pension_ac_no || "&nbsp;"}</td>
+              <td>${row.operating_instructions || "&nbsp;"}</td>
+              <td>${row.pension_payment_order_no || "&nbsp;"}</td>
+              <td>${row.nominee_s || "&nbsp;"}</td>
+              <td>${row.due_date_for_live_certificate || "&nbsp;"}</td>
+              <td>${row.signature || "&nbsp;"}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </section>
+  `;
+  const willHtml = `
+    <section class="print-card">
+      <h3>Will (If Any)</h3>
+      ${data.will_details.map((row) => `
+        <div class="simple-block">
+          <div><dt>Will</dt><dd>${row.will || "&nbsp;"}</dd></div>
+          <div><dt>My will is executed on</dt><dd>${row.executed_on || "&nbsp;"}</dd></div>
+          <div><dt>Copy of the will is kept at</dt><dd>${row.kept_at || "&nbsp;"}</dd></div>
+        </div>
+      `).join("")}
+    </section>
+  `;
+  const powerOfAttorneyHtml = `
+    <section class="print-card">
+      <h3>Power Of Attorney</h3>
+      ${data.power_of_attorney_details.map((row) => `
+        <div class="simple-block">
+          <div><dt>POWER OF ATTORNEY</dt><dd>${row.heading || "&nbsp;"}</dd></div>
+          <div><dt>Power of Attorney executed for Wife/Son/Others</dt><dd>${row.executed_for || "&nbsp;"}</dd></div>
+          <div><dt>My Power of Attorney is</dt><dd>${row.power_of_attorney_is || "&nbsp;"}</dd></div>
+          <div><dt>Deed Executed on</dt><dd>${row.deed_executed_on || "&nbsp;"}</dd></div>
+          <div><dt>Details kept in File No.</dt><dd>${row.file_no || "&nbsp;"}</dd></div>
+        </div>
+      `).join("")}
+    </section>
+  `;
+  const liabilitiesHtml = `
+    <section class="print-card">
+      <h3>My Liabilities / Debts</h3>
+      <table class="print-table">
+        <thead>
+          <tr>
+            <th>S. No</th><th>Amount</th><th>Borrowed From</th><th>Rate of Int</th><th>Already Paid</th><th>Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${data.liabilities_details.map((row) => `
+            <tr>
+              <td>${row.sr_no || "&nbsp;"}</td>
+              <td>${row.amount || "&nbsp;"}</td>
+              <td>${row.borrowed_from || "&nbsp;"}</td>
+              <td>${row.rate_of_int || "&nbsp;"}</td>
+              <td>${row.already_paid || "&nbsp;"}</td>
+              <td>${row.balance || "&nbsp;"}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </section>
+  `;
+  const locationOfImpDocsHtml = `
+    <section class="print-card">
+      <h3>Location of Imp Documents</h3>
+      <table class="print-table">
+        <thead>
+          <tr>
+            <th></th><th></th><th>Document Name</th><th>Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${data.location_of_imp_documents.map((row) => `
+            <tr>
+              <td>${row.sr_no || "&nbsp;"}</td>
+              <td>${row.label || "&nbsp;"}</td>
+              <td>${row.label || "&nbsp;"}</td>
+              <td>${row.location || "&nbsp;"}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </section>
+  `;
+  const anyOtherHtml = `
+    <section class="print-card">
+      <h3>Any Other Details</h3>
+      <table class="print-table">
+        <thead>
+          <tr>
+            <th>S. No</th><th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${data.any_other_details.map((row) => `
+            <tr>
+              <td>${row.sr_no || "&nbsp;"}</td>
+              <td>${row.detail || "&nbsp;"}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </section>
+  `;
   const vehicleInsuranceHtml = `
     <section class="print-card">
       <h3>Vehicle Insurance Policy</h3>
@@ -2653,6 +3794,7 @@ function buildPrintHtml() {
   </style></head><body>
     <h1>${data.checklist_title}</h1>
     <div class="meta">Family: ${data.family_name || ""} | Generated: ${data.generated_at}</div>
+    ${familyProfileHtml}
     ${readyHtml}
     ${docsHtml}
     ${aadhaarHtml}
@@ -2671,30 +3813,58 @@ function buildPrintHtml() {
     ${fireBurglaryHtml}
     ${debitCardHtml}
     ${creditCardHtml}
+    ${fdrHtml}
+    ${mutualFundsHtml}
+    ${ppfHtml}
+    ${pensionHtml}
+    ${willHtml}
+    ${powerOfAttorneyHtml}
+    ${liabilitiesHtml}
+    ${locationOfImpDocsHtml}
+    ${anyOtherHtml}
   </body></html>`;
 }
 
 function exportPdf() {
-  const popup = window.open("", "_blank");
-  if (!popup) return;
-  popup.document.open();
-  popup.document.write(buildPrintHtml());
-  popup.document.close();
-  const triggerPrint = () => {
+  const originalTitle = document.title;
+  const exportTitle = `${baseName()}.pdf`;
+  document.title = exportTitle;
+
+  const iframe = document.createElement("iframe");
+  iframe.style.position = "fixed";
+  iframe.style.right = "0";
+  iframe.style.bottom = "0";
+  iframe.style.width = "0";
+  iframe.style.height = "0";
+  iframe.style.border = "0";
+  iframe.style.visibility = "hidden";
+  iframe.srcdoc = buildPrintHtml();
+  iframe.onload = () => {
+    const target = iframe.contentWindow;
+    if (!target) {
+      iframe.remove();
+      document.title = originalTitle;
+      return;
+    }
+    try {
+      target.document.title = baseName();
+    } catch (err) {
+      console.error("Failed to set PDF title", err);
+    }
+    target.focus();
     setTimeout(() => {
       try {
-        popup.focus();
-        popup.print();
+        target.print();
       } catch (err) {
-        console.error(err);
+        console.error("PDF print failed", err);
       }
-    }, 500);
+      setTimeout(() => {
+        iframe.remove();
+        document.title = originalTitle;
+      }, 1500);
+    }, 400);
   };
-  if (popup.document.readyState === "complete") {
-    triggerPrint();
-  } else {
-    popup.addEventListener("load", triggerPrint, { once: true });
-  }
+  document.body.appendChild(iframe);
 }
 
 function persistDraft() {
@@ -2731,6 +3901,7 @@ function restoreDraft() {
 
 function init() {
   buildForm();
+  markActionTables();
   restoreDraft();
   const familyInput = document.getElementById("familyName");
   if (familyInput && !familyInput.value) familyInput.value = "My Family";
