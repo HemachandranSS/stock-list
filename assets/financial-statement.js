@@ -3,7 +3,92 @@ document.addEventListener('DOMContentLoaded', () => {
     const formatCurrency = (val) => '₹' + Number(val).toLocaleString('en-IN', { maximumFractionDigits: 0 });
     const parseNum = (val) => Number((val || '0').replace(/,/g, '')) || 0;
 
-    // Generic Row Add
+    function getFormData() { return {}; } // actual definition later
+
+    function persistDraft() {
+        localStorage.setItem('financialStatementDraft', JSON.stringify(getFormData()));
+    }
+
+    function restoreDraft() {
+        const saved = localStorage.getItem('financialStatementDraft');
+        if (!saved) return;
+        try {
+            const data = JSON.parse(saved);
+            if (data.date) document.getElementById('asOnDate').value = data.date;
+
+            const tbodyAssets = document.getElementById('assetsBody');
+            tbodyAssets.innerHTML = '';
+            (data.assets || []).forEach(a => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+        <td><input type="text" placeholder="Category" value="${a.category || ''}" /></td>
+        <td><input type="text" placeholder="Description" value="${a.desc || ''}" /></td>
+        <td><input type="number" class="asset-amt" value="${a.amount || 0}" /></td>
+        <td>
+          <select class="asset-type">
+            <option value="Support Asset" ${a.type === 'Support Asset' ? 'selected' : ''}>Support Asset</option>
+            <option value="Investible" ${a.type === 'Investible' ? 'selected' : ''}>Investible</option>
+          </select>
+        </td>
+        <td><button class="remove-btn">×</button></td>
+                `;
+                tbodyAssets.appendChild(tr);
+            });
+
+            const tbodyCont = document.getElementById('contAssetsBody');
+            tbodyCont.innerHTML = '';
+            (data.contAssets || []).forEach(c => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+        <td><input type="text" placeholder="Description" value="${c.desc || ''}" /></td>
+        <td><input type="number" value="${c.amount || 0}" /></td>
+        <td><input type="text" placeholder="Treatment" value="${c.treatment || ''}" /></td>
+        <td><button class="remove-btn">×</button></td>
+                `;
+                tbodyCont.appendChild(tr);
+            });
+
+            const tbodyLiab = document.getElementById('liabilitiesBody');
+            tbodyLiab.innerHTML = '';
+            (data.liabilities || []).forEach(l => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+        <td><input type="text" placeholder="Liability" value="${l.liability || ''}" /></td>
+        <td><input type="text" value="${l.details || ''}" /></td>
+        <td><input type="number" class="liab-amt" value="${l.amount || 0}" /></td>
+        <td style="text-align: center;"><input type="checkbox" class="is-emi" ${l.isEmi ? 'checked' : ''} /></td>
+        <td><input type="number" class="emi-amt" value="${l.emi || 0}" ${l.isEmi ? '' : 'disabled'} /></td>
+        <td><button class="remove-btn">×</button></td>
+                `;
+                tbodyLiab.appendChild(tr);
+            });
+
+            const tbodyInc = document.getElementById('incBody');
+            tbodyInc.innerHTML = '';
+            (data.income || []).forEach(i => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+        <td><input type="text" placeholder="Income Source" value="${i.source || ''}" /></td>
+        <td><input type="number" class="p-inc-amt" value="${i.amount || 0}" /></td>
+        <td><button class="remove-btn">×</button></td>
+                `;
+                tbodyInc.appendChild(tr);
+            });
+
+            const tbodyExp = document.getElementById('expBody');
+            tbodyExp.innerHTML = '';
+            (data.expenses || []).forEach(e => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+        <td><input type="text" placeholder="Expense Category" value="${e.category || ''}" /></td>
+        <td><input type="number" class="p-exp-amt" value="${e.amount || 0}" /></td>
+        <td><button class="remove-btn">×</button></td>
+                `;
+                tbodyExp.appendChild(tr);
+            });
+        } catch (e) { }
+    }
+
     const createRow = (tbodyId, type) => {
         const tbody = document.getElementById(tbodyId);
         if (!tbody) return;
@@ -195,9 +280,14 @@ document.addEventListener('DOMContentLoaded', () => {
             emiBadge.classList.add('status-borderline');
             emiBadge.textContent = 'Borderline (Recommended ≥ 1.25)';
         } else {
-            emiBadge.classList.add('status-danger');
             emiBadge.textContent = 'Danger (< 1.0 means Deficit)';
         }
+
+        // This fails if called prior to initialization of getFormData if not careful, 
+        // but restoring then attaching ensures it works.
+        try {
+            localStorage.setItem('financialStatementDraft', JSON.stringify(getFormData()));
+        } catch (e) { }
     };
 
     attachListeners(document);
@@ -206,10 +296,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const now = new Date();
     document.getElementById('asOnDate').value = now.toISOString().split('T')[0];
 
+    restoreDraft();
+    attachListeners(document);
+    document.getElementById('asOnDate').addEventListener('change', () => { calculateAll(); });
+
     calculateAll();
 
     // EXPORTS
-    const getFormData = () => {
+    function getFormData() {
         const data = {
             date: document.getElementById('asOnDate').value,
             summary: {
@@ -335,6 +429,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('resetBtn').addEventListener('click', () => {
         if (confirm('Are you sure you want to reset all numerical inputs to 0?')) {
+            localStorage.removeItem('financialStatementDraft');
             document.querySelectorAll('input[type="number"]').forEach(input => input.value = "0");
             calculateAll();
         }

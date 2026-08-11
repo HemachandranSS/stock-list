@@ -7,8 +7,68 @@ document.addEventListener('DOMContentLoaded', () => {
         return '₹0';
     };
 
+    function getFormData() {
+        // Will be defined later, hoisted
+        return {};
+    } // Temporary, just to hoist declaration? Wait, I will just hoist the actual function at line 110.
+
+    function persistDraft() {
+        localStorage.setItem('monthlyPlannerDraft', JSON.stringify(getFormData()));
+    }
+
+    function restoreDraft() {
+        const saved = localStorage.getItem('monthlyPlannerDraft');
+        if (!saved) return;
+
+        try {
+            const data = JSON.parse(saved);
+            document.getElementById('monthInput').value = data.month || '';
+            document.getElementById('yearInput').value = data.year || '';
+
+            const tbodyInc = document.getElementById('incomeBody');
+            tbodyInc.innerHTML = '';
+            data.income.forEach(i => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+      <td><input type="text" placeholder="Income Source" value="${i.category || ''}" /></td>
+      <td><input type="number" class="inc-amt" value="${i.amount || 0}" /></td>
+      <td><button class="remove-btn">×</button></td>
+                `;
+                tbodyInc.appendChild(tr);
+            });
+
+            const tbodyFixed = document.getElementById('fixedExpenseBody');
+            tbodyFixed.innerHTML = '';
+            data.fixedExpenses.forEach(f => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+      <td><input type="text" placeholder="Expense Name" value="${f.category || ''}" /></td>
+      <td><input type="number" class="exp-bud" value="${f.budgeted || 0}" /></td>
+      <td><input type="number" class="exp-act" value="${f.actual || 0}" /></td>
+      <td class="diff-cell value-display">₹0</td>
+      <td><button class="remove-btn">×</button></td>
+                `;
+                tbodyFixed.appendChild(tr);
+            });
+
+            const tbodyVar = document.getElementById('varExpenseBody');
+            tbodyVar.innerHTML = '';
+            data.varExpenses.forEach(v => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+      <td><input type="text" placeholder="Expense Name" value="${v.category || ''}" /></td>
+      <td><input type="number" class="exp-bud" value="${v.budgeted || 0}" /></td>
+      <td><input type="number" class="exp-act" value="${v.actual || 0}" /></td>
+      <td class="diff-cell value-display">₹0</td>
+      <td><button class="remove-btn">×</button></td>
+                `;
+                tbodyVar.appendChild(tr);
+            });
+        } catch (e) { }
+    }
+
     const attachListeners = (container) => {
-        container.querySelectorAll('input[type="number"]').forEach(input => {
+        container.querySelectorAll('input').forEach(input => {
             input.addEventListener('input', calculateTotals);
         });
         container.querySelectorAll('.remove-btn').forEach(btn => {
@@ -64,6 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('netSavActDisplay').textContent = formatCurrency(netSavAct);
 
         document.getElementById('savRateDisplay').innerHTML = `${savRate.toFixed(1)}% <span style="font-weight:400; font-size:0.85em; opacity:0.8; margin-left:8px;">Target: >20%</span>`;
+        persistDraft();
     };
 
     // Add Income row
@@ -102,12 +163,8 @@ document.addEventListener('DOMContentLoaded', () => {
         createExpenseRow('varExpenseBody');
     });
 
-    // initial calc
-    attachListeners(document);
-    calculateTotals();
-
     // Export Logic
-    const getFormData = () => {
+    function getFormData() {
         const data = {
             month: document.getElementById('monthInput').value,
             year: document.getElementById('yearInput').value,
@@ -170,6 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('resetBtn').addEventListener('click', () => {
         if (confirm('Are you sure you want to reset all inputs to 0?')) {
+            localStorage.removeItem('monthlyPlannerDraft');
             document.querySelectorAll('input[type="number"]').forEach(input => input.value = "0");
             calculateTotals();
         }
@@ -180,5 +238,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     document.getElementById('monthInput').value = monthNames[now.getMonth()];
     document.getElementById('yearInput').value = now.getFullYear();
+
+    restoreDraft();
+
+    // initial calc
+    attachListeners(document);
+    calculateTotals();
+
+    document.getElementById('monthInput').addEventListener('input', persistDraft);
+    document.getElementById('yearInput').addEventListener('input', persistDraft);
 
 });

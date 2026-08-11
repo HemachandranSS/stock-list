@@ -5,6 +5,45 @@ document.addEventListener('DOMContentLoaded', () => {
     // init annual table
     const tbody = document.querySelector('#yearlyTable tbody');
 
+    function getFormData() {
+        const data = { year: document.getElementById('yearInput')?.value || 2026, months: [], ruleIncome: document.getElementById('ruleIncomeInput')?.value || 0 };
+
+        months.forEach((mName, m) => {
+            const inc = Number(tbody.querySelector(`.inc-m[data-m="${m}"]`).value) || 0;
+            const fexp = Number(tbody.querySelector(`.fexp-m[data-m="${m}"]`).value) || 0;
+            const vexp = Number(tbody.querySelector(`.vexp-m[data-m="${m}"]`).value) || 0;
+            data.months.push({ month: mName, income: inc, fixedExpenses: fexp, varExpenses: vexp });
+        });
+
+        return data;
+    }
+
+    function persistDraft() {
+        localStorage.setItem('yearlyPlannerDraft', JSON.stringify(getFormData()));
+    }
+
+    function restoreDraft() {
+        const saved = localStorage.getItem('yearlyPlannerDraft');
+        if (!saved) return;
+        try {
+            const data = JSON.parse(saved);
+            const ruleInputLocal = document.getElementById('ruleIncomeInput');
+            if (ruleInputLocal && data.ruleIncome !== undefined) {
+                ruleInputLocal.value = data.ruleIncome;
+            }
+            if (data.months && data.months.length > 0) {
+                data.months.forEach((mData, mIdx) => {
+                    const incInput = tbody.querySelector(`.inc-m[data-m="${mIdx}"]`);
+                    const fexpInput = tbody.querySelector(`.fexp-m[data-m="${mIdx}"]`);
+                    const vexpInput = tbody.querySelector(`.vexp-m[data-m="${mIdx}"]`);
+                    if (incInput) incInput.value = mData.income || 0;
+                    if (fexpInput) fexpInput.value = mData.fixedExpenses || 0;
+                    if (vexpInput) vexpInput.value = mData.varExpenses || 0;
+                });
+            }
+        } catch (e) { }
+    }
+
     months.forEach((month, idx) => {
         // Add input cells for Income, Fixed Exp, Var Exp
         const trInc = tbody.querySelector('tr[data-type="income"]');
@@ -68,13 +107,14 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('.t-total-expense').textContent = formatCurrency(yearTExp);
         document.querySelector('.t-net-savings').textContent = formatCurrency(yearSav);
         document.querySelector('.t-savings-rate').textContent = yearRate.toFixed(1) + '%';
+        persistDraft();
     };
 
     tbody.querySelectorAll('input').forEach(input => {
         input.addEventListener('input', calculateAnnual);
     });
 
-    calculateAnnual();
+
 
     // 50-30-20 Rule
     const ruleInput = document.getElementById('ruleIncomeInput');
@@ -84,22 +124,15 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('wantsAmtDisplay').textContent = formatCurrency(income * 0.30);
         document.getElementById('savingsAmtDisplay').textContent = formatCurrency(income * 0.20);
     };
-    ruleInput.addEventListener('input', calculateRule);
+    ruleInput.addEventListener('input', () => { calculateRule(); persistDraft(); });
+
+    restoreDraft();
+    calculateAnnual();
     calculateRule();
 
     // Export Logic
-    const getFormData = () => {
-        const data = { year: 2026, months: [] };
-
-        months.forEach((mName, m) => {
-            const inc = Number(tbody.querySelector(`.inc-m[data-m="${m}"]`).value) || 0;
-            const fexp = Number(tbody.querySelector(`.fexp-m[data-m="${m}"]`).value) || 0;
-            const vexp = Number(tbody.querySelector(`.vexp-m[data-m="${m}"]`).value) || 0;
-            data.months.push({ month: mName, income: inc, fixedExpenses: fexp, varExpenses: vexp });
-        });
-
-        return data;
-    };
+    // Export Logic uses the hoisted getFormData
+    // (Old getFormData removed)
 
     document.getElementById('exportBtn').addEventListener('click', () => {
         const data = getFormData();
@@ -132,6 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('resetBtn').addEventListener('click', () => {
         if (confirm('Are you sure you want to reset all inputs to 0?')) {
+            localStorage.removeItem('yearlyPlannerDraft');
             document.querySelectorAll('input[type="number"]').forEach(input => input.value = "0");
             calculateAnnual();
             calculateRule();
