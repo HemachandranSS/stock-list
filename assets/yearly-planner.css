@@ -1,0 +1,211 @@
+@import url("monthly-planner.css");
+
+.yearly-table-wrap {
+    overflow-x: auto;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--line);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.yearly-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1000px;
+}
+
+.yearly-table th,
+.yearly-table td {
+    padding: 8px;
+    border: 1px solid var(--line);
+    text-align: center;
+}
+
+.yearly-table th {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.yearly-table th.category-col,
+.yearly-table td.category-col {
+    text-align: left;
+    position: sticky;
+    left: 0;
+    background: #141c2c;
+    width: 180px;
+    z-index: 2;
+    font-weight: 600;
+    border-right: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.yearly-table input {
+    width: 100%;
+    min-width: 60px;
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid transparent;
+    color: #fff;
+    padding: 6px;
+    border-radius: 4px;
+    text-align: right;
+    font-size: 0.85rem;
+}
+
+.yearly-table input:focus {
+    border-color: var(--accent);
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.yearly-table td.total-col {
+    background: rgba(255, 212, 71, 0.1);
+    color: var(--accent-3);
+    font-weight: 700;
+    text-align: right;
+}
+
+.yearly-table tr.total-row td {
+    background: rgba(255, 212, 71, 0.15);
+    font-weight: 700;
+    color: #fff;
+}
+
+.yearly-table tr.savings-row td {
+    background: rgba(52, 211, 153, 0.15);
+    color: #fff;
+    font-weight: 700;
+}
+
+.rule-container {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 24px;
+}
+
+.rule-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.rule-table th,
+.rule-table td {
+    padding: 12px;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+}
+
+.rule-table th {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.needs-row {
+    border-left: 4px solid var(--accent-red);
+}
+
+.wants-row {
+    border-left: 4px solid var(--accent-3);
+}
+
+.savings-rule-row {
+    border-left: 4px solid var(--accent-green);
+}
+
+.amount-high {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 760px) {
+    .rule-container {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .rule-table th,
+    .rule-table td {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    #ruleIncomeInput {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 8px;
+    }
+
+    div[style*="background: rgba(52, 211, 153, 0.05)"] {
+        padding: 16px !important;
+    }
+}
+
+@media print {
+
+    .actions,
+    button {
+        display: none !important;
+    }
+
+    .yearly-table-wrap {
+        overflow: visible !important;
+        pointer-events: none;
+    }
+
+    .yearly-table th,
+    .yearly-table td,
+    .yearly-table th.category-col,
+    .yearly-table td.category-col {
+        background: #fff !important;
+        color: #000 !important;
+        border: 1px solid #ccc !important;
+    }
+
+    .yearly-table th {
+        background: #eef !important;
+    }
+
+    .yearly-table input {
+        color: #000 !important;
+        background: transparent !important;
+        border: none !important;
+    }
+
+    .yearly-table tr.total-row td,
+    .yearly-table td.total-col,
+    .yearly-table tr.savings-row td {
+        background: #f9f9f9 !important;
+        color: #000 !important;
+        font-weight: bold !important;
+    }
+
+    .rule-table th {
+        background: #eef !important;
+        color: #000 !important;
+    }
+
+    .rule-table td {
+        border-color: #ccc !important;
+        color: #000 !important;
+    }
+
+    #ruleIncomeInput {
+        background: transparent !important;
+        border: none !important;
+        color: #000 !important;
+        border-bottom: 1px solid #ccc !important;
+    }
+
+    .amount-high {
+        color: #000 !important;
+    }
+
+    div[style*="background: rgba(52, 211, 153, 0.05)"] {
+        background: transparent !important;
+        border: 1px solid #ccc !important;
+    }
+
+    div[style*="background: rgba(52, 211, 153, 0.05)"] h3,
+    div[style*="background: rgba(52, 211, 153, 0.05)"] ul {
+        color: #000 !important;
+    }
+}

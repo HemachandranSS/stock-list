@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monthly Budget Planner</title>
+    <link rel="stylesheet" href="../assets/monthly-planner.css" />
+</head>
+
+<body>
+    <div class="page-shell">
+        <header class="hero">
+            <h1>Monthly Budget Planner</h1>
+            <p class="hero-text">Indian household categories • Track income, expenses & savings</p>
+
+            <div class="header-info">
+                <label>Month: <input type="text" id="monthInput" list="monthsData" placeholder="e.g. August"
+                        autocomplete="off" /></label>
+                <datalist id="monthsData">
+                    <option value="January"></option>
+                    <option value="February"></option>
+                    <option value="March"></option>
+                    <option value="April"></option>
+                    <option value="May"></option>
+                    <option value="June"></option>
+                    <option value="July"></option>
+                    <option value="August"></option>
+                    <option value="September"></option>
+                    <option value="October"></option>
+                    <option value="November"></option>
+                    <option value="December"></option>
+                </datalist>
+                <label>Year: <input type="number" id="yearInput" value="2026" /></label>
+            </div>
+            <div class="actions">
+                <button type="button" id="exportBtn">Export JSON</button>
+                <button type="button" class="ghost" id="csvBtn">Export CSV</button>
+                <button type="button" class="ghost" id="pdfBtn">Export PDF</button>
+                <button type="button" class="ghost" id="resetBtn">Reset Draft</button>
+            </div>
+    </div>
+    </header>
+
+    <main>
+        <!-- INCOME SECTION -->
+        <section class="budget-section">
+            <h2>INCOME</h2>
+            <div class="table-wrap">
+                <table class="budget-table" id="incomeTable">
+                    <thead>
+                        <tr>
+                            <th class="category-col">Category</th>
+                            <th class="amount-col">Amount (₹)</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="incomeBody">
+                        <tr>
+                            <td><input type="text" value="Salary (post-tax, in-hand)" /></td>
+                            <td><input type="number" class="inc-amt" value="0" /></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="Freelance / Side Income" /></td>
+                            <td><input type="number" class="inc-amt" value="0" /></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="Interest / Dividends" /></td>
+                            <td><input type="number" class="inc-amt" value="0" /></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr class="total-row">
+                            <td>TOTAL INCOME</td>
+                            <td id="totalIncomeDisplay" class="value-display">₹0</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <button class="add-btn" id="addIncomeBtn">+ Add Income Source</button>
+        </section>
+
+        <!-- EXPENSES SECTION -->
+        <section class="budget-section">
+            <h2>EXPENSES</h2>
+            <div class="table-wrap">
+                <table class="budget-table" id="expenseTable">
+                    <thead>
+                        <tr>
+                            <th class="category-col">Category</th>
+                            <th class="amount-col">Budgeted (₹)</th>
+                            <th class="amount-col">Actual (₹)</th>
+                            <th class="amount-col">Difference</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="5" class="category-header">FIXED EXPENSES</td>
+                        </tr>
+                    </tbody>
+                    <tbody id="fixedExpenseBody">
+                        <tr>
+                            <td><input type="text" value="Rent / Home Loan EMI" /></td>
+                            <td><input type="number" class="exp-bud" value="0" /></td>
+                            <td><input type="number" class="exp-act" value="0" /></td>
+                            <td class="diff-cell value-display">₹0</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="Electricity / Utilities" /></td>
+                            <td><input type="number" class="exp-bud" value="0" /></td>
+                            <td><input type="number" class="exp-act" value="0" /></td>
+                            <td class="diff-cell value-display">₹0</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="SIP / Mutual Funds" /></td>
+                            <td><input type="number" class="exp-bud" value="0" /></td>
+                            <td><input type="number" class="exp-act" value="0" /></td>
+                            <td class="diff-cell value-display">₹0</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                    <tbody id="addFixedRowTarget">
+                        <tr>
+                            <td colspan="5">
+                                <button class="add-btn" id="addFixedBtn">+ Add Fixed Expense</button>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <td colspan="5" class="category-header" style="border-top: 1px solid var(--line)">
+                                VARIABLE EXPENSES</td>
+                        </tr>
+                    </tbody>
+                    <tbody id="varExpenseBody">
+                        <tr>
+                            <td><input type="text" value="Groceries & Household" /></td>
+                            <td><input type="number" class="exp-bud" value="0" /></td>
+                            <td><input type="number" class="exp-act" value="0" /></td>
+                            <td class="diff-cell value-display">₹0</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="Dining Out / Food Delivery" /></td>
+                            <td><input type="number" class="exp-bud" value="0" /></td>
+                            <td><input type="number" class="exp-act" value="0" /></td>
+                            <td class="diff-cell value-display">₹0</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="Petrol / Diesel / Transport" /></td>
+                            <td><input type="number" class="exp-bud" value="0" /></td>
+                            <td><input type="number" class="exp-act" value="0" /></td>
+                            <td class="diff-cell value-display">₹0</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                    <tbody id="addVarRowTarget">
+                        <tr>
+                            <td colspan="5">
+                                <button class="add-btn" id="addVarBtn">+ Add Variable Expense</button>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr class="total-row">
+                            <td>TOTAL EXPENSES</td>
+                            <td id="totalExpBudDisplay" class="value-display">₹0</td>
+                            <td id="totalExpActDisplay" class="value-display">₹0</td>
+                            <td id="totalExpDiffDisplay" class="value-display">₹0</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- SAVINGS SUMMARY -->
+        <section class="budget-section">
+            <h2>SAVINGS SUMMARY</h2>
+            <div class="table-wrap">
+                <table class="budget-table">
+                    <tbody>
+                        <tr class="savings-row">
+                            <td class="category-col">Net Savings (Budgeted)</td>
+                            <td id="netSavBudDisplay" class="value-display">₹0</td>
+                        </tr>
+                        <tr class="savings-row">
+                            <td>Net Savings (Actual)</td>
+                            <td id="netSavActDisplay" class="value-display">₹0</td>
+                        </tr>
+                        <tr class="savings-row">
+                            <td>Savings Rate (Actual)</td>
+                            <td id="savRateDisplay" class="value-display">0.0% <span
+                                    style="font-weight:400; font-size:0.85em; opacity:0.8; margin-left:8px;">Target:
+                                    >20%</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    </div>
+
+    <script src="../assets/monthly-planner.js"></script>
+</body>
+
+</html>
