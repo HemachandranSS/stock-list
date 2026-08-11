@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -19,8 +20,11 @@
             display: flex;
             flex-direction: column;
         }
-        
+
         .header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
             padding: 1rem 2rem;
@@ -31,31 +35,31 @@
             flex-wrap: wrap;
             gap: 1rem;
         }
-        
+
         .title {
             color: white;
             font-size: 1.5rem;
             font-weight: 600;
         }
-        
+
         .controls {
             display: flex;
             align-items: center;
             gap: 1rem;
             flex-wrap: wrap;
         }
-        
+
         .file-input-wrapper {
             position: relative;
             overflow: hidden;
             display: inline-block;
         }
-        
+
         .file-input {
             position: absolute;
             left: -9999px;
         }
-        
+
         .file-label {
             background: rgba(255, 255, 255, 0.2);
             color: white;
@@ -67,18 +71,18 @@
             font-size: 0.9rem;
             font-weight: 500;
         }
-        
+
         .file-label:hover {
             background: rgba(255, 255, 255, 0.3);
             transform: translateY(-2px);
         }
-        
+
         .nav-controls {
             display: flex;
             align-items: center;
             gap: 0.5rem;
         }
-        
+
         .nav-btn {
             background: rgba(255, 255, 255, 0.2);
             color: white;
@@ -90,17 +94,17 @@
             font-size: 0.9rem;
             font-weight: 500;
         }
-        
+
         .nav-btn:hover:not(:disabled) {
             background: rgba(255, 255, 255, 0.3);
             transform: translateY(-2px);
         }
-        
+
         .nav-btn:disabled {
             opacity: 0.5;
             cursor: not-allowed;
         }
-        
+
         .page-info {
             color: white;
             font-size: 0.9rem;
@@ -109,13 +113,13 @@
             border-radius: 20px;
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
-        
+
         .zoom-controls {
             display: flex;
             align-items: center;
             gap: 0.5rem;
         }
-        
+
         .zoom-btn {
             background: rgba(255, 255, 255, 0.2);
             color: white;
@@ -127,21 +131,19 @@
             font-size: 1rem;
             font-weight: bold;
         }
-        
+
         .zoom-btn:hover {
             background: rgba(255, 255, 255, 0.3);
             transform: scale(1.1);
         }
-        
+
         .main-content {
             flex: 1;
             display: flex;
-            justify-content: center;
-            align-items: center;
             padding: 2rem;
-            overflow: hidden;
+            min-width: max-content;
         }
-        
+
         .viewer-container {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(20px);
@@ -149,62 +151,62 @@
             padding: 2rem;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
             border: 1px solid rgba(255, 255, 255, 0.2);
-            max-width: 100%;
-            max-height: 100%;
-            overflow: auto;
+            margin: auto;
         }
-        
+
         .pages-container {
             display: flex;
             gap: 0;
             justify-content: center;
             align-items: flex-start;
+            min-width: max-content;
         }
-        
+
         .single-page {
             margin: 0 auto;
         }
-        
+
         .page-wrapper {
             background: white;
             overflow: hidden;
             transition: all 0.3s ease;
+            flex-shrink: 0;
         }
-        
+
         .page-wrapper:hover {
             transform: none;
             box-shadow: none;
         }
-        
+
         .page-canvas {
             display: block;
         }
-        
+
         .welcome-message {
             text-align: center;
             color: white;
             padding: 3rem;
         }
-        
+
         .welcome-icon {
             font-size: 4rem;
             margin-bottom: 1rem;
             opacity: 0.7;
         }
-        
+
         .welcome-text {
             font-size: 1.2rem;
             opacity: 0.8;
             line-height: 1.6;
         }
-        
+
         .loading {
             text-align: center;
             color: white;
             padding: 2rem;
             font-size: 1.1rem;
         }
-        
+
         .loading::after {
             content: '';
             display: inline-block;
@@ -216,37 +218,38 @@
             animation: spin 1s linear infinite;
             margin-left: 10px;
         }
-        
+
         @keyframes spin {
             to {
                 transform: rotate(360deg);
             }
         }
-        
+
         @media (max-width: 768px) {
             .pages-container {
                 flex-direction: column;
                 gap: 1rem;
             }
-            
+
             .header {
                 padding: 1rem;
             }
-            
+
             .controls {
                 justify-content: center;
             }
-            
+
             .main-content {
                 padding: 1rem;
             }
-            
+
             .viewer-container {
                 padding: 1rem;
             }
         }
     </style>
 </head>
+
 <body>
     <div class="header">
         <div class="title">📚 Dual Page PDF Viewer</div>
@@ -266,7 +269,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="main-content">
         <div class="viewer-container">
             <div id="welcomeMessage" class="welcome-message">
@@ -286,12 +289,12 @@
     <script>
         // Initialize PDF.js
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-        
+
         let pdfDoc = null;
         let currentPage = 1;
         let scale = 1.2;
         let totalPages = 0;
-        
+
         const fileInput = document.getElementById('pdfFile');
         const prevBtn = document.getElementById('prevBtn');
         const nextBtn = document.getElementById('nextBtn');
@@ -301,18 +304,18 @@
         const welcomeMessage = document.getElementById('welcomeMessage');
         const loadingMessage = document.getElementById('loadingMessage');
         const pagesContainer = document.getElementById('pagesContainer');
-        
+
         fileInput.addEventListener('change', handleFileSelect);
         prevBtn.addEventListener('click', showPrevPage);
         nextBtn.addEventListener('click', showNextPage);
         zoomInBtn.addEventListener('click', zoomIn);
         zoomOutBtn.addEventListener('click', zoomOut);
-        
+
         // Keyboard navigation
         document.addEventListener('keydown', (e) => {
             if (!pdfDoc) return;
-            
-            switch(e.key) {
+
+            switch (e.key) {
                 case 'ArrowLeft':
                     e.preventDefault();
                     showPrevPage();
@@ -332,22 +335,22 @@
                     break;
             }
         });
-        
+
         async function handleFileSelect(event) {
             const file = event.target.files[0];
             if (!file || file.type !== 'application/pdf') {
                 alert('Please select a valid PDF file.');
                 return;
             }
-            
+
             showLoading();
-            
+
             try {
                 const arrayBuffer = await file.arrayBuffer();
                 pdfDoc = await pdfjsLib.getDocument(arrayBuffer).promise;
                 totalPages = pdfDoc.numPages;
                 currentPage = 1;
-                
+
                 hideLoading();
                 updatePageInfo();
                 renderPages();
@@ -358,24 +361,24 @@
                 hideLoading();
             }
         }
-        
+
         function showLoading() {
             welcomeMessage.style.display = 'none';
             loadingMessage.style.display = 'block';
             pagesContainer.style.display = 'none';
         }
-        
+
         function hideLoading() {
             welcomeMessage.style.display = 'none';
             loadingMessage.style.display = 'none';
             pagesContainer.style.display = 'flex';
         }
-        
+
         async function renderPages() {
             if (!pdfDoc) return;
-            
+
             pagesContainer.innerHTML = '';
-            
+
             // First page is always single (cover page)
             if (currentPage === 1) {
                 await renderPage(1, 'single');
@@ -385,43 +388,43 @@
                 if (currentPage <= totalPages) {
                     await renderPage(currentPage, 'left');
                 }
-                
+
                 // Right page (odd page numbers starting from 3)
                 if (currentPage + 1 <= totalPages) {
                     await renderPage(currentPage + 1, 'right');
                 }
             }
         }
-        
+
         async function renderPage(pageNum, position) {
             try {
                 const page = await pdfDoc.getPage(pageNum);
                 const viewport = page.getViewport({ scale });
-                
+
                 const canvas = document.createElement('canvas');
                 const context = canvas.getContext('2d');
-                
+
                 canvas.height = viewport.height;
                 canvas.width = viewport.width;
                 canvas.className = 'page-canvas';
-                
+
                 const wrapper = document.createElement('div');
                 wrapper.className = `page-wrapper ${position === 'single' ? 'single-page' : ''}`;
                 wrapper.appendChild(canvas);
-                
+
                 pagesContainer.appendChild(wrapper);
-                
+
                 const renderContext = {
                     canvasContext: context,
                     viewport: viewport
                 };
-                
+
                 await page.render(renderContext).promise;
             } catch (error) {
                 console.error(`Error rendering page ${pageNum}:`, error);
             }
         }
-        
+
         function showPrevPage() {
             if (currentPage > 1) {
                 if (currentPage === 2) {
@@ -437,7 +440,7 @@
                 updateNavigationButtons();
             }
         }
-        
+
         function showNextPage() {
             if (currentPage < totalPages) {
                 if (currentPage === 1) {
@@ -453,25 +456,25 @@
                 updateNavigationButtons();
             }
         }
-        
+
         function zoomIn() {
             scale = Math.min(scale * 1.2, 3);
             if (pdfDoc) renderPages();
         }
-        
+
         function zoomOut() {
             scale = Math.max(scale / 1.2, 0.5);
             if (pdfDoc) renderPages();
         }
-        
+
         function updatePageInfo() {
             if (pdfDoc) {
                 if (currentPage === 1) {
                     pageInfo.textContent = `Page 1 of ${totalPages}`;
                 } else {
                     const rightPage = Math.min(currentPage + 1, totalPages);
-                    const displayText = currentPage === rightPage ? 
-                        `Page ${currentPage} of ${totalPages}` : 
+                    const displayText = currentPage === rightPage ?
+                        `Page ${currentPage} of ${totalPages}` :
                         `Pages ${currentPage}-${rightPage} of ${totalPages}`;
                     pageInfo.textContent = displayText;
                 }
@@ -479,11 +482,12 @@
                 pageInfo.textContent = '-';
             }
         }
-        
+
         function updateNavigationButtons() {
             prevBtn.disabled = !pdfDoc || currentPage <= 1;
             nextBtn.disabled = !pdfDoc || currentPage >= totalPages;
         }
     </script>
 </body>
+
 </html>
