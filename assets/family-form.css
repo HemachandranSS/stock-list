@@ -190,7 +190,17 @@ body {
   border-radius: var(--radius-lg);
   backdrop-filter: blur(28px);
   box-shadow: var(--shadow);
-  transition: transform var(--anim-fast), box-shadow var(--anim-fast);
+  transition: transform var(--anim-fast), box-shadow var(--anim-fast), border-color var(--anim-fast);
+}
+
+.section-block:hover {
+  border-color: rgba(154, 140, 255, 0.2);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5), 0 0 20px rgba(154, 140, 255, 0.08);
+}
+
+.subsection:hover {
+  border-color: rgba(154, 140, 255, 0.25);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .panel {
@@ -335,6 +345,12 @@ button:active {
   border-radius: var(--radius-md);
   background: rgba(0, 0, 0, 0.15);
   border: 1px solid var(--line);
+  border-left: 3px solid transparent;
+  transition: all var(--anim-fast);
+}
+
+.subsection:hover {
+  border-left-color: var(--accent);
 }
 
 .subsection-head {
@@ -449,7 +465,8 @@ button:active {
 }
 
 .grid-table tr:hover td {
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(154, 140, 255, 0.04);
+  transition: background 0.2s ease;
 }
 
 .grid-table th {

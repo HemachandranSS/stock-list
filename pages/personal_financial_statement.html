@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Financial Statement</title>
+    <link rel="stylesheet" href="../assets/financial-statement.css" />
+</head>
+
+<body>
+    <div class="page-shell">
+        <header class="hero">
+            <h1>PERSONAL FINANCIAL STATEMENT</h1>
+
+            <div class="header-info">
+                <label>As On Date: <input type="date" id="asOnDate" /></label>
+            </div>
+
+            <div class="actions">
+                <button type="button" id="exportBtn">Export JSON</button>
+                <button type="button" class="ghost" id="csvBtn">Export CSV</button>
+                <button type="button" class="ghost" id="pdfBtn">Export PDF</button>
+                <button type="button" class="ghost" id="resetBtn">Reset Draft</button>
+            </div>
+        </header>
+
+        <main>
+            <h3 class="section-header">PERSONAL BALANCE SHEET</h3>
+
+            <!-- 1. ASSETS -->
+            <section class="budget-section">
+                <h2>1. ASSETS</h2>
+                <div class="table-wrap">
+                    <table class="budget-table" id="assetsTable">
+                        <thead>
+                            <tr>
+                                <th class="category-col">Asset Category</th>
+                                <th class="desc-col">Description</th>
+                                <th class="amount-col">Amount (₹)</th>
+                                <th>Type</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="assetsBody">
+                            <tr>
+                                <td><input type="text" value="Real Estate" /></td>
+                                <td><input type="text" value="Self-occupied house" /></td>
+                                <td><input type="number" class="asset-amt" value="0" /></td>
+                                <td>
+                                    <select class="asset-type">
+                                        <option value="Support Asset">Support Asset</option>
+                                        <option value="Investible">Investible</option>
+                                    </select>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Mutual Funds" /></td>
+                                <td><input type="text" value="SIP - current value" /></td>
+                                <td><input type="number" class="asset-amt" value="0" /></td>
+                                <td>
+                                    <select class="asset-type">
+                                        <option value="Investible" selected>Investible</option>
+                                        <option value="Support Asset">Support Asset</option>
+                                    </select>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        <tbody id="addAssetTarget">
+                            <tr>
+                                <td colspan="5">
+                                    <button class="add-btn" id="addAssetBtn">+ Add Asset</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr class="total-row">
+                                <td colspan="2">Total Assets (A)</td>
+                                <td id="totAssetsDisplay" class="value-display">₹0</td>
+                                <td colspan="2"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 2. CONTINGENT ASSETS -->
+            <section class="budget-section">
+                <h2>2. CONTINGENT ASSETS (Not Included in Net Worth)</h2>
+                <div class="table-wrap">
+                    <table class="budget-table" id="contAssetsTable">
+                        <thead>
+                            <tr>
+                                <th class="desc-col">Description</th>
+                                <th class="amount-col">Estimated Value (₹)</th>
+                                <th>Treatment</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="contAssetsBody">
+                            <tr>
+                                <td><input type="text" value="" placeholder="e.g. Inheritance land" /></td>
+                                <td><input type="number" value="0" /></td>
+                                <td><input type="text" value="Excluded" /></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        <tbody id="addContAssetTarget">
+                            <tr>
+                                <td colspan="4">
+                                    <button class="add-btn" id="addContAssetBtn">+ Add Contingent Asset</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 3. LIABILITIES -->
+            <section class="budget-section">
+                <h2>3. LIABILITIES</h2>
+                <div class="table-wrap">
+                    <table class="budget-table" id="liabilitiesTable">
+                        <thead>
+                            <tr>
+                                <th class="category-col">Liability</th>
+                                <th class="desc-col">Details</th>
+                                <th class="amount-col">Amount (₹)</th>
+                                <th title="Check if this has a monthly EMI">Is EMI?</th>
+                                <th class="amount-col">EMI (₹)</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="liabilitiesBody">
+                            <tr>
+                                <td><input type="text" value="Personal Loan" /></td>
+                                <td><input type="text" value="" /></td>
+                                <td><input type="number" class="liab-amt" value="0" /></td>
+                                <td style="text-align: center;"><input type="checkbox" class="is-emi" checked /></td>
+                                <td><input type="number" class="emi-amt" value="0" /></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="TV Loan" /></td>
+                                <td><input type="text" value="" /></td>
+                                <td><input type="number" class="liab-amt" value="0" /></td>
+                                <td style="text-align: center;"><input type="checkbox" class="is-emi" checked /></td>
+                                <td><input type="number" class="emi-amt" value="0" /></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        <tbody id="addLiabilityTarget">
+                            <tr>
+                                <td colspan="6">
+                                    <button class="add-btn" id="addLiabBtn">+ Add Liability</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr class="total-row">
+                                <td colspan="2">Total Liabilities (B)</td>
+                                <td id="totLiabDisplay" class="value-display">₹0</td>
+                                <td colspan="3"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 4. NET WORTH -->
+            <section class="budget-section">
+                <h2>4. NET WORTH</h2>
+                <div class="table-wrap">
+                    <table class="budget-table">
+                        <thead>
+                            <tr>
+                                <th>Calculation</th>
+                                <th class="amount-col">Amount (₹)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Total Assets (A)</td>
+                                <td id="nwAstDisplay" class="value-display">0</td>
+                            </tr>
+                            <tr>
+                                <td>Total Liabilities (B)</td>
+                                <td id="nwLiabDisplay" class="value-display">0</td>
+                            </tr>
+                            <tr class="total-row" style="background: rgba(52, 211, 153, 0.1) !important;">
+                                <td>NET WORTH (A - B)</td>
+                                <td id="nwTotDisplay" class="value-display">₹0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 5. ASSET SEGMENTATION -->
+            <section class="budget-section">
+                <h2>5. ASSET SEGMENTATION</h2>
+                <div class="table-wrap">
+                    <table class="budget-table">
+                        <thead>
+                            <tr>
+                                <th>Segment</th>
+                                <th class="amount-col">Amount (₹)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Investible Portfolio</td>
+                                <td id="segInvDisplay" class="value-display">0</td>
+                            </tr>
+                            <tr>
+                                <td>Support Assets</td>
+                                <td id="segSupDisplay" class="value-display">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p style="color: var(--muted); font-size: 0.9rem; margin-top: 12px;">✓ Only <strong>Investible
+                        Portfolio</strong> is used for financial planning.<br />✓ Support assets remain untouched.</p>
+            </section>
+
+            <h3 class="section-header">PERSONAL INCOME STATEMENT</h3>
+
+            <!-- 1. INCOME -->
+            <section class="budget-section">
+                <h2>1. INCOME <span style="font-size:1rem; opacity:0.7; font-weight:400;">(Monthly - Post-Tax)</span>
+                </h2>
+                <div class="table-wrap">
+                    <table class="budget-table" id="incTable">
+                        <thead>
+                            <tr>
+                                <th class="category-col">Income Source</th>
+                                <th class="amount-col">Amount (₹)</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="incBody">
+                            <tr>
+                                <td><input type="text" value="Salary (Net / Post-Tax)" /></td>
+                                <td><input type="number" class="p-inc-amt" value="0" /></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Other Income" /></td>
+                                <td><input type="number" class="p-inc-amt" value="0" /></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        <tbody id="addIncTarget">
+                            <tr>
+                                <td colspan="3">
+                                    <button class="add-btn" id="addIncBtn">+ Add Income Source</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr class="total-row">
+                                <td>TOTAL INCOME (A)</td>
+                                <td id="totPIncDisplay" class="value-display">₹0</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 2. EXPENSES -->
+            <section class="budget-section">
+                <h2>2. EXPENSES</h2>
+                <div class="table-wrap">
+                    <table class="budget-table" id="expTable">
+                        <thead>
+                            <tr>
+                                <th class="category-col">Expense Category</th>
+                                <th class="amount-col">Amount (₹)</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="expBody">
+                            <tr>
+                                <td><input type="text" value="Household & Living Expenses" /></td>
+                                <td><input type="number" class="p-exp-amt" value="0" /></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Groceries" /></td>
+                                <td><input type="number" class="p-exp-amt" value="0" /></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        <tbody id="addExpTarget">
+                            <tr>
+                                <td colspan="3">
+                                    <button class="add-btn" id="addExpBtn">+ Add Expense</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr class="total-row">
+                                <td>TOTAL EXPENSES (B)</td>
+                                <td id="totPExpDisplay" class="value-display">₹0</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 3. SURPLUS / DEFICIT -->
+            <section class="budget-section">
+                <h2>3. SURPLUS / DEFICIT</h2>
+                <div class="table-wrap">
+                    <table class="budget-table">
+                        <thead>
+                            <tr>
+                                <th>Description</th>
+                                <th class="amount-col">Amount (₹)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Total Income (A)</td>
+                                <td id="surpIncDisplay" class="value-display">0</td>
+                            </tr>
+                            <tr>
+                                <td>Total Expenses (B)</td>
+                                <td id="surpExpDisplay" class="value-display">0</td>
+                            </tr>
+                            <tr class="total-row">
+                                <td>Monthly Surplus / Deficit</td>
+                                <td id="surpTotDisplay" class="value-display" style="font-weight: 700;">₹0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="surplusFeedback" style="margin-top: 16px;"></div>
+            </section>
+
+            <h3 class="section-header">SOLVENCY CHECK</h3>
+
+            <div class="solvency-box">
+                <div class="solvency-title">1. Liabilities to Net Worth Ratio</div>
+                <div class="solvency-calc" id="solvLnwCalc">
+                    [<br />
+                    = 0 / 0<br />
+                    = 0.00<br />
+                    ]
+                </div>
+                <div class="status-badge status-healthy" id="solvLnwStatus">Healthy (Danger zone > 2)</div>
+            </div>
+
+            <div class="solvency-box">
+                <div class="solvency-title">2. EMI Coverage Ratio</div>
+                <ul style="color: var(--muted); padding-left: 20px;">
+                    <li>Total EMI = <span id="rEmiRaw">0</span></li>
+                    <li>Surplus before EMI = <span id="rSurpRaw">0</span></li>
+                </ul>
+                <div class="solvency-calc" id="solvEmiCalc">
+                    [<br />
+                    = 0 / 0<br />
+                    = 0.00<br />
+                    ]
+                </div>
+                <div class="status-badge status-healthy" id="solvEmiStatus">Healthy (Recommended ≥ 1.25)</div>
+            </div>
+
+        </main>
+    </div>
+    <script src="../assets/financial-statement.js"></script>
+</body>
+
+</html>

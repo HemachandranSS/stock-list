@@ -77,6 +77,17 @@
     font-weight: 700;
 }
 
+.yearly-table tbody tr:hover {
+    background: rgba(154, 140, 255, 0.06);
+    transition: background 0.2s ease;
+}
+
+.yearly-table th {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
 .rule-container {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
